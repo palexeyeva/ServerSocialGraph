@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <script src="scripts/external.js"></script>
+    <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    <title>Diploma</title>
+  </head>
+  <body>
+      <form class="page" method="POST" action="C:/Server/data/htdocs/cgi-bin/my_action.py"> 
+      <div class="page">
+        <img src="images/bg.svg" />
+        <div class="header">
+          <h1>Построение социального графа пользователя социальной сети</h1>
+        </div>
+        <div class="content">
+          <section class="section-content">
+            <div class="tab">
+              <button
+                class="tablinks"
+                onclick="openTab(event, 'Search')"
+                id="defaultOpen"
+              >
+                Поиск
+              </button>
+              <button
+                class="tablinks"
+                onclick="openTab(event, 'AdvancedSearch')"
+              >
+                Расширенный поиск
+              </button>
+            </div>
+            <!--Содержание вкладки поиск-->
+            <div id="Search" class="tabcontent">
+              <div class="search-form">
+                <div class="search-form__name underTab">
+                  <p>Имя<norb class="Req">*</norb></p>
+                  <input type="text" required id="nameS" name="user_name" onchange="nameAS.value = this.value"/>
+                </div>
+                <div class="search-form__surname underTab">
+                  <p>Фамилия<norb class="Req">*</norb></p>
+                  <input type="text" required id="surnameS" onchange="surnameAS.value = this.value" name="user_surname" />
+                </div>
+                <div class="search-form__sex underTab">
+                  <p>Пол<norb class="Req">*</norb></p>
+                  <select id="sex" name="user_sex" onchange="sexAS.value = this.value">
+                    <option value="0">Не важно</option>
+                    <option value="2">Мужчина</option>
+                    <option value="1">Женщина</option>                    
+                  </select>
+                </div>
+                <div class="search-form__bd underTab">
+                  <p>Датa рождения</p>
+                  <input type="date" name="user_bd" min="1900-01-01" id="bdS" onchange="bdAS.value = this.value"/>
+                </div>
+                <div class="search-form__ageFromTo underTab">
+                  <p>Возраст</p>
+                  <input
+                    type="number"
+                    name="user_ageFrom"
+                    min="12"
+                    placeholder="от"
+                    id="ageFromS"
+                    onchange="handleChange(this); ageFromAS.value = this.value;  checkFrom(this, 'ageToS')"
+                    onkeyup="return checkLetter(this);"
+                  />
+                  <input
+                    type="number"
+                    name="user_ageTo"
+                    min="12"
+                    placeholder="до"
+                    id="ageToS"
+                    onchange="handleChange(this); ageToAS.value = this.value; checkTo(this, 'ageFromS')"
+                    onkeyup="return checkLetter(this);"
+                  />
+                </div>
+                <div class="search-form__country underTab">
+                  <p>Страна</p>
+                  <input type="text" name="user_country" id="countryS" onchange="countryAS.value = this.value"/>
+                </div>
+                <div class="search-form__city underTab">
+                  <p>Город</p>
+                  <input type="text" name="user_city" id="cityS" onchange="cityAS.value = this.value"/>
+                </div>
+                <input
+                  type="button"
+                  name="ok_button"
+                  value="Найти"
+                  onclick="PopUpShow()"
+                />
+              </div>
+            </div>
+            <!--Содержание вкладки расширенный поиск-->
+            <div id="AdvancedSearch" class="tabcontent">
+              <div class="search-form">
+                <div class="search-form__name underTab">
+                  <p>Имя<norb class="Req">*</norb></p>
+                  <input type="text" required id="nameAS" name="user_name_AS" />
+                </div>
+                <div class="search-form__surname underTab">
+                  <p>Фамилия<norb class="Req">*</norb></p>
+                  <input type="text" required id="surnameAS" name="user_surname_AS" />
+                </div>
+                <div class="search-form__sex underTab">
+                  <p>Пол<norb class="Req">*</norb></p>
+                  <select id="sexAS" name="user_sex_AS">
+                    <option value="0">Не важно</option>
+                    <option value="2">Мужчина</option>
+                    <option value="1">Женщина</option>                    
+                  </select>
+                </div>
+                <div class="search-form__bd underTab">
+                  <p>Датa рождения</p>
+                  <input type="date" name="user_bd_AS" min="1900-01-01" id="bdAS"/>
+                </div>
+                <div class="search-form__ageFromTo underTab">
+                  <p>Возраст</p>
+                  <input
+                    type="number"
+                    name="user_ageFrom_AS"
+                    min="12"
+                    id="ageFromAS"
+                    placeholder="от"
+                    onchange="handleChange(this)"
+                    onkeyup="return checkLetter(this);"
+                  />
+                  <input
+                    type="number"
+                    name="user_ageTo_AS"
+                    min="12"
+                    id="ageToAS"
+                    placeholder="до"
+                    onchange="handleChange(this)"
+                    onkeyup="return checkLetter(this);"
+                  />
+                </div>
+                <div class="search-form__country underTab">
+                  <p>Страна</p>
+                  <input type="text" name="user_country_AS" id="countryAS" />
+                </div>
+                <div class="search-form__city underTab">
+                  <p>Город</p>
+                  <input type="text" name="user_city_AS" id="cityAS"/>
+                </div>
+                <div class="search-form__school underTab">
+                  <p>Школa</p>
+                  <input type="text" name="user_school_AS" />
+                </div>
+                <div class="search-university underTab">
+                  <p>Университет</p>
+                  <input type="text" name="user_university_AS" />
+                </div>
+                <div class="search-form__job underTab">
+                  <p>Место работы</p>
+                  <input type="text" name="user_job_AS" />
+                </div>
+                <input
+                  type="button"
+                  name="ok_button"
+                  value="Найти"
+                  onclick="PopUpShow()"
+                />
+              </div>
+            </div>
+          </section>
+          <!--Окно социального графа-->
+          <div class="social-graph" id="graph1">
+            <section class="social-graph__section">
+              <h1>Социальный граф пользователя <norb>ИМЯ ФАМИЛИЯ</norb></h1>
+              <div class="social-graph__img">
+                <iframe></iframe>
+              </div>
+              <input
+                type="button"
+                name="close_btn"
+                value="Начать заново"
+                onclick="onButtonReset()"
+              />
+              <script>
+                $(document).ready(function () {
+                  GraphHide();
+                });
+              </script>
+            </section>
+          </div>
+        </div>
+      </div>
+      <script>
+        document.getElementById("defaultOpen").click();
+      </script>
+      <!--Всплывающее окно-->
+      <div class="popWindow">
+        <section class="b-popup" id="popup1">
+          <div class="b-pop__section">
+            <div class="b-popup__content">
+              <div class="popWindow__VKontakte table">
+                <h1>ВКонтакте</h1>
+                <p>Нашлось n пользователей</p>
+                <input type="checkbox" name="not_Vk" value="Не нашлось" />
+              </div>
+              <div class="popWindow__Odnoklassniki table">
+                <h1>Одноклассники</h1>
+                <p>Нашлось n пользователей</p>
+                <input type="checkbox" name="not_Ok" value="Не нашлось" />
+              </div>
+            </div>
+            <input
+              type="button"
+              name="submit_button"
+              value="Построить"
+              onclick="GraphShow()"
+            />
+          </div>
+        </section>
+        <script>
+          $(document).ready(function () {
+            PopUpHide();
+          });
+        </script>
+      </div>
+      <footer class="footer">
+        <section class="footer__section section"></section>
+      </footer>
+    </form>
+  </body>
+</html>
