@@ -51,13 +51,19 @@ function checkLetter(input) {
   }
 }
 
-// function checkFrom(input, chkTo) {
-//     if (input.value > chkTo.value) input.value = chkTo.value;
-// }
+function checkFrom(input) {
+  let elem = document.getElementById('ageToS');
+  let elemAS = document.getElementById('ageToAS');
+  if (input.value > elem.value && elem.value!='') {
+    input.value = elem.value;
+    elemAS.value = elem.value;
+  };
+}
 
-// function checkTo(input, chkFrom) {
-//     if (input.value < chkFrom.value) input.value = chkFrom.value;
-// }
+function checkTo(input) {
+  let elem = document.getElementById('ageFromS');
+  if (input.value < elem.value && elem.value !='') input.value = elem.value;
+}
 
 function onButtonReset() {
     location.reload();

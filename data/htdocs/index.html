@@ -65,7 +65,7 @@
                     min="12"
                     placeholder="от"
                     id="ageFromS"
-                    onchange="handleChange(this); ageFromAS.value = this.value;  checkFrom(this, 'ageToS')"
+                    onchange="handleChange(this); ageFromAS.value = this.value;  checkFrom(this)"
                     onkeyup="return checkLetter(this);"
                   />
                   <input
@@ -74,7 +74,7 @@
                     min="12"
                     placeholder="до"
                     id="ageToS"
-                    onchange="handleChange(this); ageToAS.value = this.value; checkTo(this, 'ageFromS')"
+                    onchange="handleChange(this); ageToAS.value = this.value; checkTo(this)"
                     onkeyup="return checkLetter(this);"
                   />
                 </div>
