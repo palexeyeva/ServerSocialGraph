@@ -11,12 +11,20 @@ body {
 
 .header {
   position: absolute;
-  top: 20px;
+  top: 2vw;
   color: #ffffff;
-  font-size: 72px;
+  font-size: 6vw;
   font-weight: 500;
   line-height: 82px;
   text-align: center;
+}
+
+.page__img {
+  width: 100%;
+}
+
+.header h1 {
+
 }
 
 .content {
@@ -83,6 +91,7 @@ body {
 .b-popup {
   width: 100%;
   background-color: rgba(69, 69, 69, 0.74);
+  z-index: 2;
   min-height: 100%;
   overflow: hidden;
   position: fixed;
@@ -219,9 +228,32 @@ input[type="button"]:hover {
 }
 .footer {
   width: 100%;
-  height: 80px;
+  height: 6em;
   background-color: #ff5c00;
   position: relative;
   bottom: 0;
-  margin-top: 130px;
+  margin-top: 20em;
 }
+
+.footer__section {
+  color: white;
+  display: flex;
+}
+
+.footer__section h1 {
+  width: 30%;
+  font-size: 20px;
+  margin-left: 30px;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+
+.footer__section-authors, .footer__section-contats {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.footer__section-authors h2, .footer__section-contats h2 {
+  font-weight: bolder;
+}
+

@@ -11,9 +11,15 @@
     <title>Diploma</title>
   </head>
   <body>
-      <form class="page" method="POST" action="C:/Server/data/htdocs/cgi-bin/my_action.py"> 
+    <form
+      class="page"
+      method="POST"
+      action="C:/Server/data/htdocs/cgi-bin/my_action.py"
+    >
       <div class="page">
-        <img src="images/bg.svg" />
+        <div calss="page__img">
+          <img src="images/bg.svg" style="width: 100%" />
+        </div>
         <div class="header">
           <h1>Построение социального графа пользователя социальной сети</h1>
         </div>
@@ -39,23 +45,45 @@
               <div class="search-form">
                 <div class="search-form__name underTab">
                   <p>Имя<norb class="Req">*</norb></p>
-                  <input type="text" required id="nameS" name="user_name" onchange="nameAS.value = this.value"/>
+                  <input
+                    type="text"
+                    required
+                    id="nameS"
+                    name="user_name"
+                    onchange="nameAS.value = this.value"
+                  />
                 </div>
                 <div class="search-form__surname underTab">
                   <p>Фамилия<norb class="Req">*</norb></p>
-                  <input type="text" required id="surnameS" onchange="surnameAS.value = this.value" name="user_surname" />
+                  <input
+                    type="text"
+                    required
+                    id="surnameS"
+                    onchange="surnameAS.value = this.value"
+                    name="user_surname"
+                  />
                 </div>
                 <div class="search-form__sex underTab">
                   <p>Пол<norb class="Req">*</norb></p>
-                  <select id="sex" name="user_sex" onchange="sexAS.value = this.value">
+                  <select
+                    id="sex"
+                    name="user_sex"
+                    onchange="sexAS.value = this.value"
+                  >
                     <option value="0">Не важно</option>
                     <option value="2">Мужчина</option>
-                    <option value="1">Женщина</option>                    
+                    <option value="1">Женщина</option>
                   </select>
                 </div>
                 <div class="search-form__bd underTab">
                   <p>Датa рождения</p>
-                  <input type="date" name="user_bd" min="1900-01-01" id="bdS" onchange="bdAS.value = this.value"/>
+                  <input
+                    type="date"
+                    name="user_bd"
+                    min="1900-01-01"
+                    id="bdS"
+                    onchange="bdAS.value = this.value"
+                  />
                 </div>
                 <div class="search-form__ageFromTo underTab">
                   <p>Возраст</p>
@@ -80,11 +108,21 @@
                 </div>
                 <div class="search-form__country underTab">
                   <p>Страна</p>
-                  <input type="text" name="user_country" id="countryS" onchange="countryAS.value = this.value"/>
+                  <input
+                    type="text"
+                    name="user_country"
+                    id="countryS"
+                    onchange="countryAS.value = this.value"
+                  />
                 </div>
                 <div class="search-form__city underTab">
                   <p>Город</p>
-                  <input type="text" name="user_city" id="cityS" onchange="cityAS.value = this.value"/>
+                  <input
+                    type="text"
+                    name="user_city"
+                    id="cityS"
+                    onchange="cityAS.value = this.value"
+                  />
                 </div>
                 <input
                   type="button"
@@ -103,19 +141,29 @@
                 </div>
                 <div class="search-form__surname underTab">
                   <p>Фамилия<norb class="Req">*</norb></p>
-                  <input type="text" required id="surnameAS" name="user_surname_AS" />
+                  <input
+                    type="text"
+                    required
+                    id="surnameAS"
+                    name="user_surname_AS"
+                  />
                 </div>
                 <div class="search-form__sex underTab">
                   <p>Пол<norb class="Req">*</norb></p>
                   <select id="sexAS" name="user_sex_AS">
                     <option value="0">Не важно</option>
                     <option value="2">Мужчина</option>
-                    <option value="1">Женщина</option>                    
+                    <option value="1">Женщина</option>
                   </select>
                 </div>
                 <div class="search-form__bd underTab">
                   <p>Датa рождения</p>
-                  <input type="date" name="user_bd_AS" min="1900-01-01" id="bdAS"/>
+                  <input
+                    type="date"
+                    name="user_bd_AS"
+                    min="1900-01-01"
+                    id="bdAS"
+                  />
                 </div>
                 <div class="search-form__ageFromTo underTab">
                   <p>Возраст</p>
@@ -144,7 +192,7 @@
                 </div>
                 <div class="search-form__city underTab">
                   <p>Город</p>
-                  <input type="text" name="user_city_AS" id="cityAS"/>
+                  <input type="text" name="user_city_AS" id="cityAS" />
                 </div>
                 <div class="search-form__school underTab">
                   <p>Школa</p>
@@ -223,7 +271,24 @@
         </script>
       </div>
       <footer class="footer">
-        <section class="footer__section section"></section>
+        <section class="footer__section section">
+          <h1>
+            Программный комплекс для построения и визуализации социального графа
+            пользователя социальной сети
+          </h1>
+          <div class = "footer__section-authors">
+            <h2>Авторы</h2>
+            <p>Алексеева Полина Александровна</p>
+            <p>Ганина Диана Руслановна</p>
+            <p>Минниханова Диляра Илдаровна</p>
+          </div>
+          <div class = "footer__section-contats">
+            <h2>Контакты</h2>
+            <p>paalekseeva_1@edu.hse.ru</p>
+            <p>drganina@edu.hse.ru</p>
+            <p>diminnikhanova@edu.hse.ru</p>
+          </div>
+        </section>
       </footer>
     </form>
   </body>
