@@ -23,9 +23,7 @@ body {
   width: 100%;
 }
 
-.header h1 {
 
-}
 
 .content {
   display: flex;
@@ -191,6 +189,11 @@ input[type="button"]:hover {
 .search-form__job {
   width: 23%;
 }
+
+.search-form__country-select{
+  width: 44%;
+}
+
 .social-graph {
   width: 100%;
   position: initial;

@@ -160,3 +160,9 @@
 127.0.0.1 - - [01/Apr/2021:23:37:36 +0300] "GET /scripts/external.js HTTP/1.1" 200 2000
 127.0.0.1 - - [01/Apr/2021:23:37:51 +0300] "GET /scripts/external.js HTTP/1.1" 304 -
 127.0.0.1 - - [01/Apr/2021:23:38:03 +0300] "GET /scripts/external.js HTTP/1.1" 304 -
+127.0.0.1 - - [02/Apr/2021:18:31:35 +0300] "GET / HTTP/1.1" 200 11330
+127.0.0.1 - - [02/Apr/2021:18:31:35 +0300] "GET /styles/styles.css HTTP/1.1" 200 3784
+127.0.0.1 - - [02/Apr/2021:18:31:35 +0300] "GET /styles/reset.css HTTP/1.1" 200 4562
+127.0.0.1 - - [02/Apr/2021:18:31:35 +0300] "GET /scripts/external.js HTTP/1.1" 200 2000
+127.0.0.1 - - [02/Apr/2021:18:31:35 +0300] "GET /images/bg.svg HTTP/1.1" 200 279
+127.0.0.1 - - [02/Apr/2021:18:31:35 +0300] "GET /favicon.ico HTTP/1.1" 404 196
