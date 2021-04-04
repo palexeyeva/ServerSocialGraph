@@ -73,4 +73,9 @@ function onButtonReset() {
         inputs[i].value = '';
     };
 }
+//получение id страны при клике по стране
+function getCountryValue(select) {
+  countryId = select.options[select.selectedIndex].value;
+  return countryId;
+}
 
