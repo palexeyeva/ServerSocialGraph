@@ -16,7 +16,7 @@ html = """
 <H4>%s</H4>
 </HR>"""
 
-vk_session = vk_api.VkApi('+79172991547', 'GHBITVlbgkjv{EQcjc`v130521')
+vk_session = vk_api.VkApi
 vk_session.auth()
 vk = vk_session.get_api()
 
