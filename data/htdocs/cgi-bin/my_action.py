@@ -21,13 +21,6 @@ vk_session = vk_api.VkApi(f.readline(), f.readline())
 vk_session.auth()
 vk = vk_session.get_api()
 
-'''regularSearch=vk.users.search(q = form['user_name'] + ' ' + form['user_surname'],
- birth_day = form['user_bd.day'], birth_month = form['user_bd.month'], 
- birth_year = form['user_bd.year'], sex = form['user_sex'], 
- age_from = form['user_ageFrom'], age_to = form['user_ageTo'], country = form['user_country'], city = form['user_city'], count = 100, fields='bdate, city')
-
-print(html%(regularSearch)) # вывод полученных данных'''
-
 advancedSearch=vk.users.search(q = form['user_name'] + ' ' + form['user_surname'],
  birth_day = int(form['user_bd.day']), birth_month = int(form['user_bd.month']), 
  birth_year = int(form['user_bd.year']), sex = form.getvalue('user_sex'), 
