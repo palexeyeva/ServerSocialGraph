@@ -29,8 +29,9 @@ print(html%(regularSearch)) # вывод полученных данных'''
 
 advancedSearch=vk.users.search(q = form['user_name'] + ' ' + form['user_surname'],
  birth_day = int(form['user_bd.day']), birth_month = int(form['user_bd.month']), 
- birth_year = int(form['user_bd.year']), sex = form['user_sex'].value, 
- age_from = int(form['user_ageFrom']), age_to = int(form['user_ageTo']), country = form['user_country_S'], city = vk.database.getCities(country_id = form['user_country_S'], q= form['user_city']), 
+ birth_year = int(form['user_bd.year']), sex = form.getvalue('user_sex'), 
+ age_from = int(form['user_ageFrom']), age_to = int(form['user_ageTo']), 
+ country = form.getvalue('user_country_S'), city = vk.database.getCities(country_id = form.getvalue('user_country_S'), q= form['user_city']), 
  company = form['user_job_AS'], count = 100, fields='bdate, city, photo_50')
 
 print(html%(advancedSearch)) # вывод полученных данных
