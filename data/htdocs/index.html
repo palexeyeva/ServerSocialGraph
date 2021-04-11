@@ -108,7 +108,8 @@
                 </div>
                 <div class="search-form__country underTab">
                   <p>Страна</p>
-                  <select name = "user_country_S" id="countryS" class="search-form__country-select" onChange = "getCountryValue(this);">
+                  <input list="countryS">
+                  <datalist name = "user_country_S" id="countryS" class="search-form__country-select" onChange = "getCountryValue(this);">
                        <option value=1>Россия</option>
                        <option value=2>Украина</option>
                        <option value=3>Беларусь</option>
@@ -356,7 +357,7 @@
                        <option value=232>Южный Судан</option>
                        <option value=228>Ямайка</option>
                        <option value=229>Япония</option>
-                  </select>
+                  </datalist>
                 </div>
                 <div class="search-form__city underTab">
                   <p>Город</p>
