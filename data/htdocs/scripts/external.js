@@ -51,18 +51,23 @@ function checkLetter(input) {
   }
 }
 
-function checkFrom(input) {
-  let elem = document.getElementById('ageToS');
-  let elemAS = document.getElementById('ageToAS');
-  if (input.value > elem.value && elem.value!='') {
-    input.value = elem.value;
-    elemAS.value = elem.value;
-  };
-}
+// function checkFrom(input) {
+//   let elem = document.getElementById('ageToS');
+//   let elemAS = document.getElementById('ageToAS');
+//   if (input.value > elem.value && elem.value!='') {
+//     input.value = elem.value;
+//     elemAS.value = elem.value;
+//   };
+// }
 
 function checkTo(input) {
-  let elem = document.getElementById('ageFromS');
+  let elem = document.getElementById('ageFromAS');
   if (input.value < elem.value && elem.value !='') input.value = elem.value;
+}
+
+function checkFrom(input) {
+  let elem = document.getElementById('ageToAS');
+  if (input.value > elem.value && elem.value !='') input.value = elem.value;
 }
 
 function onButtonReset() {
@@ -79,3 +84,7 @@ function getCountryValue(select) {
   return countryId;
 }
 
+//Динамическое создание блоков div
+function resultSelect() {
+  var elem = document.createElement
+}

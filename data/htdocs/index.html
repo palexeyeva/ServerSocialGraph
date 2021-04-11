@@ -85,7 +85,7 @@
                     onchange="bdAS.value = this.value"
                   />
                 </div>
-                <div class="search-form__ageFromTo underTab">
+                <!-- <div class="search-form__ageFromTo underTab">
                   <p>Возраст</p>
                   <input
                     type="number"
@@ -105,7 +105,7 @@
                     onchange="handleChange(this); ageToAS.value = this.value; checkTo(this)"
                     onkeyup="return checkLetter(this);"
                   />
-                </div>
+                </div> -->
                 <div class="search-form__country underTab">
                   <p>Страна</p>
                   <input list="countryS">
@@ -417,7 +417,7 @@
                     min="12"
                     id="ageFromAS"
                     placeholder="от"
-                    onchange="handleChange(this)"
+                    onchange="handleChange(this); checkFrom(this)"
                     onkeyup="return checkLetter(this);"
                   />
                   <input
@@ -426,13 +426,14 @@
                     min="12"
                     id="ageToAS"
                     placeholder="до"
-                    onchange="handleChange(this)"
+                    onchange="handleChange(this); checkTo(this)"
                     onkeyup="return checkLetter(this);"
                   />
                 </div>
                 <div class="search-form__country underTab">
                   <p>Страна</p>
-                  <select name = "user_country_AS" id="countryAS" class="search-form__country-select" onChange = "getCountryValue(this);">
+                  <input list="countryAS">
+                  <datalist name = "user_country_AS" id="countryAS" class="search-form__country-select" onChange = "getCountryValue(this);">
                     <option value=1>Россия</option>
                     <option value=2>Украина</option>
                     <option value=3>Беларусь</option>
@@ -680,19 +681,11 @@
                     <option value=232>Южный Судан</option>
                     <option value=228>Ямайка</option>
                     <option value=229>Япония</option>
-               </select>
+                  </datalist>
                 </div>
                 <div class="search-form__city underTab">
                   <p>Город</p>
                   <input type="text" name="user_city_AS" id="cityAS" />
-                </div>
-                <div class="search-form__school underTab">
-                  <p>Школa</p>
-                  <input type="text" name="user_school_AS" />
-                </div>
-                <div class="search-university underTab">
-                  <p>Университет</p>
-                  <input type="text" name="user_university_AS" />
                 </div>
                 <div class="search-form__job underTab">
                   <p>Место работы</p>

@@ -144,10 +144,9 @@ select {
   width: 50px;
 }
 
-.search-form__country {
-  padding-left: 124px;
+#ageToAS{
+  margin-right: 142px;
 }
-
 .underTab {
   padding-bottom: 10px;
 }
