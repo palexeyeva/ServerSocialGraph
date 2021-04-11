@@ -16,7 +16,8 @@ html = """
 <H4>%s</H4>
 </HR>"""
 
-vk_session = vk_api.VkApi('+79172991547', 'GHBITVlbgkjv{EQcjc`v130521')
+f = open("C:\login.txt", "r")
+vk_session = vk_api.VkApi(f.readline(), f.readline())
 vk_session.auth()
 vk = vk_session.get_api()
 
