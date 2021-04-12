@@ -85,8 +85,34 @@ function getCountryValue(select) {
 }
 
 //Динамическое создание блоков div
-function resultSelect() {
-  var elem = document.createElement
+function creatediv(id, name, href, image) {
+
+var newdiv = document.createElement('div'); 
+newdiv.setAttribute('id', id);  
+        newdiv.style.left = "10px"; 
+        newdiv.style.marginLeft = "20px";
+        newdiv.style.bottom = bottom = "10"; 
+        newdiv.style.marginTop = "10px";
+
+
+    //newdiv.style.background = "#FFFFF"; 
+    //newdiv.style.border = "1px solid #000"; 
+    var link = document.createElement('a');
+    link.href = href;
+    link.title = href;
+
+    var img = new Image(100, 100);
+    img.src = image;
+
+    if (name) { newdiv.innerHTML = name; 
+    } 
+    else { 
+        newdiv.innerHTML = "nothing"; 
+    } 
+  
+document.body.appendChild(newdiv);
+document.getElementById(id).appendChild(e);
+document.getElementById(id).appendChild(img);
 }
 
 //Функция не работает
