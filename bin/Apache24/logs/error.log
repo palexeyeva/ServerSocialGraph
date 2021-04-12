@@ -680,3 +680,114 @@ winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Res
 [Mon Apr 12 13:29:21.336327 2021] [cgi:error] [pid 9804:tid 1108] [client ::1:53138] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 27\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Mon Apr 12 13:29:21.336327 2021] [cgi:error] [pid 9804:tid 1108] [client ::1:53138] AH01215:     def index(req):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Mon Apr 12 13:29:21.336327 2021] [cgi:error] [pid 9804:tid 1108] [client ::1:53138] AH01215: IndentationError: unexpected indent\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Apr 12 16:24:57.465271 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon Apr 12 16:24:57.465271 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon Apr 12 16:24:57.465271 2021] [core:notice] [pid 5388:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon Apr 12 16:24:57.472852 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 7844
+[Mon Apr 12 16:24:58.400515 2021] [mpm_winnt:notice] [pid 7844:tid 576] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 16:24:59.403836 2021] [mpm_winnt:notice] [pid 9804:tid 212] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Apr 12 17:06:32.242290 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon Apr 12 17:06:32.242290 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon Apr 12 17:06:32.242290 2021] [core:notice] [pid 5388:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon Apr 12 17:06:32.246279 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 7196
+[Mon Apr 12 17:06:33.207127 2021] [mpm_winnt:notice] [pid 7196:tid 240] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 17:06:34.223131 2021] [mpm_winnt:notice] [pid 7844:tid 576] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Apr 12 17:06:58.718398 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon Apr 12 17:06:58.718398 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon Apr 12 17:06:58.718398 2021] [core:notice] [pid 5388:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon Apr 12 17:06:58.722347 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 2580
+[Mon Apr 12 17:06:59.694959 2021] [mpm_winnt:notice] [pid 2580:tid 568] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 17:07:00.708814 2021] [mpm_winnt:notice] [pid 7196:tid 240] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Apr 12 17:07:12.927606 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon Apr 12 17:07:12.927606 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon Apr 12 17:07:12.927606 2021] [core:notice] [pid 5388:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon Apr 12 17:07:12.935593 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 4428
+[Mon Apr 12 17:07:13.862392 2021] [mpm_winnt:notice] [pid 4428:tid 568] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 17:07:14.864186 2021] [mpm_winnt:notice] [pid 2580:tid 568] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Apr 12 17:07:34.497052 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon Apr 12 17:07:34.497052 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon Apr 12 17:07:34.497052 2021] [core:notice] [pid 5388:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon Apr 12 17:07:34.500959 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 8392
+[Mon Apr 12 17:07:35.455506 2021] [mpm_winnt:notice] [pid 8392:tid 232] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 17:07:36.457973 2021] [mpm_winnt:notice] [pid 4428:tid 568] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Mon Apr 12 17:07:52.499765 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon Apr 12 17:07:52.499765 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon Apr 12 17:07:52.500762 2021] [core:notice] [pid 5388:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon Apr 12 17:07:52.507744 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 4732
+[Mon Apr 12 17:07:53.424884 2021] [mpm_winnt:notice] [pid 4732:tid 576] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 17:07:54.437907 2021] [mpm_winnt:notice] [pid 8392:tid 232] AH00364: Child: All worker threads have exited.
+[Mon Apr 12 17:25:42.035717 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59960] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:25:42.036707 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59960] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 22, in <module>\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:25:42.036707 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59960] AH01215:     print(form.param1)\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:25:42.036707 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59960] AH01215:   File "C:\\Users\\1371851\\AppData\\Local\\Programs\\Python\\Python39\\lib\\cgi.py", line 501, in __getattr__\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:25:42.036707 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59960] AH01215:     raise AttributeError(name)\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:25:42.036707 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59960] AH01215: AttributeError: param1\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:26:19.105211 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59985] End of script output before headers: test.py
+[Mon Apr 12 17:26:19.105211 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59985] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 22\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:26:19.105211 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59985] AH01215:     print(form.[param1])\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:26:19.105211 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59985] AH01215:                ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:26:19.106063 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:59985] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:11.076311 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60035] End of script output before headers: test.py
+[Mon Apr 12 17:27:11.076842 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60035] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 22\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:11.076842 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60035] AH01215:     print(form.["param1"])\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:11.076842 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60035] AH01215:                ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:11.076842 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60035] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:24.665291 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60045] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:24.665291 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60045] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 22, in <module>\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:24.665291 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60045] AH01215:     print(form["param1"])\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:24.665291 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60045] AH01215:   File "C:\\Users\\1371851\\AppData\\Local\\Programs\\Python\\Python39\\lib\\cgi.py", line 520, in __getitem__\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:24.665291 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60045] AH01215:     raise KeyError(key)\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:27:24.665291 2021] [cgi:error] [pid 4732:tid 1100] [client ::1:60045] AH01215: KeyError: 'param1'\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:18.044254 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60501] End of script output before headers: test.py, referer: http://localhost/
+[Mon Apr 12 17:34:18.045252 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60501] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 17:34:18.045252 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60501] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 17:34:18.045252 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60501] AH01215:           ^\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 17:34:18.045252 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60501] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 17:34:28.343727 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60508] End of script output before headers: test.py
+[Mon Apr 12 17:34:28.343727 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60508] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:28.343727 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60508] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:28.343727 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60508] AH01215:           ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:28.343727 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60508] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:53.748259 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60533] End of script output before headers: test.py
+[Mon Apr 12 17:34:53.748759 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60533] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 24\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:53.748759 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60533] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:53.748759 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60533] AH01215:           ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:34:53.748759 2021] [cgi:error] [pid 4732:tid 1100] [client 127.0.0.1:60533] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:05.134663 2021] [cgi:error] [pid 4732:tid 1120] [client ::1:60554] End of script output before headers: test.py
+[Mon Apr 12 17:35:05.134663 2021] [cgi:error] [pid 4732:tid 1120] [client ::1:60554] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 24\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:05.134663 2021] [cgi:error] [pid 4732:tid 1120] [client ::1:60554] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:05.134663 2021] [cgi:error] [pid 4732:tid 1120] [client ::1:60554] AH01215:           ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:05.135749 2021] [cgi:error] [pid 4732:tid 1120] [client ::1:60554] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:32.155492 2021] [cgi:error] [pid 4732:tid 1120] [client 127.0.0.1:60570] End of script output before headers: test.py
+[Mon Apr 12 17:35:32.155492 2021] [cgi:error] [pid 4732:tid 1120] [client 127.0.0.1:60570] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 24\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:32.155492 2021] [cgi:error] [pid 4732:tid 1120] [client 127.0.0.1:60570] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:32.155492 2021] [cgi:error] [pid 4732:tid 1120] [client 127.0.0.1:60570] AH01215:           ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:35:32.155492 2021] [cgi:error] [pid 4732:tid 1120] [client 127.0.0.1:60570] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:44:18.789247 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:60952] End of script output before headers: test.py
+[Mon Apr 12 17:44:18.789247 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:60952] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 25\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:44:18.789247 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:60952] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:44:18.789247 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:60952] AH01215:           ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:44:18.789247 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:60952] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:45:56.098622 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] End of script output before headers: test.py
+[Mon Apr 12 17:45:56.099614 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 25\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:45:56.099614 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:45:56.099614 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] AH01215:           ^\r: C:/Server/data/htdocs/test.py
+[Mon Apr 12 17:45:56.099614 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py

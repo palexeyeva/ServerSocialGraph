@@ -115,32 +115,18 @@ document.getElementById(id).appendChild(e);
 document.getElementById(id).appendChild(img);
 }
 
-//Функция не работает
+//Функция передачи данных
 function elem(){
-  // alert(javascript_out);
-  // alert(my_js_data["field1"]);
-  // alert(my_js_data["field2"]);
-  $.post('test.py', 
-  {param1: "param1", 
-  param2: 2
-  },
-  function(data) {
-  alert('Загрузка завершена.');
+
+deptObj = { one : '1', two : '2'};
+
+$.ajax({
+    type: 'POST',
+    data: deptObj,
+    url: "test.py",
+    success: function(result) { console.log("Success!"); console.log(result); },
+    error: function(request, error) { console.log("Error"); console.log(request); }
 });
 }
 
 
-function ret(input) {
-//   $.ajax({
-//     type: 'POST',
-//     url: "C:/Server/data/htdocs/test.py",
-//     data: {
-//         "name": input
-//     },
-//     dataType: "html"
-// }).done(function (e) {
-//   e.stopPropagation();
-    // $('#modal-1').modal('hide');
-    // table.row.data([val_no, val_name, val_address, val_phone, val_car, val_penalty, UserIndex_CreateEditButton(val_no, val_name, val_address, val_phone, val_car, val_penalty), UserIndex_CreateDeleteButton(val_no)], $('#' + tempUpdate));
-// });
-}
