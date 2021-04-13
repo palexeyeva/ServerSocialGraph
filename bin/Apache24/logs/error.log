@@ -826,3 +826,72 @@ ore:warn] [pid 2996:tid 640] AH00098: pid file C:/Server/bin/Apache24/logs/httpd
 [Tue Apr 13 15:15:52.136367 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
 [Tue Apr 13 15:15:52.142536 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 11964
 [Tue Apr 13 15:15:52.500360 2021] [mpm_winnt:notice] [pid 11964:tid 192] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 2996:tid 640] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 19:31:21.980287 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 19:31:21.980287 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 19:31:21.980287 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 19:31:21.985387 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 11284
+[Tue Apr 13 19:31:22.935694 2021] [mpm_winnt:notice] [pid 11284:tid 576] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 19:31:23.946144 2021] [mpm_winnt:notice] [pid 11964:tid 192] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 19:35:41.141966 2021] [cgi:error] [pid 11284:tid 1120] [client ::1:56872] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 19:35:41.143001 2021] [cgi:error] [pid 11284:tid 1120] [client ::1:56872] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 24, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 19:35:41.143001 2021] [cgi:error] [pid 11284:tid 1120] [client ::1:56872] AH01215:     print(form.getvalue()) \r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 19:35:41.143001 2021] [cgi:error] [pid 11284:tid 1120] [client ::1:56872] AH01215: TypeError: getvalue() missing 1 required positional argument: 'key'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 2996:tid 640] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 19:41:47.715215 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 19:41:47.715215 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 19:41:47.715215 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 19:41:47.717706 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 13044
+[Tue Apr 13 19:41:48.703218 2021] [mpm_winnt:notice] [pid 13044:tid 580] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 19:41:49.708530 2021] [mpm_winnt:notice] [pid 11284:tid 576] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 19:42:00.932717 2021] [cgi:error] [pid 13044:tid 1116] [client ::1:57239] End of script output before headers: test.py, referer: http://localhost/
+[Tue Apr 13 19:42:00.932717 2021] [cgi:error] [pid 13044:tid 1116] [client ::1:57239] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 3\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 19:42:00.932717 2021] [cgi:error] [pid 13044:tid 1116] [client ::1:57239] AH01215:     from __future__ import unicode_literals\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 19:42:00.933477 2021] [cgi:error] [pid 13044:tid 1116] [client ::1:57239] AH01215: IndentationError: unexpected indent\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 2996:tid 640] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 19:50:55.666793 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 19:50:55.666793 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 19:50:55.666793 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 19:50:55.672273 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 7724
+[Tue Apr 13 19:50:56.634113 2021] [mpm_winnt:notice] [pid 7724:tid 516] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 19:50:57.638856 2021] [mpm_winnt:notice] [pid 13044:tid 580] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 2996:tid 640] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 20:33:37.118194 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 20:33:37.118194 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 20:33:37.118194 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 20:33:37.123405 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 16664
+[Tue Apr 13 20:33:38.086729 2021] [mpm_winnt:notice] [pid 16664:tid 588] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 20:33:39.098112 2021] [mpm_winnt:notice] [pid 7724:tid 516] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 2996:tid 640] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 20:36:46.420656 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 20:36:46.421661 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 20:36:46.421661 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 20:36:46.430959 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 17464
+[Tue Apr 13 20:36:47.348446 2021] [mpm_winnt:notice] [pid 17464:tid 580] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 20:36:48.356040 2021] [mpm_winnt:notice] [pid 16664:tid 588] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:02:16.111181 2021] [cgi:error] [pid 17464:tid 1084] [client 127.0.0.1:61971] malformed header from script 'test.py': Bad header: \xee\xad\xa8\xaa\xae\xa4, referer: http://localhost/
+[Tue Apr 13 22:32:32.979368 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:51902] End of script output before headers: test.py, referer: http://localhost/
+[Tue Apr 13 22:32:32.980447 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:51902] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 28\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:32:32.980447 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:51902] AH01215:     a = <type 'str'>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:32:32.980447 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:51902] AH01215:         ^\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:32:32.980447 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:51902] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:35:37.966802 2021] [cgi:error] [pid 17464:tid 1084] [client 127.0.0.1:52008] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:35:37.966802 2021] [cgi:error] [pid 17464:tid 1084] [client 127.0.0.1:52008] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 14, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:35:37.966802 2021] [cgi:error] [pid 17464:tid 1084] [client 127.0.0.1:52008] AH01215:     reload(sys)\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:35:37.966802 2021] [cgi:error] [pid 17464:tid 1084] [client 127.0.0.1:52008] AH01215: NameError: name 'reload' is not defined\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:15.853489 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:52162] AH01215: C:\\Server\\data\\htdocs\\test.py:13: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:15.853489 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:52162] AH01215:   from imp import reload\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:15.853489 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:52162] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:15.853489 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:52162] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 16, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:15.853489 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:52162] AH01215:     sys.setdefaultencoding('utf8')\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:15.854517 2021] [cgi:error] [pid 17464:tid 1076] [client 127.0.0.1:52162] AH01215: AttributeError: module 'sys' has no attribute 'setdefaultencoding'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/

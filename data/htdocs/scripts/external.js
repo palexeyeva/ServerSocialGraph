@@ -110,20 +110,23 @@ document.getElementById(id).appendChild(img);
 }
 
 
-function getFields(name, surName, sex, bdate, country, city){
+function getFields(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){
   let data = {
     name: name.value,
     surName: surName.value,
     sex: sex.value,
     bdate: bdate.value,
     country: country.value,
-    city: city.value
+    city: city.value,
+    ageFrom: ageFrom.value,
+    ageTo: ageTo.value, 
+    job: job.value
   };
 $.ajax({
     type: 'POST',
     data: data,
     url: "test.py",
-    success: function(result) { console.log("Success!"); console.log(result); },
+    success: function(result) { console.log("Success!"); console.log(result);},
     error: function(request, error) { console.log("Error"); console.log(request); }
 });
 // return(data)

@@ -435,8 +435,7 @@
                 </div>
                 <div class="search-form__country underTab">
                   <p>Страна</p>
-                  <input list="countryAS">
-                  <datalist name = "user_country_AS" id="countryAS" class="search-form__country-select" onChange = "getCountryValue(this);">
+                  <select name = "user_country_AS" id="countryAS" class="search-form__country-select" onChange = "getCountryValue(this);">
                     <option value=1>Россия</option>
                     <option value=2>Украина</option>
                     <option value=3>Беларусь</option>
@@ -684,7 +683,7 @@
                     <option value=232>Южный Судан</option>
                     <option value=228>Ямайка</option>
                     <option value=229>Япония</option>
-                  </datalist>
+                  </select>
                 </div>
                 <div class="search-form__city underTab">
                   <p>Город</p>
@@ -692,13 +691,13 @@
                 </div>
                 <div class="search-form__job underTab">
                   <p>Место работы</p>
-                  <input type="text" name="user_job_AS" />
+                  <input type="text" name="user_job_AS" id="jobAS" />
                 </div>
                 <input
                   type="button"
                   name="ok_button"
                   value="Найти"
-                  onclick="PopUpShow()" 
+                  onclick="PopUpShow(); getFields(document.getElementById('nameAS'), document.getElementById('surnameAS'), document.getElementById('sexAS'), document.getElementById('bdAS'), document.getElementById('countryAS'), document.getElementById('cityAS'), document.getElementById('ageFromAS'), document.getElementById('ageToAS'), document.getElementById('jobAS'));" 
                 />
               </div>
             </div>
