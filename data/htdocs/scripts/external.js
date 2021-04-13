@@ -110,7 +110,26 @@ document.getElementById(id).appendChild(img);
 }
 
 
-function getFields(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){
+function getFields(name, surName, sex, bdate, country, city){
+  let data = {
+    name: name.value,
+    surName: surName.value,
+    sex: sex.value,
+    bdate: bdate.value,
+    country: country.value,
+    city: city.value
+  };
+  console.log(data)
+$.ajax({
+    type: 'POST',
+    data: data,
+    url: "test.py",
+    success: function(result) { console.log("Success!"); console.log(result);},
+    error: function(request, error) { console.log("Error"); console.log(request); }
+});
+}
+
+function getFieldsAS(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){
   let data = {
     name: name.value,
     surName: surName.value,
@@ -122,6 +141,7 @@ function getFields(name, surName, sex, bdate, country, city, ageFrom, ageTo, job
     ageTo: ageTo.value, 
     job: job.value
   };
+  console.log(data)
 $.ajax({
     type: 'POST',
     data: data,
@@ -129,7 +149,5 @@ $.ajax({
     success: function(result) { console.log("Success!"); console.log(result);},
     error: function(request, error) { console.log("Error"); console.log(request); }
 });
-// return(data)
 }
-
 
