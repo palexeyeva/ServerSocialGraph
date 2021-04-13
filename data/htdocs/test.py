@@ -1,5 +1,5 @@
-#!C:\Users\User\AppData\Local\Programs\Python\Python39\python.exe
-# coding: utf8
+#!C:\Users\1371851\AppData\Local\Programs\Python\Python39\python.exe
+# -*- coding: cp1251 -*-
 print ("Content-type: text/html\n\n")
 print
 print ("<html><head>")
@@ -51,7 +51,10 @@ searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth
 #    print(searchResults["items"][0]["city"]["title"])
 #print(searchResults["items"][0]["bdate"])
 
+
 print(searchResults)
+print("test3")
+print(form.getvalue("name"))
 
 for i in range(int(searchResults["count"])):
     id = searchResults["items"][i]["id"]
@@ -67,6 +70,14 @@ for i in range(int(searchResults["count"])):
         bday = None
     print(id + "\n" + photo + "\n" + name + "\n" + city + "\n" + bday + "\n")
 
+
 print("test3")
-#print(form.getvalue("name")) #вот тут мы получаем имя пользователя в ввиде строки с помощью ключей
+
+print(form.getvalue("name"))
+
+test = form.getvalue("name").encode('utf-8')
+print(test)
+
+ 
+print("test4")
 print ("</body></html>")

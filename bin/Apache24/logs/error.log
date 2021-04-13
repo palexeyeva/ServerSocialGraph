@@ -325,18 +325,18 @@ ore:warn] [pid 5388:tid 616] AH00098: pid file C:/Server/bin/Apache24/logs/httpd
 [Mon Apr 12 00:31:49.375114 2021] [core:notice] [pid 5388:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
 [Mon Apr 12 00:31:49.379104 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 19324
 [Mon Apr 12 00:31:49.740546 2021] [mpm_winnt:notice] [pid 19324:tid 588] AH00354: Child: Starting 64 worker threads.
-[Mon Apr 12 00:31:56.828400 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63566] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:31:56.828400 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63566] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:31:57.618374 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63568] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:31:57.619401 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63568] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:31:57.742244 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63569] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:31:57.742244 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63569] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:31:57.876305 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63570] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:31:57.876305 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63570] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:31:58.043043 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63571] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:31:58.043043 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63571] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:31:59.031555 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63572] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:31:59.031555 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63572] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:31:56.828400 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63566] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:31:56.828400 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63566] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:31:57.618374 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63568] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:31:57.619401 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63568] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:31:57.742244 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63569] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:31:57.742244 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63569] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:31:57.876305 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63570] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:31:57.876305 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63570] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:31:58.043043 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63571] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:31:58.043043 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63571] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:31:59.031555 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63572] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:31:59.031555 2021] [cgi:error] [pid 19324:tid 1080] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63572] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
 The 'Apache2.4' service is restarting.
 The 'Apache2.4' service has restarted.
 winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
@@ -355,12 +355,12 @@ winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Res
 [Mon Apr 12 00:35:37.769998 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 12844
 [Mon Apr 12 00:35:38.738952 2021] [mpm_winnt:notice] [pid 12844:tid 584] AH00354: Child: Starting 64 worker threads.
 [Mon Apr 12 00:35:39.740493 2021] [mpm_winnt:notice] [pid 18732:tid 640] AH00364: Child: All worker threads have exited.
-[Mon Apr 12 00:36:16.823563 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63593] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:36:16.824566 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63593] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:36:47.296327 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63598] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:36:47.296327 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63598] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:37:20.100300 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63601] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:37:20.100300 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63601] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:36:16.823563 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63593] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:36:16.824566 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63593] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:36:47.296327 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63598] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:36:47.296327 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63598] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:37:20.100300 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63601] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:37:20.100300 2021] [cgi:error] [pid 12844:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63601] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
 The 'Apache2.4' service is restarting.
 The 'Apache2.4' service has restarted.
 winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
@@ -370,12 +370,12 @@ winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Res
 [Mon Apr 12 00:47:29.963302 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 7760
 [Mon Apr 12 00:47:30.952241 2021] [mpm_winnt:notice] [pid 7760:tid 560] AH00354: Child: Starting 64 worker threads.
 [Mon Apr 12 00:47:32.043884 2021] [mpm_winnt:notice] [pid 12844:tid 584] AH00364: Child: All worker threads have exited.
-[Mon Apr 12 00:47:34.426517 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63873] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:47:34.426517 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63873] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:47:35.309414 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63874] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:47:35.309414 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63874] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:47:36.350162 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63875] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:47:36.351130 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63875] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:47:34.426517 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63873] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:47:34.426517 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63873] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:47:35.309414 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63874] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:47:35.309414 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63874] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:47:36.350162 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63875] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:47:36.351130 2021] [cgi:error] [pid 7760:tid 1120] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63875] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
 The 'Apache2.4' service is restarting.
 The 'Apache2.4' service has restarted.
 winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
@@ -385,14 +385,14 @@ winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Res
 [Mon Apr 12 00:48:01.192833 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 2232
 [Mon Apr 12 00:48:02.182361 2021] [mpm_winnt:notice] [pid 2232:tid 564] AH00354: Child: Starting 64 worker threads.
 [Mon Apr 12 00:48:03.183242 2021] [mpm_winnt:notice] [pid 7760:tid 560] AH00364: Child: All worker threads have exited.
-[Mon Apr 12 00:48:06.406100 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63916] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:48:06.407096 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63916] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:48:07.315354 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63917] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:48:07.315354 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63917] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:48:07.715945 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63918] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:48:07.715945 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63918] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:48:08.215885 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63919] couldn't create child process: 721920: test.py
-[Mon Apr 12 00:48:08.215885 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Доступ к этому файлу из системы отсутствует.  : [client 127.0.0.1:63919] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:48:06.406100 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63916] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:48:06.407096 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63916] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:48:07.315354 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63917] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:48:07.315354 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63917] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:48:07.715945 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63918] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:48:07.715945 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63918] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:48:08.215885 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63919] couldn't create child process: 721920: test.py
+[Mon Apr 12 00:48:08.215885 2021] [cgi:error] [pid 2232:tid 1088] (OS 1920)Г„Г®Г±ГІГіГЇ ГЄ ГЅГІГ®Г¬Гі ГґГ Г©Г«Гі ГЁГ§ Г±ГЁГ±ГІГҐГ¬Г» Г®ГІГ±ГіГІГ±ГІГўГіГҐГІ.  : [client 127.0.0.1:63919] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
 The 'Apache2.4' service is restarting.
 The 'Apache2.4' service has restarted.
 winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
@@ -402,12 +402,12 @@ winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Res
 [Mon Apr 12 00:48:40.452938 2021] [mpm_winnt:notice] [pid 5388:tid 616] AH00418: Parent: Created child process 11348
 [Mon Apr 12 00:48:41.395898 2021] [mpm_winnt:notice] [pid 11348:tid 572] AH00354: Child: Starting 64 worker threads.
 [Mon Apr 12 00:48:42.410090 2021] [mpm_winnt:notice] [pid 2232:tid 564] AH00364: Child: All worker threads have exited.
-[Mon Apr 12 00:48:45.749218 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)Отказано в доступе.  : [client 127.0.0.1:63972] couldn't create child process: 720005: test.py
-[Mon Apr 12 00:48:45.749218 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)Отказано в доступе.  : [client 127.0.0.1:63972] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:48:47.995935 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)Отказано в доступе.  : [client 127.0.0.1:63975] couldn't create child process: 720005: test.py
-[Mon Apr 12 00:48:47.995935 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)Отказано в доступе.  : [client 127.0.0.1:63975] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
-[Mon Apr 12 00:48:48.596063 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)Отказано в доступе.  : [client 127.0.0.1:63977] couldn't create child process: 720005: test.py
-[Mon Apr 12 00:48:48.596063 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)Отказано в доступе.  : [client 127.0.0.1:63977] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:48:45.749218 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : [client 127.0.0.1:63972] couldn't create child process: 720005: test.py
+[Mon Apr 12 00:48:45.749218 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : [client 127.0.0.1:63972] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:48:47.995935 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : [client 127.0.0.1:63975] couldn't create child process: 720005: test.py
+[Mon Apr 12 00:48:47.995935 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : [client 127.0.0.1:63975] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 00:48:48.596063 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : [client 127.0.0.1:63977] couldn't create child process: 720005: test.py
+[Mon Apr 12 00:48:48.596063 2021] [cgi:error] [pid 11348:tid 1120] (OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : [client 127.0.0.1:63977] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
 The 'Apache2.4' service is restarting.
 The 'Apache2.4' service has restarted.
 winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
@@ -799,10 +799,10 @@ ore:warn] [pid 19144:tid 192] AH00098: pid file C:/Server/bin/Apache24/logs/http
 [Mon Apr 12 18:36:16.214743 2021] [core:notice] [pid 19144:tid 192] AH00094: Command line: 'C:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
 [Mon Apr 12 18:36:16.220882 2021] [mpm_winnt:notice] [pid 19144:tid 192] AH00418: Parent: Created child process 10356
 [Mon Apr 12 18:36:17.327964 2021] [mpm_winnt:notice] [pid 10356:tid 708] AH00354: Child: Starting 64 worker threads.
-[Mon Apr 12 18:36:35.234290 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64890] couldn't create child process: 720002: test.py, referer: http://localhost/
-[Mon Apr 12 18:36:35.235402 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64890] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py, referer: http://localhost/
-[Mon Apr 12 18:36:51.412354 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64897] couldn't create child process: 720002: test.py
-[Mon Apr 12 18:36:51.412354 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64897] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 18:36:35.234290 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)ГЌГҐ ГіГ¤Г ГҐГІГ±Гї Г­Г Г©ГІГЁ ГіГЄГ Г§Г Г­Г­Г»Г© ГґГ Г©Г«.  : [client ::1:64890] couldn't create child process: 720002: test.py, referer: http://localhost/
+[Mon Apr 12 18:36:35.235402 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)ГЌГҐ ГіГ¤Г ГҐГІГ±Гї Г­Г Г©ГІГЁ ГіГЄГ Г§Г Г­Г­Г»Г© ГґГ Г©Г«.  : [client ::1:64890] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 18:36:51.412354 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)ГЌГҐ ГіГ¤Г ГҐГІГ±Гї Г­Г Г©ГІГЁ ГіГЄГ Г§Г Г­Г­Г»Г© ГґГ Г©Г«.  : [client ::1:64897] couldn't create child process: 720002: test.py
+[Mon Apr 12 18:36:51.412354 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)ГЌГҐ ГіГ¤Г ГҐГІГ±Гї Г­Г Г©ГІГЁ ГіГЄГ Г§Г Г­Г­Г»Г© ГґГ Г©Г«.  : [client ::1:64897] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
 [Mon Apr 12 18:39:27.752134 2021] [cgi:error] [pid 10356:tid 1164] [client ::1:64971] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Mon Apr 12 18:39:27.752134 2021] [cgi:error] [pid 10356:tid 1164] [client ::1:64971] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 20, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Mon Apr 12 18:39:27.752134 2021] [cgi:error] [pid 10356:tid 1164] [client ::1:64971] AH01215:     f = open("C:/login.txt", "r")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
@@ -816,8 +816,8 @@ ore:warn] [pid 19144:tid 192] AH00098: pid file C:/Server/bin/Apache24/logs/http
 [Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215:     f = open("C:/login.txt", "r")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215: FileNotFoundError: [Errno 2] No such file or directory: 'C:/login.txt'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 Starting the 'Apache2.4' service
-(OS 5)Отказано в доступе.  : AH10012: Failed to open the 'Apache2.4' service
-(OS 5)Отказано в доступе.  : AH10014: Failed to open the 'Apache2.4' service
+(OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : AH10012: Failed to open the 'Apache2.4' service
+(OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : AH10014: Failed to open the 'Apache2.4' service
 Starting the 'Apache2.4' service
 The 'Apache2.4' service is running.
 ore:warn] [pid 2996:tid 640] AH00098: pid file C:/Server/bin/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
@@ -827,9 +827,9 @@ ore:warn] [pid 2996:tid 640] AH00098: pid file C:/Server/bin/Apache24/logs/httpd
 [Tue Apr 13 15:15:52.142536 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 11964
 [Tue Apr 13 15:15:52.500360 2021] [mpm_winnt:notice] [pid 11964:tid 192] AH00354: Child: Starting 64 worker threads.
 Starting the 'Apache2.4' service
-(OS 5)Отказано в доступе.  : AH10012: Failed to open the 'Apache2.4' service
+(OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : AH10012: Failed to open the 'Apache2.4' service
 Starting the 'Apache2.4' service
-(OS 5)Отказано в доступе.  : AH10012: Failed to open the 'Apache2.4' service
+(OS 5)ГЋГІГЄГ Г§Г Г­Г® Гў Г¤Г®Г±ГІГіГЇГҐ.  : AH10012: Failed to open the 'Apache2.4' service
 Starting the 'Apache2.4' service
 The 'Apache2.4' service is running.
 ore:warn] [pid 4236:tid 648] AH00098: pid file C:/Server/bin/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
