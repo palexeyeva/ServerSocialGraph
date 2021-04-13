@@ -815,3 +815,14 @@ ore:warn] [pid 19144:tid 192] AH00098: pid file C:/Server/bin/Apache24/logs/http
 [Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 20, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215:     f = open("C:/login.txt", "r")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215: FileNotFoundError: [Errno 2] No such file or directory: 'C:/login.txt'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+Starting the 'Apache2.4' service
+(OS 5)Отказано в доступе.  : AH10012: Failed to open the 'Apache2.4' service
+(OS 5)Отказано в доступе.  : AH10014: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 2996:tid 640] AH00098: pid file C:/Server/bin/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 13 15:15:52.131670 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 15:15:52.136367 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 15:15:52.136367 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 15:15:52.142536 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 11964
+[Tue Apr 13 15:15:52.500360 2021] [mpm_winnt:notice] [pid 11964:tid 192] AH00354: Child: Starting 64 worker threads.

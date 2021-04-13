@@ -1,4 +1,4 @@
-#!C:\Users\Diana\AppData\Local\Programs\Python\Python39\python.exe
+#!C:\Users\1371851\AppData\Local\Programs\Python\Python39\python.exe
 # coding: utf8
 print ("Content-type: text/html\n\n")
 print
@@ -21,7 +21,7 @@ form = cgi.FieldStorage()
 
 
 print("test3")
-print(form.getvalue("name"))
+print(form.getvalue("name")) #вот тут мы получаем имя пользователя в ввиде строки с помощью ключей
 
 
 print ("</body></html>")

@@ -51,15 +51,6 @@ function checkLetter(input) {
   }
 }
 
-// function checkFrom(input) {
-//   let elem = document.getElementById('ageToS');
-//   let elemAS = document.getElementById('ageToAS');
-//   if (input.value > elem.value && elem.value!='') {
-//     input.value = elem.value;
-//     elemAS.value = elem.value;
-//   };
-// }
-
 function checkTo(input) {
   let elem = document.getElementById('ageFromAS');
   if (input.value < elem.value && elem.value !='') input.value = elem.value;
@@ -118,21 +109,6 @@ document.getElementById(id).appendChild(e);
 document.getElementById(id).appendChild(img);
 }
 
-//Функция передачи данных
-// function elem(){
-
-// deptObj = { one : '1', two : '2'};
-
-// $.ajax({
-//     type: 'POST',
-//     data: deptObj,
-//     url: "test.py",
-//     success: function(result) { console.log("Success!"); console.log(result); },
-//     error: function(request, error) { console.log("Error"); console.log(request); }
-// });
-// }
-
-
 
 function getFields(name, surName, sex, bdate, country, city){
   let data = {
@@ -140,11 +116,9 @@ function getFields(name, surName, sex, bdate, country, city){
     surName: surName.value,
     sex: sex.value,
     bdate: bdate.value,
-    country: globalCountryId,
+    country: country.value,
     city: city.value
   };
-  // console.log(data);
-
 $.ajax({
     type: 'POST',
     data: data,
