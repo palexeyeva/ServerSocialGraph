@@ -826,3 +826,470 @@ ore:warn] [pid 2996:tid 640] AH00098: pid file C:/Server/bin/Apache24/logs/httpd
 [Tue Apr 13 15:15:52.136367 2021] [core:notice] [pid 2996:tid 640] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
 [Tue Apr 13 15:15:52.142536 2021] [mpm_winnt:notice] [pid 2996:tid 640] AH00418: Parent: Created child process 11964
 [Tue Apr 13 15:15:52.500360 2021] [mpm_winnt:notice] [pid 11964:tid 192] AH00354: Child: Starting 64 worker threads.
+Starting the 'Apache2.4' service
+(OS 5)Отказано в доступе.  : AH10012: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+(OS 5)Отказано в доступе.  : AH10012: Failed to open the 'Apache2.4' service
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 4236:tid 648] AH00098: pid file C:/Server/bin/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Tue Apr 13 21:15:57.330854 2021] [mpm_winnt:notice] [pid 4236:tid 648] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:15:57.330854 2021] [mpm_winnt:notice] [pid 4236:tid 648] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:15:57.330854 2021] [core:notice] [pid 4236:tid 648] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:15:57.344680 2021] [mpm_winnt:notice] [pid 4236:tid 648] AH00418: Parent: Created child process 16680
+[Tue Apr 13 21:15:57.906906 2021] [mpm_winnt:notice] [pid 16680:tid 588] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:16:44.263324 2021] [cgi:error] [pid 16680:tid 1084] [client ::1:59730] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:16:44.263324 2021] [cgi:error] [pid 16680:tid 1084] [client ::1:59730] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 12, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:16:44.264323 2021] [cgi:error] [pid 16680:tid 1084] [client ::1:59730] AH01215:     import vk_api \r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:16:44.264323 2021] [cgi:error] [pid 16680:tid 1084] [client ::1:59730] AH01215: ModuleNotFoundError: No module named 'vk_api'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:31:18.557431 2021] [mpm_winnt:notice] [pid 4236:tid 648] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Tue Apr 13 21:31:20.572911 2021] [mpm_winnt:notice] [pid 16680:tid 588] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:31:20.591787 2021] [mpm_winnt:notice] [pid 4236:tid 648] AH00430: Parent: Child process 16680 exited successfully.
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+pm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:38:41.871381 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:38:41.871381 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:38:41.880221 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 3176
+[Tue Apr 13 21:38:42.359122 2021] [mpm_winnt:notice] [pid 3176:tid 592] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:40:03.506660 2021] [cgi:error] [pid 3176:tid 1076] [client ::1:60320] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:40:03.506660 2021] [cgi:error] [pid 3176:tid 1076] [client ::1:60320] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 27, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:40:03.506660 2021] [cgi:error] [pid 3176:tid 1076] [client ::1:60320] AH01215:     id = searchResults["items"][i]["id"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:40:03.506660 2021] [cgi:error] [pid 3176:tid 1076] [client ::1:60320] AH01215: TypeError: list indices must be integers or slices, not dict\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:41:04.084884 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:41:04.084884 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:41:04.084884 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:41:04.093649 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 16532
+[Tue Apr 13 21:41:05.078113 2021] [mpm_winnt:notice] [pid 16532:tid 584] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:41:06.091191 2021] [mpm_winnt:notice] [pid 3176:tid 592] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:41:19.270791 2021] [cgi:error] [pid 16532:tid 1084] [client ::1:60370] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:41:19.270791 2021] [cgi:error] [pid 16532:tid 1084] [client ::1:60370] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 29, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:41:19.270791 2021] [cgi:error] [pid 16532:tid 1084] [client ::1:60370] AH01215:     id = searchResults["items"][i]["id"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:41:19.271788 2021] [cgi:error] [pid 16532:tid 1084] [client ::1:60370] AH01215: TypeError: list indices must be integers or slices, not dict\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:41:51.746979 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:41:51.746979 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:41:51.746979 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:41:51.755954 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 4376
+[Tue Apr 13 21:41:52.732625 2021] [mpm_winnt:notice] [pid 4376:tid 472] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:41:53.736521 2021] [mpm_winnt:notice] [pid 16532:tid 584] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:42:05.880945 2021] [cgi:error] [pid 4376:tid 1124] [client ::1:60400] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:42:05.880945 2021] [cgi:error] [pid 4376:tid 1124] [client ::1:60400] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 30, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:42:05.880945 2021] [cgi:error] [pid 4376:tid 1124] [client ::1:60400] AH01215:     id = searchResults["items"][i]["id"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:42:05.880945 2021] [cgi:error] [pid 4376:tid 1124] [client ::1:60400] AH01215: TypeError: list indices must be integers or slices, not dict\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:43:40.976635 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:43:40.976635 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:43:40.977636 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:43:40.993595 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 17976
+[Tue Apr 13 21:43:41.967436 2021] [mpm_winnt:notice] [pid 17976:tid 584] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:43:42.981593 2021] [mpm_winnt:notice] [pid 4376:tid 472] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:44:41.387856 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:44:41.387856 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:44:41.387856 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:44:41.396816 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 16868
+[Tue Apr 13 21:44:42.375034 2021] [mpm_winnt:notice] [pid 16868:tid 592] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:44:43.387307 2021] [mpm_winnt:notice] [pid 17976:tid 584] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:44:55.651724 2021] [cgi:error] [pid 16868:tid 1124] [client ::1:60504] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:44:55.651724 2021] [cgi:error] [pid 16868:tid 1124] [client ::1:60504] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 33, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:44:55.651724 2021] [cgi:error] [pid 16868:tid 1124] [client ::1:60504] AH01215:     id = searchResults["items"][i]["id"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:44:55.651724 2021] [cgi:error] [pid 16868:tid 1124] [client ::1:60504] AH01215: TypeError: list indices must be integers or slices, not dict\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:46:12.321635 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:46:12.321635 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:46:12.321635 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:46:12.332029 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 17340
+[Tue Apr 13 21:46:13.313635 2021] [mpm_winnt:notice] [pid 17340:tid 200] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:46:14.329394 2021] [mpm_winnt:notice] [pid 16868:tid 592] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:46:25.825938 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60555] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:46:25.825938 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60555] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 25, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:46:25.826931 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60555] AH01215:     searchResults=vk.users.search(q = form.getvalue("name") + ' ' + form.getvalue("surName"), count = 100, fields='bdate, city, photo_50')\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:46:25.826931 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60555] AH01215: TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:46:32.734312 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60563] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:46:32.734312 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60563] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 33, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:46:32.734312 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60563] AH01215:     id = searchResults["items"][i]["id"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:46:32.734312 2021] [cgi:error] [pid 17340:tid 1084] [client ::1:60563] AH01215: TypeError: list indices must be integers or slices, not dict\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:47:02.620589 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:47:02.620589 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:47:02.620589 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:47:02.629076 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 6044
+[Tue Apr 13 21:47:03.612754 2021] [mpm_winnt:notice] [pid 6044:tid 468] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:47:04.616002 2021] [mpm_winnt:notice] [pid 17340:tid 200] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:47:14.893331 2021] [cgi:error] [pid 6044:tid 1124] [client ::1:60589] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:47:14.893331 2021] [cgi:error] [pid 6044:tid 1124] [client ::1:60589] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 30, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:47:14.893331 2021] [cgi:error] [pid 6044:tid 1124] [client ::1:60589] AH01215:     print (searchResults["items"][0][id])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:47:14.893331 2021] [cgi:error] [pid 6044:tid 1124] [client ::1:60589] AH01215: KeyError: <built-in function id>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:47:31.170650 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:47:31.170650 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:47:31.170650 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:47:31.179625 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 16644
+[Tue Apr 13 21:47:32.163596 2021] [mpm_winnt:notice] [pid 16644:tid 256] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:47:33.167741 2021] [mpm_winnt:notice] [pid 6044:tid 468] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:47:41.480746 2021] [cgi:error] [pid 16644:tid 1084] [client ::1:60605] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:47:41.481743 2021] [cgi:error] [pid 16644:tid 1084] [client ::1:60605] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 33, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:47:41.481743 2021] [cgi:error] [pid 16644:tid 1084] [client ::1:60605] AH01215:     id = searchResults["items"][i]["id"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:47:41.481743 2021] [cgi:error] [pid 16644:tid 1084] [client ::1:60605] AH01215: TypeError: list indices must be integers or slices, not dict\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:48:57.761974 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:48:57.761974 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:48:57.761974 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:48:57.777951 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 11072
+[Tue Apr 13 21:48:58.759795 2021] [mpm_winnt:notice] [pid 11072:tid 588] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:48:59.765325 2021] [mpm_winnt:notice] [pid 16644:tid 256] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:49:07.845341 2021] [cgi:error] [pid 11072:tid 1108] [client ::1:60662] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:49:07.845341 2021] [cgi:error] [pid 11072:tid 1108] [client ::1:60662] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 27, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:49:07.845341 2021] [cgi:error] [pid 11072:tid 1108] [client ::1:60662] AH01215:     for i in int(searchResults["count"]):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:49:07.845341 2021] [cgi:error] [pid 11072:tid 1108] [client ::1:60662] AH01215: TypeError: 'int' object is not iterable\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:49:44.141186 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:49:44.141186 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:49:44.141186 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:49:44.150651 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 10116
+[Tue Apr 13 21:49:45.140328 2021] [mpm_winnt:notice] [pid 10116:tid 552] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:49:46.144720 2021] [mpm_winnt:notice] [pid 11072:tid 588] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:50:16.782251 2021] [cgi:error] [pid 10116:tid 1084] [client ::1:60704] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:50:16.782251 2021] [cgi:error] [pid 10116:tid 1084] [client ::1:60704] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 28, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:50:16.782251 2021] [cgi:error] [pid 10116:tid 1084] [client ::1:60704] AH01215:     for i in int(searchResults["count"]):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:50:16.782251 2021] [cgi:error] [pid 10116:tid 1084] [client ::1:60704] AH01215: TypeError: 'int' object is not iterable\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:51:16.394016 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:51:16.394016 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:51:16.394016 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:51:16.402992 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 19100
+[Tue Apr 13 21:51:17.374674 2021] [mpm_winnt:notice] [pid 19100:tid 592] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:51:18.385357 2021] [mpm_winnt:notice] [pid 10116:tid 552] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:51:34.965998 2021] [cgi:error] [pid 19100:tid 1124] [client ::1:60754] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:51:34.965998 2021] [cgi:error] [pid 19100:tid 1124] [client ::1:60754] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 26, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:51:34.965998 2021] [cgi:error] [pid 19100:tid 1124] [client ::1:60754] AH01215:     for j in 6:\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:51:34.965998 2021] [cgi:error] [pid 19100:tid 1124] [client ::1:60754] AH01215: TypeError: 'int' object is not iterable\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:52:47.420953 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:52:47.420953 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:52:47.420953 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:52:47.430258 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 18384
+[Tue Apr 13 21:52:48.407340 2021] [mpm_winnt:notice] [pid 18384:tid 540] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:52:49.417756 2021] [mpm_winnt:notice] [pid 19100:tid 592] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:53:05.964986 2021] [cgi:error] [pid 18384:tid 1084] [client ::1:60818] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:53:05.964986 2021] [cgi:error] [pid 18384:tid 1084] [client ::1:60818] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 33, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:53:05.964986 2021] [cgi:error] [pid 18384:tid 1084] [client ::1:60818] AH01215:     city = searchResults["items"][i]["city"]["title"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:53:05.964986 2021] [cgi:error] [pid 18384:tid 1084] [client ::1:60818] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:53:38.865339 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:53:38.865339 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:53:38.865339 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:53:38.873884 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 18804
+[Tue Apr 13 21:53:39.851582 2021] [mpm_winnt:notice] [pid 18804:tid 548] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:53:40.865636 2021] [mpm_winnt:notice] [pid 18384:tid 540] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:53:53.403106 2021] [cgi:error] [pid 18804:tid 1124] [client ::1:60846] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:53:53.404104 2021] [cgi:error] [pid 18804:tid 1124] [client ::1:60846] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 33, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:53:53.404104 2021] [cgi:error] [pid 18804:tid 1124] [client ::1:60846] AH01215:     city = searchResults["items"][i]["city"]["title"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:53:53.404104 2021] [cgi:error] [pid 18804:tid 1124] [client ::1:60846] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:54:32.732750 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:54:32.732750 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:54:32.732750 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:54:32.748708 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 18896
+[Tue Apr 13 21:54:33.713488 2021] [mpm_winnt:notice] [pid 18896:tid 556] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:54:34.727393 2021] [mpm_winnt:notice] [pid 18804:tid 548] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:54:42.002181 2021] [cgi:error] [pid 18896:tid 1084] [client ::1:60877] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:54:42.002181 2021] [cgi:error] [pid 18896:tid 1084] [client ::1:60877] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 32, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:54:42.002181 2021] [cgi:error] [pid 18896:tid 1084] [client ::1:60877] AH01215:     city = searchResults["items"][i]["city"]["title"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:54:42.002181 2021] [cgi:error] [pid 18896:tid 1084] [client ::1:60877] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:55:12.478499 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:55:12.478499 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:55:12.478499 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:55:12.487519 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 1364
+[Tue Apr 13 21:55:13.473643 2021] [mpm_winnt:notice] [pid 1364:tid 556] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:55:14.484228 2021] [mpm_winnt:notice] [pid 18896:tid 556] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:55:23.354603 2021] [cgi:error] [pid 1364:tid 1124] [client ::1:60904] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:55:23.354603 2021] [cgi:error] [pid 1364:tid 1124] [client ::1:60904] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 33, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:55:23.354603 2021] [cgi:error] [pid 1364:tid 1124] [client ::1:60904] AH01215:     city = searchResults["items"][i]["city"]["title"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:55:23.354603 2021] [cgi:error] [pid 1364:tid 1124] [client ::1:60904] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:56:37.300827 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:56:37.300827 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:56:37.300827 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:56:37.309977 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 15896
+[Tue Apr 13 21:56:38.298971 2021] [mpm_winnt:notice] [pid 15896:tid 604] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:56:39.311466 2021] [mpm_winnt:notice] [pid 1364:tid 556] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:57:02.531215 2021] [cgi:error] [pid 15896:tid 1084] [client ::1:60966] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:57:02.531215 2021] [cgi:error] [pid 15896:tid 1084] [client ::1:60966] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 28, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:57:02.531215 2021] [cgi:error] [pid 15896:tid 1084] [client ::1:60966] AH01215:     print(searchResults["items"][0]["id"] + "\\n" + searchResults["items"][i]["first_name"] + " " + searchResults["items"][i]["last_name"] + "\\n" + searchResults["items"][i]["photo_50"] + "\\n" + searchResults["items"][i]["city"]["title"] + "\\n" + searchResults["items"][i]["bdate"])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:57:02.531215 2021] [cgi:error] [pid 15896:tid 1084] [client ::1:60966] AH01215: TypeError: unsupported operand type(s) for +: 'int' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:57:48.575570 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:57:48.575570 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:57:48.575570 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:57:48.583539 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 16400
+[Tue Apr 13 21:57:49.560166 2021] [mpm_winnt:notice] [pid 16400:tid 596] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:57:50.574865 2021] [mpm_winnt:notice] [pid 15896:tid 604] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:57:58.149420 2021] [cgi:error] [pid 16400:tid 1124] [client ::1:61000] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:57:58.149420 2021] [cgi:error] [pid 16400:tid 1124] [client ::1:61000] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 28, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:57:58.149420 2021] [cgi:error] [pid 16400:tid 1124] [client ::1:61000] AH01215:     print(searchResults["items"][0]["id"] + "\\n" + searchResults["items"][0]["first_name"] + " " + searchResults["items"][0]["last_name"] + "\\n" + searchResults["items"][0]["photo_50"] + "\\n" + searchResults["items"][0]["city"]["title"] + "\\n" + searchResults["items"][0]["bdate"])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:57:58.150417 2021] [cgi:error] [pid 16400:tid 1124] [client ::1:61000] AH01215: TypeError: unsupported operand type(s) for +: 'int' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:59:24.311046 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:59:24.311046 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:59:24.311046 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:59:24.319458 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 1372
+[Tue Apr 13 21:59:25.299612 2021] [mpm_winnt:notice] [pid 1372:tid 556] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:59:26.304236 2021] [mpm_winnt:notice] [pid 16400:tid 596] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 21:59:39.687684 2021] [cgi:error] [pid 1372:tid 1068] [client ::1:61064] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:59:39.687684 2021] [cgi:error] [pid 1372:tid 1068] [client ::1:61064] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 29, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:59:39.687684 2021] [cgi:error] [pid 1372:tid 1068] [client ::1:61064] AH01215:     print(searchResults["items"][0]["first_name"] + " " + searchResults["items"][i]["last_name"])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 21:59:39.687684 2021] [cgi:error] [pid 1372:tid 1068] [client ::1:61064] AH01215: NameError: name 'i' is not defined\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 21:59:55.623301 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 21:59:55.623301 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 21:59:55.623301 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 21:59:55.640800 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 8336
+[Tue Apr 13 21:59:56.620399 2021] [mpm_winnt:notice] [pid 8336:tid 548] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 21:59:57.621675 2021] [mpm_winnt:notice] [pid 1372:tid 556] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 22:00:05.059193 2021] [cgi:error] [pid 8336:tid 1124] [client ::1:61079] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:00:05.059193 2021] [cgi:error] [pid 8336:tid 1124] [client ::1:61079] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 31, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:00:05.059193 2021] [cgi:error] [pid 8336:tid 1124] [client ::1:61079] AH01215:     print(searchResults["items"][0]["city"]["title"])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:00:05.059193 2021] [cgi:error] [pid 8336:tid 1124] [client ::1:61079] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:08.580692 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62421] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:08.580692 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62421] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 31, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:08.580692 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62421] AH01215:     print(searchResults["items"][0]["city"]["title"])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:37:08.580692 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62421] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:38:52.418845 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62478] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:38:52.418845 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62478] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 31, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:38:52.418845 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62478] AH01215:     print(searchResults["items"][0]["city"]["title"])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:38:52.418845 2021] [cgi:error] [pid 8336:tid 1116] [client ::1:62478] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 22:40:59.006876 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 22:40:59.006876 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 22:40:59.006876 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 22:40:59.016542 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 19336
+[Tue Apr 13 22:41:00.000806 2021] [mpm_winnt:notice] [pid 19336:tid 568] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 22:41:01.003381 2021] [mpm_winnt:notice] [pid 8336:tid 548] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 22:41:15.388077 2021] [cgi:error] [pid 19336:tid 1084] [client ::1:62569] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:41:15.388077 2021] [cgi:error] [pid 19336:tid 1084] [client ::1:62569] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 42, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:41:15.388077 2021] [cgi:error] [pid 19336:tid 1084] [client ::1:62569] AH01215:     city = searchResults["items"][i]["city"]["title"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 22:41:15.388077 2021] [cgi:error] [pid 19336:tid 1084] [client ::1:62569] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:06:18.386788 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:06:18.386788 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:06:18.386788 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:06:18.395700 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 5396
+[Tue Apr 13 23:06:19.372497 2021] [mpm_winnt:notice] [pid 5396:tid 592] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:06:20.386017 2021] [mpm_winnt:notice] [pid 19336:tid 568] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:06:50.521584 2021] [cgi:error] [pid 5396:tid 1116] [client ::1:63442] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:06:50.522581 2021] [cgi:error] [pid 5396:tid 1116] [client ::1:63442] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:06:50.522581 2021] [cgi:error] [pid 5396:tid 1116] [client ::1:63442] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:06:50.522581 2021] [cgi:error] [pid 5396:tid 1116] [client ::1:63442] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:07:14.829835 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:07:14.829835 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:07:14.829835 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:07:14.837399 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 18688
+[Tue Apr 13 23:07:15.819415 2021] [mpm_winnt:notice] [pid 18688:tid 556] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:07:16.826439 2021] [mpm_winnt:notice] [pid 5396:tid 592] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:07:28.497292 2021] [cgi:error] [pid 18688:tid 1084] [client ::1:63469] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:07:28.497292 2021] [cgi:error] [pid 18688:tid 1084] [client ::1:63469] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:07:28.497292 2021] [cgi:error] [pid 18688:tid 1084] [client ::1:63469] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:07:28.497292 2021] [cgi:error] [pid 18688:tid 1084] [client ::1:63469] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:08:14.218057 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:08:14.218057 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:08:14.218057 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:08:14.233894 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 16356
+[Tue Apr 13 23:08:15.212967 2021] [mpm_winnt:notice] [pid 16356:tid 564] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:08:16.217106 2021] [mpm_winnt:notice] [pid 18688:tid 556] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:08:24.978463 2021] [cgi:error] [pid 16356:tid 1124] [client ::1:63502] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:08:24.978463 2021] [cgi:error] [pid 16356:tid 1124] [client ::1:63502] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:08:24.978463 2021] [cgi:error] [pid 16356:tid 1124] [client ::1:63502] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:08:24.978463 2021] [cgi:error] [pid 16356:tid 1124] [client ::1:63502] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:08:42.686376 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:08:42.686376 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:08:42.686376 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:08:42.695296 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 11388
+[Tue Apr 13 23:08:43.683667 2021] [mpm_winnt:notice] [pid 11388:tid 584] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:08:44.689714 2021] [mpm_winnt:notice] [pid 16356:tid 564] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:08:50.804609 2021] [cgi:error] [pid 11388:tid 1084] [client ::1:63521] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:08:50.805607 2021] [cgi:error] [pid 11388:tid 1084] [client ::1:63521] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:08:50.805607 2021] [cgi:error] [pid 11388:tid 1084] [client ::1:63521] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:08:50.805607 2021] [cgi:error] [pid 11388:tid 1084] [client ::1:63521] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:09:16.785679 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:09:16.785679 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:09:16.785679 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:09:16.793658 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 6936
+[Tue Apr 13 23:09:17.777517 2021] [mpm_winnt:notice] [pid 6936:tid 580] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:09:18.780321 2021] [mpm_winnt:notice] [pid 11388:tid 584] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:09:26.589582 2021] [cgi:error] [pid 6936:tid 1124] [client ::1:63549] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:09:26.589582 2021] [cgi:error] [pid 6936:tid 1124] [client ::1:63549] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:09:26.589582 2021] [cgi:error] [pid 6936:tid 1124] [client ::1:63549] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:09:26.589582 2021] [cgi:error] [pid 6936:tid 1124] [client ::1:63549] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:09:55.920700 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:09:55.920700 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:09:55.920700 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:09:55.930323 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 11736
+[Tue Apr 13 23:09:56.901634 2021] [mpm_winnt:notice] [pid 11736:tid 564] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:09:57.902086 2021] [mpm_winnt:notice] [pid 6936:tid 580] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:10:06.829710 2021] [cgi:error] [pid 11736:tid 1084] [client ::1:63578] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:10:06.829710 2021] [cgi:error] [pid 11736:tid 1084] [client ::1:63578] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:10:06.829710 2021] [cgi:error] [pid 11736:tid 1084] [client ::1:63578] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:10:06.829710 2021] [cgi:error] [pid 11736:tid 1084] [client ::1:63578] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:10:50.857970 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:10:50.857970 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:10:50.857970 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:10:50.868052 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 18620
+[Tue Apr 13 23:10:51.849261 2021] [mpm_winnt:notice] [pid 18620:tid 544] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:10:52.851983 2021] [mpm_winnt:notice] [pid 11736:tid 564] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:11:01.465841 2021] [cgi:error] [pid 18620:tid 1124] [client ::1:63621] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:11:01.465841 2021] [cgi:error] [pid 18620:tid 1124] [client ::1:63621] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:11:01.465841 2021] [cgi:error] [pid 18620:tid 1124] [client ::1:63621] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:11:01.465841 2021] [cgi:error] [pid 18620:tid 1124] [client ::1:63621] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:11:35.351087 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:11:35.351087 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:11:35.351087 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:11:35.360129 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 17080
+[Tue Apr 13 23:11:36.343388 2021] [mpm_winnt:notice] [pid 17080:tid 588] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:11:37.357219 2021] [mpm_winnt:notice] [pid 18620:tid 544] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:11:54.195157 2021] [cgi:error] [pid 17080:tid 1084] [client ::1:63652] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:11:54.195157 2021] [cgi:error] [pid 17080:tid 1084] [client ::1:63652] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 23, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:11:54.196192 2021] [cgi:error] [pid 17080:tid 1084] [client ::1:63652] AH01215:     bday = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:11:54.196192 2021] [cgi:error] [pid 17080:tid 1084] [client ::1:63652] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:45:29.596336 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:45:29.596336 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:45:29.596336 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:45:29.604899 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 8568
+[Tue Apr 13 23:45:30.582904 2021] [mpm_winnt:notice] [pid 8568:tid 456] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:45:31.583592 2021] [mpm_winnt:notice] [pid 17080:tid 588] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:45:41.911883 2021] [cgi:error] [pid 8568:tid 1108] [client ::1:64858] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:45:41.911883 2021] [cgi:error] [pid 8568:tid 1108] [client ::1:64858] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 50, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:45:41.912876 2021] [cgi:error] [pid 8568:tid 1108] [client ::1:64858] AH01215:     print(searchResults["items"][0]["city"]["title"])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:45:41.912876 2021] [cgi:error] [pid 8568:tid 1108] [client ::1:64858] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:53:28.945021 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:53:28.945021 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:53:28.945021 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:53:28.954447 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 15444
+[Tue Apr 13 23:53:29.924712 2021] [mpm_winnt:notice] [pid 15444:tid 588] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:53:30.939361 2021] [mpm_winnt:notice] [pid 8568:tid 456] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:53:40.551078 2021] [cgi:error] [pid 15444:tid 1084] [client ::1:65108] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:53:40.551078 2021] [cgi:error] [pid 15444:tid 1084] [client ::1:65108] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 58, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:53:40.551078 2021] [cgi:error] [pid 15444:tid 1084] [client ::1:65108] AH01215:     city = searchResults["items"][i]["city"]["title"]\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:53:40.551078 2021] [cgi:error] [pid 15444:tid 1084] [client ::1:65108] AH01215: KeyError: 'city'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:57:20.206893 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:57:20.206893 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:57:20.206893 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:57:20.223414 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 11492
+[Tue Apr 13 23:57:21.199085 2021] [mpm_winnt:notice] [pid 11492:tid 564] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:57:22.201174 2021] [mpm_winnt:notice] [pid 15444:tid 588] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:58:02.385904 2021] [cgi:error] [pid 11492:tid 1124] [client ::1:65250] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:58:02.385904 2021] [cgi:error] [pid 11492:tid 1124] [client ::1:65250] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 26, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:58:02.385904 2021] [cgi:error] [pid 11492:tid 1124] [client ::1:65250] AH01215:     bdate = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:58:02.385904 2021] [cgi:error] [pid 11492:tid 1124] [client ::1:65250] AH01215: AttributeError: module 'datetime' has no attribute 'strptime'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:58:48.672307 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:58:48.672307 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:58:48.672307 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:58:48.680751 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 15732
+[Tue Apr 13 23:58:49.665031 2021] [mpm_winnt:notice] [pid 15732:tid 232] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:58:50.665634 2021] [mpm_winnt:notice] [pid 11492:tid 564] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:59:00.714845 2021] [cgi:error] [pid 15732:tid 1084] [client ::1:65285] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:59:00.714845 2021] [cgi:error] [pid 15732:tid 1084] [client ::1:65285] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 69, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:59:00.714845 2021] [cgi:error] [pid 15732:tid 1084] [client ::1:65285] AH01215:     print(id + "\\n" + photo + "\\n" + name + "\\n" + city + "\\n" + bday + "\\n")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:59:00.714845 2021] [cgi:error] [pid 15732:tid 1084] [client ::1:65285] AH01215: TypeError: unsupported operand type(s) for +: 'int' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Tue Apr 13 23:59:32.466953 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Tue Apr 13 23:59:32.466953 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Tue Apr 13 23:59:32.466953 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Tue Apr 13 23:59:32.475507 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 10368
+[Tue Apr 13 23:59:33.454544 2021] [mpm_winnt:notice] [pid 10368:tid 580] AH00354: Child: Starting 64 worker threads.
+[Tue Apr 13 23:59:34.463580 2021] [mpm_winnt:notice] [pid 15732:tid 232] AH00364: Child: All worker threads have exited.
+[Tue Apr 13 23:59:40.755266 2021] [cgi:error] [pid 10368:tid 1124] [client ::1:65311] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:59:40.755266 2021] [cgi:error] [pid 10368:tid 1124] [client ::1:65311] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 69, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:59:40.755266 2021] [cgi:error] [pid 10368:tid 1124] [client ::1:65311] AH01215:     print(id + "\\n" + photo + "\\n" + name + "\\n" + city + "\\n" + bday + "\\n")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 23:59:40.755266 2021] [cgi:error] [pid 10368:tid 1124] [client ::1:65311] AH01215: TypeError: unsupported operand type(s) for +: 'int' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Restarting the server.
+[Wed Apr 14 00:00:32.649302 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Wed Apr 14 00:00:32.649302 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Wed Apr 14 00:00:32.649302 2021] [core:notice] [pid 3848:tid 644] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Wed Apr 14 00:00:32.658273 2021] [mpm_winnt:notice] [pid 3848:tid 644] AH00418: Parent: Created child process 8936
+[Wed Apr 14 00:00:33.643591 2021] [mpm_winnt:notice] [pid 8936:tid 572] AH00354: Child: Starting 64 worker threads.
+[Wed Apr 14 00:00:34.647728 2021] [mpm_winnt:notice] [pid 10368:tid 580] AH00364: Child: All worker threads have exited.
+[Wed Apr 14 00:00:43.913859 2021] [cgi:error] [pid 8936:tid 1084] [client ::1:65355] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Wed Apr 14 00:00:43.913859 2021] [cgi:error] [pid 8936:tid 1084] [client ::1:65355] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 69, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Wed Apr 14 00:00:43.913859 2021] [cgi:error] [pid 8936:tid 1084] [client ::1:65355] AH01215:     print(id + "\\n" + photo + "\\n" + name + "\\n" + city + "\\n" + bday + "\\n")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Wed Apr 14 00:00:43.913859 2021] [cgi:error] [pid 8936:tid 1084] [client ::1:65355] AH01215: TypeError: unsupported operand type(s) for +: 'int' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
