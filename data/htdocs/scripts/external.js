@@ -78,9 +78,12 @@ function onButtonReset() {
         inputs[i].value = '';
     };
 }
+  var globalCountryId;
 //получение id страны при клике по стране
 function getCountryValue(select) {
   countryId = select.options[select.selectedIndex].value;
+  globalCountryId = countryId;
+  // console.log(globalCountryId);
   return countryId;
 }
 
@@ -116,17 +119,40 @@ document.getElementById(id).appendChild(img);
 }
 
 //Функция передачи данных
-function elem(){
+// function elem(){
 
-deptObj = { one : '1', two : '2'};
+// deptObj = { one : '1', two : '2'};
+
+// $.ajax({
+//     type: 'POST',
+//     data: deptObj,
+//     url: "test.py",
+//     success: function(result) { console.log("Success!"); console.log(result); },
+//     error: function(request, error) { console.log("Error"); console.log(request); }
+// });
+// }
+
+
+
+function getFields(name, surName, sex, bdate, country, city){
+  let data = {
+    name: name.value,
+    surName: surName.value,
+    sex: sex.value,
+    bdate: bdate.value,
+    country: globalCountryId,
+    city: city.value
+  };
+  // console.log(data);
 
 $.ajax({
     type: 'POST',
-    data: deptObj,
+    data: data,
     url: "test.py",
     success: function(result) { console.log("Success!"); console.log(result); },
     error: function(request, error) { console.log("Error"); console.log(request); }
 });
+// return(data)
 }
 
 
