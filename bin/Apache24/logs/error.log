@@ -791,3 +791,27 @@ winnt:notice] [pid 5388:tid 616] AH00424: Parent: Received restart signal -- Res
 [Mon Apr 12 17:45:56.099614 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] AH01215:     print json.dumps(form.keys())\r: C:/Server/data/htdocs/test.py
 [Mon Apr 12 17:45:56.099614 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] AH01215:           ^\r: C:/Server/data/htdocs/test.py
 [Mon Apr 12 17:45:56.099614 2021] [cgi:error] [pid 4732:tid 1108] [client 127.0.0.1:61003] AH01215: SyntaxError: invalid syntax\r: C:/Server/data/htdocs/test.py
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 19144:tid 192] AH00098: pid file C:/Server/bin/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 12 18:36:16.214743 2021] [mpm_winnt:notice] [pid 19144:tid 192] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon Apr 12 18:36:16.214743 2021] [mpm_winnt:notice] [pid 19144:tid 192] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon Apr 12 18:36:16.214743 2021] [core:notice] [pid 19144:tid 192] AH00094: Command line: 'C:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon Apr 12 18:36:16.220882 2021] [mpm_winnt:notice] [pid 19144:tid 192] AH00418: Parent: Created child process 10356
+[Mon Apr 12 18:36:17.327964 2021] [mpm_winnt:notice] [pid 10356:tid 708] AH00354: Child: Starting 64 worker threads.
+[Mon Apr 12 18:36:35.234290 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64890] couldn't create child process: 720002: test.py, referer: http://localhost/
+[Mon Apr 12 18:36:35.235402 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64890] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 18:36:51.412354 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64897] couldn't create child process: 720002: test.py
+[Mon Apr 12 18:36:51.412354 2021] [cgi:error] [pid 10356:tid 1168] (OS 2)Не удается найти указанный файл.  : [client ::1:64897] AH01223: couldn't spawn child process: C:/Server/data/htdocs/test.py
+[Mon Apr 12 18:39:27.752134 2021] [cgi:error] [pid 10356:tid 1164] [client ::1:64971] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 18:39:27.752134 2021] [cgi:error] [pid 10356:tid 1164] [client ::1:64971] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 20, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 18:39:27.752134 2021] [cgi:error] [pid 10356:tid 1164] [client ::1:64971] AH01215:     f = open("C:/login.txt", "r")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon Apr 12 18:39:27.752134 2021] [cgi:error] [pid 10356:tid 1164] [client ::1:64971] AH01215: FileNotFoundError: [Errno 2] No such file or directory: 'C:/login.txt'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:48:31.968262 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52685] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:48:31.968262 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52685] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 20, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:48:31.968262 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52685] AH01215:     f = open("C:/login.txt", "r")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:48:31.968262 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52685] AH01215: FileNotFoundError: [Errno 2] No such file or directory: 'C:/login.txt'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:49:16.440634 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 20, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215:     f = open("C:/login.txt", "r")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Tue Apr 13 13:49:16.441631 2021] [cgi:error] [pid 10356:tid 1156] [client ::1:52704] AH01215: FileNotFoundError: [Errno 2] No such file or directory: 'C:/login.txt'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
