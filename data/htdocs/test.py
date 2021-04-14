@@ -40,51 +40,43 @@ else:
     city = None
 
 searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_50, screen_name')
-#,  age_from = int(form.getvalue("")), age_to = int(form.getvalue(""))
-#,  company = form.getvalue("")
 
-#print(searchResults)
-#print(searchResults["items"][0]["id"])
-#print(searchResults["items"][0]["first_name"] + " " + searchResults["items"][0]["last_name"])
-#print(searchResults["items"][0]["photo_50"])
-#if "city" in searchResults["items"][0]:
-#    print(searchResults["items"][0]["city"]["title"])
-#print(searchResults["items"][0]["bdate"])
-
-
-print(searchResults)
 print("test3")
-returnResults = list()
+returnResults = []
+print(int(searchResults['count']))
 
-for i in range(int(searchResults['count'])):
+print("test8")
+print(len(searchResults['items']))
+
+for i in range(len(searchResults['items'])):
+    print(i)
     g = []
-    id = searchResults['items'][i]['id']
-    name = searchResults['items'][i]['first_name']
-    surname = searchResults['items'][i]['last_name']
-    bdate = searchResults['items'][i]['bdate']
-    href = 'vk.com/' + searchResults['items'][i]['screen_name']
-    photo = searchResults['items'][i]['photo_50']
-    city = searchResults['items'][i]['city']['title']
+    id = ''
+    name = ''
+    surname = ''
+    bdate = ''
+    href = ''
+    photo = ''
+    city = ''
+    id = searchResults['items'][i]['id']    
+    name = searchResults['items'][i]['first_name']    
+    surname = searchResults['items'][i]['last_name'] 
+    try:
+        bdate = searchResults['items'][i]['bdate']
+    except: 
+        bdate = '' 
+    href = 'vk.com/' + searchResults['items'][i]['screen_name']    
+    try: 
+        photo = searchResults['items'][i]['photo_50']
+    except: 
+        photo = ''    
+    try: 
+        city = searchResults['items'][i]['city']['title']
+    except: 
+        city = ''    
     g = [id, name, surname, bdate, href, photo, city]
-    returnResults.append(g)
-# print(returnResults)
+    print(g)
+print(returnResults)
  
 print("test4")
 print ("</body></html>")
-
-
-
-
-# for i in range(int(searchResults["count"])):
-#     id = searchResults["items"][i]["id"]
-#     name = searchResults["items"][i]["first_name"] + " " + searchResults["items"][i]["last_name"]
-#     photo = searchResults["items"][i]["photo_50"]
-#     if "city" in searchResults["items"][i]:
-#         city = searchResults["items"][i]["city"]["title"]
-#     else:
-#         city = ""
-#     if "bdate" in searchResults["items"][i]:
-#         bday = searchResults["items"][i]["bdate"]
-#     else:
-#         bday = ""
-#     print(id + "\n" + photo + "\n" + name + "\n" + city + "\n" + bday + "\n")

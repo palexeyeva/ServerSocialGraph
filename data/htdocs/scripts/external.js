@@ -175,15 +175,18 @@ $.ajax({
     error: function(request, error) { console.log("Error"); console.log(request); }
 });
 
-$.ajax({
-  type: 'GET',
-  url: "test.py",
-  success: function(result) {
-    console.log("Success!!!");
-    console.log(result.returnResults);
-  }
-})
 }
+
+// function ret() {
+//  var jq =  $.ajax({
+//             type: 'GET',
+//             dataType: "json", 
+//             url: "test.py",
+//             data: {param: returnResults}
+//           });
+//   alert(jq.responseText);
+  // return jq.responseText;
+// }
 
 function getFieldsAS(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){
   let data = {
