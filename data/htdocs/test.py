@@ -22,11 +22,11 @@ vk = vk_session.get_api()
 
 name = form.getvalue("name")
 surName = form.getvalue("surName")
+bdate = form.getvalue("bdate")
 if form.getvalue("bdate") != None:
-    bdate = datetime.strptime(form.getvalue("bdate"), "%Y-%m-%d")
-    bday = int(bdate.day)
-    bmonth = int(bdate.month)
-    byear = int(bdate.year)
+    byear = bdate[0:4]
+    bmonth = bdate[5:7]
+    bday = bdate[8:10]
 else:
     bdate = None
     bday = None
