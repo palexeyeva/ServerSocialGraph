@@ -63,11 +63,11 @@ for i in range(int(searchResults["count"])):
     if "city" in searchResults["items"][i]:
         city = searchResults["items"][i]["city"]["title"]
     else:
-        city = None
+        city = ""
     if "bdate" in searchResults["items"][i]:
         bday = searchResults["items"][i]["bdate"]
     else:
-        bday = None
+        bday = ""
     print(id + "\n" + photo + "\n" + name + "\n" + city + "\n" + bday + "\n")
 
 
