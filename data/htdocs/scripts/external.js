@@ -79,36 +79,66 @@ function getCountryValue(select) {
 }
 
 //Динамическое создание блоков div
-function creatediv(id, name, href, image) {
+//это массив данных такой обрабатывается
+var data = [
+["Диана", "Ганина", "1999-08-16", "https://vk.com/dinndi", "https://sun1-96.userapi.com/impg/H6M5KcIel0yMiI-Lij0aU24DI1NAGeCeZiwDxQ/_ppXu1i5QcY.jpg?size=810x1080&quality=96&sign=1af2277c9274457b496941b8def1485f&type=album", "Москва"], 
+["Диана", "Ганина", "2004-12-12", "https://vk.com/didyn", "https://klike.net/uploads/posts/2019-06/1561009159_3.jpg", "Адлер"], 
+["Диана", "Ганина", "1996-02-12", "https://vk.com/937238", "https://klike.net/uploads/posts/2018-11/1543310584_1.jpg", "Питер"]];
 
+//функция самого создания
+function creatediv(id, name, surname, bdate, href, image, city) {
 var newdiv = document.createElement('div'); 
 newdiv.setAttribute('id', id);  
         newdiv.style.left = "10px"; 
         newdiv.style.marginLeft = "20px";
         newdiv.style.bottom = bottom = "10"; 
-        newdiv.style.marginTop = "10px";
+        newdiv.style.marginTop = "30px";
 
-
-    //newdiv.style.background = "#FFFFF"; 
-    //newdiv.style.border = "1px solid #000"; 
-    var link = document.createElement('a');
-    link.href = href;
-    link.title = href;
-
-    var img = new Image(100, 100);
+    var img = new Image(100, 130);
     img.src = image;
+    img.style.padding = "5px";
+    img.style.display = "block";
+    
+    var nm = document.createElement('a');
+    var bdt = document.createElement('p');
+    var ct = document.createElement('p');
 
-    if (name) { newdiv.innerHTML = name; 
+    if (name || surname) { 
+        nm.href = href;
+        nm.title = href;
+        nm.innerText = name + " " + surname;
     } 
-    else { 
-        newdiv.innerHTML = "nothing"; 
+    
+
+    if (bdate) { 
+        bdt.innerText = bdate;
     } 
+    
+
+    if (city) { 
+        ct.innerText = city;
+    } 
+    
+    nm.style.display = "block";
+    nm.style.margin = "5px";
+    bdt.style.margin = "5px";
+    ct.style.margin = "5px";
   
 document.body.appendChild(newdiv);
-document.getElementById(id).appendChild(e);
 document.getElementById(id).appendChild(img);
+document.getElementById(id).appendChild(nm);
+document.getElementById(id).appendChild(bdt);
+document.getElementById(id).appendChild(ct);
 }
 
+   //функция получает данные и вызывает строителя
+    function create(){
+   for (var i = 0; i < data.length; i++) {
+    var j = 0;
+    creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
+   }
+   
+}
 
 function getFields(name, surName, sex, bdate, country, city){
   let data = {
