@@ -1,11 +1,11 @@
 //это массив данных такой обрабатывается
 var data = [
-["Диана", "Ганина", "1999-08-16", "https://vk.com/dinndi", "https://sun1-96.userapi.com/impg/H6M5KcIel0yMiI-Lij0aU24DI1NAGeCeZiwDxQ/_ppXu1i5QcY.jpg?size=810x1080&quality=96&sign=1af2277c9274457b496941b8def1485f&type=album", "Москва"], 
-["Диана", "Ганина", "2004-12-12", "https://vk.com/didyn", "https://klike.net/uploads/posts/2019-06/1561009159_3.jpg", "Адлер"], 
-["Диана", "Ганина", "1996-02-12", "https://vk.com/937238", "https://klike.net/uploads/posts/2018-11/1543310584_1.jpg", "Питер"]];
+  ["Диана", "Ганина", "1999-08-16", "https://vk.com/dinndi", "https://sun1-96.userapi.com/impg/H6M5KcIel0yMiI-Lij0aU24DI1NAGeCeZiwDxQ/_ppXu1i5QcY.jpg?size=810x1080&quality=96&sign=1af2277c9274457b496941b8def1485f&type=album", "Москва"], 
+  ["Диана", "Ганина", "2004-12-12", "https://vk.com/didyn", "https://klike.net/uploads/posts/2019-06/1561009159_3.jpg", "Адлер"], 
+  ["Диана", "Ганина", "1996-02-12", "https://vk.com/937238", "https://klike.net/uploads/posts/2018-11/1543310584_1.jpg", "Питер"]];
 
 
-function openTab(evt, tabName) {
+  function openTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
   for (i = 0; i < tabcontent.length; i++) {
@@ -25,11 +25,11 @@ $(document).ready(function () {
 });
 function PopUpShow() {
   $("#popup1").show();
-  //функция получает данные и вызывает строителя
-   for (var i = 0; i < data.length; i++) {
-    var j = 0;
-    creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
-   }
+    //функция получает данные и вызывает строителя
+    for (var i = 0; i < data.length; i++) {
+      var j = 0;
+      creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
+     }
 }
 function PopUpHide() {
   $("#popup1").hide();
@@ -91,6 +91,11 @@ function getCountryValue(select) {
 }
 
 //Динамическое создание блоков div
+//это массив данных такой обрабатывается
+var data = [
+["Диана", "Ганина", "1999-08-16", "https://vk.com/dinndi", "https://sun1-96.userapi.com/impg/H6M5KcIel0yMiI-Lij0aU24DI1NAGeCeZiwDxQ/_ppXu1i5QcY.jpg?size=810x1080&quality=96&sign=1af2277c9274457b496941b8def1485f&type=album", "Москва"], 
+["Диана", "Ганина", "2004-12-12", "https://vk.com/didyn", "https://klike.net/uploads/posts/2019-06/1561009159_3.jpg", "Адлер"], 
+["Диана", "Ганина", "1996-02-12", "https://vk.com/937238", "https://klike.net/uploads/posts/2018-11/1543310584_1.jpg", "Питер"]];
 
 //функция самого создания
 function creatediv(id, name, surname, bdate, href, image, city) {
@@ -103,7 +108,7 @@ newdiv.setAttribute('id', id);
 
     var img = new Image(100, 130);
     img.src = image;
-    
+
     
     var nm = document.createElement('a');
     var bdt = document.createElement('p');
@@ -143,6 +148,15 @@ document.getElementById(id).appendChild(bdt);
 document.getElementById(id).appendChild(ct);
 }
 
+   //функция получает данные и вызывает строителя
+  function create(){
+   for (var i = 0; i < data.length; i++) {
+    var j = 0;
+    creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
+   }
+   
+}
+
 function getFields(name, surName, sex, bdate, country, city){
   let data = {
     name: name.value,
@@ -160,6 +174,15 @@ $.ajax({
     success: function(result) { console.log("Success!"); console.log(result);},
     error: function(request, error) { console.log("Error"); console.log(request); }
 });
+
+$.ajax({
+  type: 'GET',
+  url: "test.py",
+  success: function(result) {
+    console.log("Success!!!");
+    console.log(result.returnResults);
+  }
+})
 }
 
 function getFieldsAS(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){

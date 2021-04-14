@@ -39,7 +39,7 @@ if form.getvalue("city") !=None and country != None :
 else:
     city = None
 
-searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_50')
+searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_50, screen_name')
 #,  age_from = int(form.getvalue("")), age_to = int(form.getvalue(""))
 #,  company = form.getvalue("")
 
@@ -54,30 +54,37 @@ searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth
 
 print(searchResults)
 print("test3")
-print(form.getvalue("name"))
+returnResults = list()
 
-for i in range(int(searchResults["count"])):
-    id = searchResults["items"][i]["id"]
-    name = searchResults["items"][i]["first_name"] + " " + searchResults["items"][i]["last_name"]
-    photo = searchResults["items"][i]["photo_50"]
-    if "city" in searchResults["items"][i]:
-        city = searchResults["items"][i]["city"]["title"]
-    else:
-        city = ""
-    if "bdate" in searchResults["items"][i]:
-        bday = searchResults["items"][i]["bdate"]
-    else:
-        bday = ""
-    print(id + "\n" + photo + "\n" + name + "\n" + city + "\n" + bday + "\n")
-
-
-print("test3")
-
-print(form.getvalue("name"))
-
-test = form.getvalue("name").encode('utf-8')
-print(test)
-
+for i in range(int(searchResults['count'])):
+    g = []
+    id = searchResults['items'][i]['id']
+    name = searchResults['items'][i]['first_name']
+    surname = searchResults['items'][i]['last_name']
+    bdate = searchResults['items'][i]['bdate']
+    href = 'vk.com/' + searchResults['items'][i]['screen_name']
+    photo = searchResults['items'][i]['photo_50']
+    city = searchResults['items'][i]['city']['title']
+    g = [id, name, surname, bdate, href, photo, city]
+    returnResults.append(g)
+# print(returnResults)
  
 print("test4")
 print ("</body></html>")
+
+
+
+
+# for i in range(int(searchResults["count"])):
+#     id = searchResults["items"][i]["id"]
+#     name = searchResults["items"][i]["first_name"] + " " + searchResults["items"][i]["last_name"]
+#     photo = searchResults["items"][i]["photo_50"]
+#     if "city" in searchResults["items"][i]:
+#         city = searchResults["items"][i]["city"]["title"]
+#     else:
+#         city = ""
+#     if "bdate" in searchResults["items"][i]:
+#         bday = searchResults["items"][i]["bdate"]
+#     else:
+#         bday = ""
+#     print(id + "\n" + photo + "\n" + name + "\n" + city + "\n" + bday + "\n")
