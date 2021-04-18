@@ -1,0 +1,1 @@
+['Полина', 'Алексеева', '16.2.1999', 'vk.com/polina_aleks1', 'https://sun1-22.userapi.com/s/v1/if1/-_Ku1vDD-thmXvZulB9PuAxTgicRDaThHh6JAgVUnyZ92uNkOEY4DHI4CE31cctaDsYMEcgf.jpg?size=50x0&quality=96&crop=0,0,809,809&ava=1', 'Москва']

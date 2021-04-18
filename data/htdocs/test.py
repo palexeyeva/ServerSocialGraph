@@ -51,14 +51,14 @@ print(len(searchResults['items']))
 for i in range(len(searchResults['items'])):
     print(i)
     g = []
-    id = ''
+    # id = ''
     name = ''
     surname = ''
     bdate = ''
     href = ''
     photo = ''
     city = ''
-    id = searchResults['items'][i]['id']    
+    # id = searchResults['items'][i]['id']    
     name = searchResults['items'][i]['first_name']    
     surname = searchResults['items'][i]['last_name'] 
     try:
@@ -74,9 +74,18 @@ for i in range(len(searchResults['items'])):
         city = searchResults['items'][i]['city']['title']
     except: 
         city = ''    
-    g = [id, name, surname, bdate, href, photo, city]
-    print(g)
-print(returnResults)
- 
+    g = [name, surname, bdate, href, photo, city]
+    # print(g)
+    returnResults.append(g)
+# print(returnResults[0][0])
+
+f = open('res.txt', 'w')
+for item in returnResults:
+    f.write("%s\n" % item)
+f.close
+
+
+
+
 print("test4")
 print ("</body></html>")

@@ -1293,3 +1293,65 @@ winnt:notice] [pid 3848:tid 644] AH00424: Parent: Received restart signal -- Res
 [Wed Apr 14 00:00:43.913859 2021] [cgi:error] [pid 8936:tid 1084] [client ::1:65355] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 69, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Wed Apr 14 00:00:43.913859 2021] [cgi:error] [pid 8936:tid 1084] [client ::1:65355] AH01215:     print(id + "\\n" + photo + "\\n" + name + "\\n" + city + "\\n" + bday + "\\n")\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Wed Apr 14 00:00:43.913859 2021] [cgi:error] [pid 8936:tid 1084] [client ::1:65355] AH01215: TypeError: unsupported operand type(s) for +: 'int' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Thu Apr 15 11:31:06.931009 2021] [core:warn] [pid 3892:tid 600] AH00098: pid file C:/Server/bin/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 15 11:31:06.934199 2021] [mpm_winnt:notice] [pid 3892:tid 600] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 15 11:31:06.934199 2021] [mpm_winnt:notice] [pid 3892:tid 600] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 15 11:31:06.934199 2021] [core:notice] [pid 3892:tid 600] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 15 11:31:06.935627 2021] [mpm_winnt:notice] [pid 3892:tid 600] AH00418: Parent: Created child process 5864
+[Thu Apr 15 11:31:07.706437 2021] [mpm_winnt:notice] [pid 5864:tid 616] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 15 11:31:35.914559 2021] [mpm_winnt:notice] [pid 3892:tid 600] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Thu Apr 15 11:31:37.927567 2021] [mpm_winnt:notice] [pid 5864:tid 616] AH00364: Child: All worker threads have exited.
+[Thu Apr 15 11:31:37.943192 2021] [mpm_winnt:notice] [pid 3892:tid 600] AH00430: Parent: Child process 5864 exited successfully.
+[Thu Apr 15 12:20:34.212403 2021] [mpm_winnt:notice] [pid 4560:tid 508] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 15 12:20:34.212403 2021] [mpm_winnt:notice] [pid 4560:tid 508] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 15 12:20:34.212403 2021] [core:notice] [pid 4560:tid 508] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 15 12:20:34.212403 2021] [mpm_winnt:notice] [pid 4560:tid 508] AH00418: Parent: Created child process 6556
+[Thu Apr 15 12:20:34.692185 2021] [mpm_winnt:notice] [pid 6556:tid 540] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 16 01:40:44.234327 2021] [mpm_winnt:notice] [pid 4560:tid 508] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Apr 16 01:40:46.281185 2021] [mpm_winnt:notice] [pid 6556:tid 540] AH00364: Child: All worker threads have exited.
+[Fri Apr 16 01:40:46.296347 2021] [mpm_winnt:notice] [pid 4560:tid 508] AH00430: Parent: Child process 6556 exited successfully.
+[Fri Apr 16 01:41:06.931465 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Fri Apr 16 01:41:06.931465 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Fri Apr 16 01:41:06.931465 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Fri Apr 16 01:41:06.941465 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 6532
+[Fri Apr 16 01:41:07.702476 2021] [mpm_winnt:notice] [pid 6532:tid 528] AH00354: Child: Starting 64 worker threads.
+[Fri Apr 16 22:30:45.338110 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:60426] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Fri Apr 16 22:30:45.338110 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:60426] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 42, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Fri Apr 16 22:30:45.338110 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:60426] AH01215:     searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_50, screen_name')\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Fri Apr 16 22:30:45.338110 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:60426] AH01215: TypeError: can only concatenate str (not "NoneType") to str\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:16:09.525545 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:65258] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:16:09.525545 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:65258] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 82, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:16:09.525545 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:65258] AH01215:     from jinja2.environment import Template\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:16:09.525545 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:65258] AH01215: ModuleNotFoundError: No module named 'jinja2'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:17:17.586074 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:65299] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:17:17.586074 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:65299] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 82, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:17:17.586074 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:65299] AH01215:     from jinja2.environment import Template\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:17:17.586074 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:65299] AH01215: ModuleNotFoundError: No module named 'jinja2'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:07.791053 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49164] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:07.792043 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49164] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 79, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:07.792043 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49164] AH01215:     print(returnResults[0])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:07.792043 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49164] AH01215: IndexError: list index out of range\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:30.489527 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49183] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:30.490507 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49183] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 78, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:30.490507 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49183] AH01215:     print(returnResults[0])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:22:30.490507 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49183] AH01215: IndexError: list index out of range\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:24:00.462150 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49232] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:24:00.462150 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49232] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 84, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:24:00.462150 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49232] AH01215:     f.write(returnResults)\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:24:00.462150 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49232] AH01215: TypeError: write() argument must be str, not list\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:25:16.916290 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49272] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:25:16.916290 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49272] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 78, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:25:16.916290 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49272] AH01215:     f.write(returnResults)\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:25:16.916290 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49272] AH01215: TypeError: write() argument must be str, not list\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:32:22.847365 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49413] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:32:22.847365 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49413] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 83, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:32:22.847365 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49413] AH01215:     f.write(returnResults)\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:32:22.847365 2021] [cgi:error] [pid 6532:tid 1084] [client 127.0.0.1:49413] AH01215: TypeError: write() argument must be str, not list\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:33:38.064296 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49462] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:33:38.064296 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49462] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 83, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:33:38.064296 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49462] AH01215:     f.write(returnResults[0])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:33:38.064296 2021] [cgi:error] [pid 6532:tid 1108] [client 127.0.0.1:49462] AH01215: TypeError: write() argument must be str, not list\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:34:59.334341 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49501] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:34:59.334341 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49501] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 83, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:34:59.334341 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49501] AH01215:     f.write(returnResults[0][0])\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun Apr 18 14:34:59.334341 2021] [cgi:error] [pid 6532:tid 1096] [client 127.0.0.1:49501] AH01215: TypeError: write() argument must be str, not int\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
