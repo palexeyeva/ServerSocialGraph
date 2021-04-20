@@ -30,7 +30,7 @@ function PopUpShow(data) {
     //функция получает данные и вызывает строителя
     for (var i = 0; i < data.length; i++) {
       var j = 0;
-      creatediv(i, data[i].split(';')[0], data[i].split(';')[1], data[i].split(';')[2], data[i].split(';')[3], data[i].split(';')[4], data[i].split(';')[5]);
+      creatediv(i, data[i].split(';')[0], data[i].split(';')[1], data[i].split(';')[2], data[i].split(';')[3], data[i].split(';')[4], data[i].split(';')[5], data[i].split(';')[6]);
      }
 }
 function PopUpHide() {
@@ -122,15 +122,9 @@ function outFields() {
   
 } 
 }
-//Динамическое создание блоков div
-//это массив данных такой обрабатывается
-// var data = [
-// ["Диана", "Ганина", "1999-08-16", "https://vk.com/dinndi", "https://sun1-96.userapi.com/impg/H6M5KcIel0yMiI-Lij0aU24DI1NAGeCeZiwDxQ/_ppXu1i5QcY.jpg?size=810x1080&quality=96&sign=1af2277c9274457b496941b8def1485f&type=album", "Москва"], 
-// ["Диана", "Ганина", "2004-12-12", "https://vk.com/didyn", "https://klike.net/uploads/posts/2019-06/1561009159_3.jpg", "Адлер"], 
-// ["Диана", "Ганина", "1996-02-12", "https://vk.com/937238", "https://klike.net/uploads/posts/2018-11/1543310584_1.jpg", "Питер"]];
 
 //функция самого создания
-function creatediv(id, name, surname, bdate, href, image, city) {
+function creatediv(id, name, surname, bdate, href, image, city, idpers) {
 
 var newdiv = document.createElement('div'); 
 newdiv.setAttribute('id', id);  
@@ -148,7 +142,9 @@ newdiv.setAttribute('id', id);
     var ct = document.createElement('p');
     var checkb = document.createElement("input");
     checkb.type="radio";
+    nm.target="_blank";
     checkb.id = id;
+    checkb.value = idpers;
 
     if (name || surname) { 
         nm.href = href;
@@ -201,13 +197,13 @@ function chooseCheck(){
 }
 
 
-   //функция получает данные и вызывает строителя
-  function create(){
-   for (var i = 0; i < data.length; i++) {
-    creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
-   }
+//    //функция получает данные и вызывает строителя
+//   function create(){
+//    for (var i = 0; i < data.length; i++) {
+//     creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
+//    }
    
-}
+// }
 
 
 function getFieldsAS(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){

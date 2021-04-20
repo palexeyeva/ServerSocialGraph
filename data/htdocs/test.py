@@ -58,14 +58,14 @@ for i in range(len(searchResults['items'])):
     href = ''
     photo = ''
     city = ''
-    # id = searchResults['items'][i]['id']    
+    id = searchResults['items'][i]['id']    
     name = searchResults['items'][i]['first_name']    
     surname = searchResults['items'][i]['last_name'] 
     try:
         bdate = searchResults['items'][i]['bdate']
     except: 
         bdate = '' 
-    href = 'vk.com/' + searchResults['items'][i]['screen_name']    
+    href = 'https://vk.com/' + searchResults['items'][i]['screen_name']    
     try: 
         photo = searchResults['items'][i]['photo_50']
     except: 
@@ -74,25 +74,16 @@ for i in range(len(searchResults['items'])):
         city = searchResults['items'][i]['city']['title']
     except: 
         city = ''    
-    g = [name, surname, bdate, href, photo, city]
+    g = [name, surname, bdate, href, photo, city, id]
     # print(g)
     returnResults.append(g)
 # print(returnResults[0][0])
 
 f = open('res.txt', 'w', encoding = "utf-8")
 for item in returnResults:
-    f.write("%s;%s;%s;%s;%s;%s\n" % (item[0], item[1], item[2], item[3], item[4], item[5]))
+    f.write("%s;%s;%s;%s;%s;%s;%s\n" % (item[0], item[1], item[2], item[3], item[4], item[5], item[6]))
 f.close
 
-
-# data = {
-#     "president": {
-#         "name": name.decode('cp1251').encode('utf-8'),
-#         "species": "Betelgeusian"
-#     }
-# }
-# with open("data_file.json", "w") as write_file:
-#     json.dump(data, write_file)
 
 
 

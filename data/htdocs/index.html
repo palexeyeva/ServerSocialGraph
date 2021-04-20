@@ -697,7 +697,7 @@
                   type="button"
                   name="ok_button"
                   value="Найти"
-                  onclick="PopUpShow(); getFieldsAS(document.getElementById('nameAS'), document.getElementById('surnameAS'), document.getElementById('sexAS'), document.getElementById('bdAS'), document.getElementById('countryAS'), document.getElementById('cityAS'), document.getElementById('ageFromAS'), document.getElementById('ageToAS'), document.getElementById('jobAS'));" 
+                  onclick="getFieldsAS(document.getElementById('nameAS'), document.getElementById('surnameAS'), document.getElementById('sexAS'), document.getElementById('bdAS'), document.getElementById('countryAS'), document.getElementById('cityAS'), document.getElementById('ageFromAS'), document.getElementById('ageToAS'), document.getElementById('jobAS')); PopUpShow();" 
                 />
               </div>
             </div>
@@ -731,7 +731,7 @@
       <div class="popWindow">
         <section class="b-popup" id="popup1">
           <div class="b-pop__section">
-            <div class="b-popup__content">
+            <div class="b-popup__content">              
               <div class="popWindow__VKontakte table" id="popWindow">
                 <h1>ВКонтакте</h1>
                 <p>Нашлось n пользователей</p>
@@ -740,8 +740,9 @@
               <div class="popWindow__Odnoklassniki table">
                 <h1>Одноклассники</h1>
                 <p>Нашлось n пользователей</p>
-                <input type="checkbox" name="not_Ok" value="Не нашлось" />
+                <input type="checkbox" name="not_Ok" value="Не нашлось" />                
               </div>
+              <norb>X</norb>
             </div>
             <input
               type="button"
