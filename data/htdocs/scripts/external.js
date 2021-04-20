@@ -146,6 +146,9 @@ newdiv.setAttribute('id', id);
     var nm = document.createElement('a');
     var bdt = document.createElement('p');
     var ct = document.createElement('p');
+    var checkb = document.createElement("input");
+    checkb.type="checkbox";
+    checkb.id = id;
 
     if (name || surname) { 
         nm.href = href;
@@ -175,11 +178,28 @@ newdiv.setAttribute('id', id);
     nm.style.color = "white";
   
 document.getElementById("popWindow").appendChild(newdiv);
+document.getElementById(id).appendChild(checkb);
 document.getElementById(id).appendChild(img);
 document.getElementById(id).appendChild(nm);
 document.getElementById(id).appendChild(bdt);
 document.getElementById(id).appendChild(ct);
 }
+
+//возвращает выбранный под чекбоксом контейнер 
+function chooseCheck(){
+  var chooseDate;
+  var checkboxes = document.getElementsByTagName('input');
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].type == 'checkbox') {
+    if (checkboxes[i].checked) {
+      chooseDate = document.getElementById(checkboxes[i].id);
+      console.log(chooseDate);
+    }
+  }
+  }
+  return chooseDate;
+}
+
 
    //функция получает данные и вызывает строителя
   function create(){
