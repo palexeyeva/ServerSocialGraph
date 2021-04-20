@@ -79,11 +79,20 @@ for i in range(len(searchResults['items'])):
     returnResults.append(g)
 # print(returnResults[0][0])
 
-f = open('res.txt', 'w')
+f = open('res.txt', 'w', encoding = "utf-8")
 for item in returnResults:
-    f.write("%s\n" % item)
+    f.write("%s;%s;%s;%s;%s;%s\n" % (item[0], item[1], item[2], item[3], item[4], item[5]))
 f.close
 
+
+# data = {
+#     "president": {
+#         "name": name.decode('cp1251').encode('utf-8'),
+#         "species": "Betelgeusian"
+#     }
+# }
+# with open("data_file.json", "w") as write_file:
+#     json.dump(data, write_file)
 
 
 

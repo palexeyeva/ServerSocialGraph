@@ -25,12 +25,12 @@ var data = new Array();
 $(document).ready(function () {
   PopUpHide();
 });
-function PopUpShow() {
+function PopUpShow(data) {
   $("#popup1").show();
     //функция получает данные и вызывает строителя
     for (var i = 0; i < data.length; i++) {
       var j = 0;
-      creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
+      creatediv(i, data[i].split(';')[0], data[i].split(';')[1], data[i].split(';')[2], data[i].split(';')[3], data[i].split(';')[4], data[i].split(';')[5]);
      }
 }
 function PopUpHide() {
@@ -92,7 +92,36 @@ function getCountryValue(select) {
   return countryId;
 }
 
+function getFields(name, surName, sex, bdate, country, city){
+  let dt = {
+    name: name.value,
+    surName: surName.value,
+    sex: sex.value,
+    bdate: bdate.value,
+    country: country.value,
+    city: city.value
+  };
+$.ajax({
+    type: 'POST',
+    data: dt,
+    url: "test.py",
+    success: function(result) { console.log("Success!"); outFields();},
+    error: function(request, error) { console.log("Error"); console.log(request); }
+});
 
+function outFields() {
+  $.get("res.txt", function(res){
+    data = res.split('\n');
+    console.log(data);
+    for (var i = 0; i < 6; i++) {
+      console.log(data[0].split(';')[i])
+    }
+    PopUpShow(data);
+  });
+  // alert(data[0].split(';')[5]);
+  
+} 
+}
 //Динамическое создание блоков div
 //это массив данных такой обрабатывается
 // var data = [
@@ -155,39 +184,12 @@ document.getElementById(id).appendChild(ct);
    //функция получает данные и вызывает строителя
   function create(){
    for (var i = 0; i < data.length; i++) {
-    var j = 0;
     creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
    }
    
 }
 
-function getFields(name, surName, sex, bdate, country, city){
-  let dt = {
-    name: name.value,
-    surName: surName.value,
-    sex: sex.value,
-    bdate: bdate.value,
-    country: country.value,
-    city: city.value
-  };
-$.ajax({
-    type: 'POST',
-    data: dt,
-    url: "test.py",
-    success: function(result) { console.log("Success!"); outFields();},
-    error: function(request, error) { console.log("Error"); console.log(request); }
-});
 
-function outFields() {
-  $.get("res.txt", function(res) {
-    data = res;
-    console.log(data);
-    // data = res.split(',\n');
-    // console.log(data[0]);
-  })
-}   
-alert(data);
-}
 function getFieldsAS(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){
   let data = {
     name: name.value,
