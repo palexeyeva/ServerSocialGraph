@@ -141,6 +141,7 @@ newdiv.setAttribute('id', id);
     var bdt = document.createElement('p');
     var ct = document.createElement('p');
     var checkb = document.createElement("input");
+    checkb.name = "chooseRadio";
     checkb.type="radio";
     nm.target="_blank";
     checkb.id = id;
