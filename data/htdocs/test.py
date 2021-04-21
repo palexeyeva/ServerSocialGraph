@@ -39,7 +39,7 @@ if form.getvalue("city") !=None and country != None :
 else:
     city = None
 
-searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_50, screen_name')
+searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_200_orig, screen_name')
 
 print("test3")
 returnResults = []
@@ -67,7 +67,7 @@ for i in range(len(searchResults['items'])):
         bdate = '' 
     href = 'https://vk.com/' + searchResults['items'][i]['screen_name']    
     try: 
-        photo = searchResults['items'][i]['photo_50']
+        photo = searchResults['items'][i]['photo_200_orig']
     except: 
         photo = ''    
     try: 
@@ -83,9 +83,6 @@ f = open('res.txt', 'w', encoding = "utf-8")
 for item in returnResults:
     f.write("%s;%s;%s;%s;%s;%s;%s\n" % (item[0], item[1], item[2], item[3], item[4], item[5], item[6]))
 f.close
-
-
-
 
 print("test4")
 print ("</body></html>")

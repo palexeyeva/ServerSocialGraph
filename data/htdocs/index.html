@@ -732,17 +732,18 @@
         <section class="b-popup" id="popup1">
           <div class="b-pop__section">
             <div class="b-popup__content">              
-              <div class="popWindow__VKontakte table" id="popWindow">
+              <div class="popWindow__VKontakte table">
                 <h1>ВКонтакте</h1>
-                <p>Нашлось n пользователей</p>
-                <input type="checkbox" name="not_Vk" value="Не нашлось" />
+                <p>Нашлось <norb class="js_len"></norb> пользователей</p>
+                <div id="popWindow"></div>
               </div>
               <div class="popWindow__Odnoklassniki table">
                 <h1>Одноклассники</h1>
-                <p>Нашлось n пользователей</p>
-                <input type="checkbox" name="not_Ok" value="Не нашлось" />                
+                <p>Нашлось n пользователей</p>              
               </div>
-              <norb>X</norb>
+              <div class="b-pop__section-close">
+                <norb class=b-pop__close onclick="PopUpHide(); onButtonReset()">X</norb>
+              </div>
             </div>
             <input
               type="button"

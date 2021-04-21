@@ -107,6 +107,35 @@ body {
 
 .b-popup__content {
   display: flex;
+  width: 95%;
+  margin: auto;
+  padding-top: 10px;
+}
+
+.popWindow__VKontakte {
+  width: 50%;
+}
+
+.popWindow__Odnoklassniki {
+  width: 50%;
+}
+#popWindow {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.b-pop__img {
+  padding: 10px;
+  display: block;
+  width: 100%;
+  height: 50%;
+}
+.b-pop__input {
+  margin-left: 0px ;
+}
+.b-pop__newdiv {
+  height: 425px;
 }
 
 .b-popup__content h1 {
@@ -193,6 +222,11 @@ input[type="button"]:hover {
 .search-form__country-select{
   width: 44%;
 }
+
+.b-pop__close {
+  cursor: pointer;  
+}
+
 
 .social-graph {
   width: 100%;

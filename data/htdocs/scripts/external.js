@@ -1,10 +1,3 @@
-//это массив данных такой обрабатывается
-// var data = [
-//   ["Диана", "Ганина", "1999-08-16", "https://vk.com/dinndi", "https://sun1-96.userapi.com/impg/H6M5KcIel0yMiI-Lij0aU24DI1NAGeCeZiwDxQ/_ppXu1i5QcY.jpg?size=810x1080&quality=96&sign=1af2277c9274457b496941b8def1485f&type=album", "Москва"], 
-//   ["Диана", "Ганина", "2004-12-12", "https://vk.com/didyn", "https://klike.net/uploads/posts/2019-06/1561009159_3.jpg", "Адлер"], 
-//   ["Диана", "Ганина", "1996-02-12", "https://vk.com/937238", "https://klike.net/uploads/posts/2018-11/1543310584_1.jpg", "Питер"]];
-
-
 var data = new Array();
 
   function openTab(evt, tabName) {
@@ -28,10 +21,12 @@ $(document).ready(function () {
 function PopUpShow(data) {
   $("#popup1").show();
     //функция получает данные и вызывает строителя
-    for (var i = 0; i < data.length; i++) {
+    for (var i = 0; i < data.length - 1; i++) {
       var j = 0;
       creatediv(i, data[i].split(';')[0], data[i].split(';')[1], data[i].split(';')[2], data[i].split(';')[3], data[i].split(';')[4], data[i].split(';')[5], data[i].split(';')[6]);
      }
+    var norb = '<norb>' + (data.length-1) + '</norb>';
+    $('.js_len').empty().html(norb);
 }
 function PopUpHide() {
   $("#popup1").hide();
@@ -88,7 +83,6 @@ function onButtonReset() {
 function getCountryValue(select) {
   countryId = select.options[select.selectedIndex].value;
   globalCountryId = countryId;
-  // console.log(globalCountryId);
   return countryId;
 }
 
@@ -113,39 +107,38 @@ function outFields() {
   $.get("res.txt", function(res){
     data = res.split('\n');
     console.log(data);
-    for (var i = 0; i < 6; i++) {
-      console.log(data[0].split(';')[i])
-    }
     PopUpShow(data);
   });
-  // alert(data[0].split(';')[5]);
   
 } 
 }
 
-//функция самого создания
+//функция создания динамических div
 function creatediv(id, name, surname, bdate, href, image, city, idpers) {
 
 var newdiv = document.createElement('div'); 
 newdiv.setAttribute('id', id);  
-        newdiv.style.left = "10px"; 
-        newdiv.style.marginLeft = "20px";
-        newdiv.style.bottom = bottom = "10"; 
-        newdiv.style.marginTop = "30px";
+        // newdiv.style.left = "10px"; 
+        // newdiv.style.marginLeft = "20px";
+        // newdiv.style.bottom = bottom = "10"; 
+        // newdiv.style.marginTop = "30px";
+        newdiv.setAttribute('class', 'b-pop__newdiv');
 
-    var img = new Image(100, 130);
+    var img = new Image(338, 450);
     img.src = image;
+    img.setAttribute('class', 'b-pop__img'); 
 
-    
     var nm = document.createElement('a');
     var bdt = document.createElement('p');
-    var ct = document.createElement('p');
+    var ct = document.createElement('p'); 
     var checkb = document.createElement("input");
     checkb.name = "chooseRadio";
     checkb.type="radio";
+    checkb.value = idpers; 
     nm.target="_blank";
     checkb.id = id;
-    checkb.value = idpers;
+    checkb.setAttribute('class', 'b-pop__input'); 
+    newdiv.value = idpers;
 
     if (name || surname) { 
         nm.href = href;
@@ -163,15 +156,17 @@ newdiv.setAttribute('id', id);
         ct.innerText = city;
     } 
 
-    img.style.padding = "10px";
-    img.style.display = "block";
+    // img.style.padding = "10px";
+    // img.style.display = "block";
     nm.style.display = "block";
     nm.style.margin = "10px";
-    bdt.style.margin = "10px";
-    ct.style.margin = "10px";
-    nm.style.fontSize = "16pt";
+    // bdt.style.margin = "10px";
+    // ct.style.margin = "10px";
+    nm.style.fontSize = "14pt";
     bdt.style.fontSize = "14pt";
     ct.style.fontSize = "14pt";
+    ct.style.margin = "10px"; 
+    bdt.style.margin = "10px"; 
     nm.style.color = "white";
   
 document.getElementById("popWindow").appendChild(newdiv);
@@ -190,22 +185,21 @@ function chooseCheck(){
     if (checkboxes[i].type == 'radio') {
     if (checkboxes[i].checked) {
       chooseDate = document.getElementById(checkboxes[i].id);
-      console.log(chooseDate);
+      console.log(chooseDate.value);
+      chooseID = chooseDate.value;
     }
+  }  
   }
-  }
-  return chooseDate;
+  $.ajax ({
+    type: 'POST',
+    url: "choosePreson.py",
+    data: {
+      chooseID: chooseID
+    }, 
+    success: function(result) {console.log("Success!!!!"); console.log(result);}
+  });
+  return chooseID;
 }
-
-
-//    //функция получает данные и вызывает строителя
-//   function create(){
-//    for (var i = 0; i < data.length; i++) {
-//     creatediv(i, data[i][0], data[i][1], data[i][2], data[i][3], data[i][4], data[i][5]);
-//    }
-   
-// }
-
 
 function getFieldsAS(name, surName, sex, bdate, country, city, ageFrom, ageTo, job){
   let data = {
