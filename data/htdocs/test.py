@@ -51,7 +51,7 @@ print(len(searchResults['items']))
 for i in range(len(searchResults['items'])):
     print(i)
     g = []
-    # id = ''
+    id = ''
     name = ''
     surname = ''
     bdate = ''

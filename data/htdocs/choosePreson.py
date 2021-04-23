@@ -8,6 +8,7 @@ print ("</head><body>")
 print ("Hello.")
 import cgi  
 import vk_api 
+import json
 form = cgi.FieldStorage() 
 
 val_id = int(form.getvalue("chooseID"))
@@ -20,17 +21,54 @@ vk_session.auth()
 vk = vk_session.get_api()
 print("test2")
 
-getPersFriends = vk.friends.get(user_id = val_id, order='hints', count = 200, fields = 'nickname')
+getPersInfo = vk.users.get(user_ids = val_id, fields = 'nickname, sex, city')
+print(getPersInfo)
+
+print(getPersInfo[0]['id'])
+
+getPersFriends = vk.friends.get(user_id = val_id, order='hints', fields = 'nickname, sex, city')
 print("test3")
+j = []
+m = [val_id]
+overAllFriends = []
 
-print(getPersFriends['items'][0]['first_name'].encode('utf-8').decode('cp1251'))
+for i in range(len(getPersFriends['items'])):
+    j.append(getPersFriends['items'][i]['id'])
+    
+m.extend(j)
+
+overAllFriends.append(m)
 
 
-f = open('resSearch.txt', 'w', encoding = "utf-8")
-for i in range(int(getPersFriends['count'])):
-    f.write("%s " % getPersFriends['items'][i]['first_name'])
-    f.write("%s\n" % getPersFriends['items'][i]['last_name'])
-f.close
+dataFriends = {
+    "people": [
+        {"id": getPersInfo[0]['id'],
+        "name": getPersInfo[0]['first_name'] + ' ' + getPersInfo[0]['last_name'],
+        "group": getPersInfo[0]['sex'],
+        "city": getPersInfo[0]['city']['title']}
+    ],
+    "connection": overAllFriends
+}
 
+for i in range(len(getPersFriends['items'])):
+    city = ""
+    try: 
+        city = getPersFriends['items'][i]['city']['title']
+    except:   
+        city = ""
+    g = {"id": getPersFriends['items'][i]['id'],
+    "name": getPersFriends['items'][i]['first_name'] + ' ' + getPersFriends['items'][i]['last_name'],
+    "group": getPersFriends['items'][i]['sex'],
+    "city": city
+    }
+    dataFriends["people"].append(g)
+    if ('deactivated' in getPersFriends['items'][i]) == False:
+        if (getPersFriends['items'][i]['is_closed'] == False):
+            getCommonFriends = [getPersFriends['items'][i]['id']]
+            getCommonFriends.extend(vk.friends.getMutual(source_uid = getPersInfo[0]['id'], target_uid = getPersFriends['items'][i]['id']))
+            dataFriends["connection"].append(getCommonFriends)
+
+f = open("data_file.json", "w", encoding = "utf-8")
+json.dump(dataFriends, f, ensure_ascii=False)
 
 print ("</body></html>")
