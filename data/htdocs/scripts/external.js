@@ -45,6 +45,15 @@ function GraphShow() {
   $("#graph1").show();
 }
 
+function graphViz(){
+      $.ajax({
+      type: 'POST',
+      url: "data_file.json",
+      success: function(result) { console.log("Success!"); graphBuild(result);},
+      });  
+  
+}
+
 /*Задание диапазона*/
 function handleChange(input) {
   if (input.value < 12) input.value = 12;
@@ -221,5 +230,120 @@ $.ajax({
     success: function(result) { console.log("Success!"); console.log(result);},
     error: function(request, error) { console.log("Error"); console.log(request); }
 });
+}
+
+function graphBuild(result){
+  datas = result;
+  console.log(datas);
+  var graph = Viva.Graph.graph();
+
+
+            // var data = {"people":[
+            //     {"id": 1, "name":"Диана","group":1}, {"id": 2, "name":"Диляра","group":1}, {"id": 3, "name":"Полина","group":1}, {"id": 4, "name":"Глеб","group":2}, {"id": 5, "name":"Рома","group":2}, {"id": 6, "name":"Оля","group":1}
+            //     ],
+            //     "connections": [
+            //     [1, 2, 3, 4, 5, 6],
+            //     [2, 1, 3, 4],
+            //     [3, 1, 2, 6],
+            //     [4, 1, 2],
+            //     [5, 1],
+            //     [6, 1, 3]
+            //     ]
+            // }
+            console.log(datas.people.length);
+            for (var i = 0; i < datas.people.length; i++) {
+                    // console.log(datas.people[i].id);
+                    graph.addNode(datas.people[i].id, datas.people[i]);
+                    
+            }
+            console.log(datas.connection.length);
+            for (var i = 0; i < datas.connection.length; i++) {
+                for (var j = 1; j < datas.connection[i].length; j++) {
+                    graph.addLink(datas.connection[i][0], datas.connection[i][j]);
+                }
+                
+            }
+
+               var layout = Viva.Graph.Layout.forceDirected(graph, {
+                        springLength : 35,
+                        springCoeff : 0.00055,
+                        dragCoeff : 0.09,
+                        gravity : -1
+                    });
+
+                var graphics = Viva.Graph.View.svgGraphics(),
+                nodeSize = 24,
+                // we use this method to highlight all realted links
+                // when user hovers mouse over a node:
+                highlightRelatedNodes = function(nodeId, isOn) {
+                   // just enumerate all realted nodes and update link color:
+                   graph.forEachLinkedNode(nodeId, function(node, link){
+                       var linkUI = graphics.getLinkUI(link.id);
+                       if (linkUI) {
+                           // linkUI is a UI object created by graphics below
+                           linkUI.attr('stroke', isOn ? 'red' : 'gray');
+
+                       }
+                   });
+                };
+
+              // Since we are using SVG we can easily subscribe to any supported
+            // events (http://www.w3.org/TR/SVG/interact.html#SVGEvents ),
+            // including mouse events:
+            graphics.node(function(node) {
+                var ui = Viva.Graph.svg('g'),
+                  // Create SVG text element with user id as content
+                  svgText = Viva.Graph.svg('text').attr('y', '-4px').text(node.data.name).attr("style", "visibility: hidden"),
+                  img = Viva.Graph.svg('image')
+                     .attr('width', nodeSize)
+                     .attr('height', nodeSize)
+                     if (node.data.group == 1) {
+                        img.link('https://memax.club/wp-content/uploads/2019/06/Kartinki_krasnyy_kvadrat_1_09105141.png');
+                    } else{
+                        img.link('https://www.freeiconspng.com/uploads/blue-square-image-3.png');
+                    }
+
+                $(ui).hover(function() { // mouse over
+                    highlightRelatedNodes(node.id, true);
+                    svgText.attr("style", "visibility");
+
+
+                    // svgText = Viva.Graph.svg('text').attr('y', '-4px').text(node.id)
+                }, function() { // mouse out
+                    highlightRelatedNodes(node.id, false);
+                    svgText.attr("style", "visibility: hidden");
+                });
+                ui.append(svgText);
+              ui.append(img);
+                return ui;
+            })
+            .placeNode(function(nodeUI, pos) {
+                // 'g' element doesn't have convenient (x,y) attributes, instead
+                // we have to deal with transforms: http://www.w3.org/TR/SVG/coords.html#SVGGlobalTransformAttribute
+                nodeUI.attr('transform',
+                            'translate(' +
+                                  (pos.x - nodeSize/2) + ',' + (pos.y - nodeSize/2) +
+                            ')');
+            });
+
+            graphics.link(function(link){
+                return Viva.Graph.svg('path')
+                              .attr('stroke', 'gray');
+            }).placeLink(function(linkUI, fromPos, toPos) {
+                var datas = 'M' + fromPos.x + ',' + fromPos.y +
+                           'L' + toPos.x + ',' + toPos.y;
+
+                linkUI.attr("d", datas);
+            })
+
+            // Finally render the graph with our customized graphics object:
+            var renderer = Viva.Graph.View.renderer(graph, {
+                    graphics : graphics
+                });
+            renderer.run();
+            console.log(graph);
+
+              // var iframe = '<svg>' + graph + '</svg>';
+              // $('.social-graph__img').empty().html(iframe); 
 }
 
