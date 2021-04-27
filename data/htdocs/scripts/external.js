@@ -43,16 +43,21 @@ function GraphHide() {
 function GraphShow() {
   $("#popup1").hide();
   $("#graph1").show();
-}
-
-function graphViz(){
-      $.ajax({
+   $.ajax({
       type: 'POST',
       url: "data_file.json",
       success: function(result) { console.log("Success!"); graphBuild(result);},
       });  
-  
 }
+
+// function graphViz(){
+//       $.ajax({
+//       type: 'POST',
+//       url: "data_file.json",
+//       success: function(result) { console.log("Success!"); graphBuild(result);},
+//       });  
+  
+// }
 
 /*Задание диапазона*/
 function handleChange(input) {
