@@ -39,13 +39,19 @@ m.extend(j)
 
 overAllFriends.append(m)
 
+print("test4")
+
+try:
+    ct = getPersInfo[0]['city']['title']
+except :
+    ct = ''
 
 dataFriends = {
     "people": [
         {"id": getPersInfo[0]['id'],
         "name": getPersInfo[0]['first_name'] + ' ' + getPersInfo[0]['last_name'],
         "group": getPersInfo[0]['sex'],
-        "city": getPersInfo[0]['city']['title']}
+        "city": ct}
     ],
     "connection": overAllFriends
 }
@@ -67,6 +73,7 @@ for i in range(len(getPersFriends['items'])):
             getCommonFriends = [getPersFriends['items'][i]['id']]
             getCommonFriends.extend(vk.friends.getMutual(source_uid = getPersInfo[0]['id'], target_uid = getPersFriends['items'][i]['id']))
             dataFriends["connection"].append(getCommonFriends)
+print("test5")
 
 f = open("data_file.json", "w", encoding = "utf-8")
 json.dump(dataFriends, f, ensure_ascii=False)
