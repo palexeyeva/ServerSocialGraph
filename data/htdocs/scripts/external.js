@@ -88,7 +88,7 @@ function GraphShow() {
     success: function (result) {
       console.log("Success!");
       console.log(result);
-      bigFunction(result);
+      graphBuild(result);
       $("#graph1").show();
     },
   });
@@ -263,18 +263,12 @@ function getFieldsAS(
   });
 }
 
-function bigFunction(result) {
+  function graphBuild (datas) {
 
+    var nor = "<norb>" + (datas.people[0].name) + "</norb>";
+    $(".js_name").empty().html(nor);
 
-  async function graphBuild() {
-    var datas = result;
-    return datas;
-  }
-
-  graphBuild().then(graphBuildAfterGet)
-
-  function graphBuildAfterGet(datas) {
-    console.log(datas.people[0].id);
+    console.log(datas.people[0].name);
     console.log(chooseID);
 
     // while (datas.people[0].id != chooseID) {}
@@ -392,4 +386,3 @@ function bigFunction(result) {
     // $('.social-graph__img').empty().html(iframe);
   }
   
-}
