@@ -79,3 +79,4 @@ json.dump(dataFriends, f, ensure_ascii=False)
 
 
 print ("</body></html>")
+

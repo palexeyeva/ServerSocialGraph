@@ -39,7 +39,7 @@ if form.getvalue("city") !=None and country != None :
 else:
     city = None
 
-searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_200_orig, screen_name')
+searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_200_orig, screen_name, is_closed')
 
 print("test3")
 returnResults = []
@@ -49,34 +49,34 @@ print("test8")
 print(len(searchResults['items']))
 
 for i in range(len(searchResults['items'])):
-    print(i)
-    g = []
-    id = ''
-    name = ''
-    surname = ''
-    bdate = ''
-    href = ''
-    photo = ''
-    city = ''
-    id = searchResults['items'][i]['id']    
-    name = searchResults['items'][i]['first_name']    
-    surname = searchResults['items'][i]['last_name'] 
-    try:
-        bdate = searchResults['items'][i]['bdate']
-    except: 
-        bdate = '' 
-    href = 'https://vk.com/' + searchResults['items'][i]['screen_name']    
-    try: 
-        photo = searchResults['items'][i]['photo_200_orig']
-    except: 
-        photo = ''    
-    try: 
-        city = searchResults['items'][i]['city']['title']
-    except: 
-        city = ''    
-    g = [name, surname, bdate, href, photo, city, id]
-    # print(g)
-    returnResults.append(g)
+    if searchResults['items'][i]['is_closed'] == False:
+        g = []
+        id = ''
+        name = ''
+        surname = ''
+        bdate = ''
+        href = ''
+        photo = ''
+        city = ''
+        id = searchResults['items'][i]['id']    
+        name = searchResults['items'][i]['first_name']    
+        surname = searchResults['items'][i]['last_name'] 
+        try:
+            bdate = searchResults['items'][i]['bdate']
+        except: 
+            bdate = '' 
+        href = 'https://vk.com/' + searchResults['items'][i]['screen_name']    
+        try: 
+            photo = searchResults['items'][i]['photo_200_orig']
+        except: 
+            photo = ''    
+        try: 
+            city = searchResults['items'][i]['city']['title']
+        except: 
+            city = ''    
+        g = [name, surname, bdate, href, photo, city, id]
+        # print(g)
+        returnResults.append(g)
 # print(returnResults[0][0])
 
 f = open('res.txt', 'w', encoding = "utf-8")
@@ -86,3 +86,7 @@ f.close
 
 print("test4")
 print ("</body></html>")
+
+
+
+

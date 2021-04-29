@@ -18,6 +18,8 @@ function openTab(evt, tabName) {
 $(document).ready(function () {
   PopUpHide();
 });
+
+// Функция построения окна со списком пользователей
 function PopUpShow(data) {
   $("#popup1").show();
   //функция получает данные и вызывает строителя
@@ -37,9 +39,11 @@ function PopUpShow(data) {
   var norb = "<norb>" + (data.length - 1) + "</norb>";
   $(".js_len").empty().html(norb);
 }
+
 function PopUpHide() {
   $("#popup1").hide();
 }
+
 /* Скрыть/показать социальный граф */
 $(document).ready(function () {
   GraphHide();
@@ -49,30 +53,46 @@ function GraphHide() {
   $("#graph1").hide();
 }
 
-function sleep(miliseconds) {
-  var currentTime = new Date().getTime();
-
-  while (currentTime + miliseconds >= new Date().getTime()) {
+//возвращает выбранный под чекбоксом контейнер
+function chooseCheck() {
+  var chooseDate;
+  var checkboxes = document.getElementsByTagName("input");
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].type == "radio") {
+      if (checkboxes[i].checked) {
+        chooseDate = document.getElementById(checkboxes[i].id);
+        console.log(chooseDate.value);
+        chooseID = chooseDate.value;
+      }
+    }
   }
+  $.ajax({
+    type: "GET",
+    url: "choosePreson.py",
+    data: {
+      chooseID: chooseID,
+    },
+    success: function (result) {
+      console.log("Success!!!!");
+      console.log(result);
+      GraphShow();
+    },
+  }); 
 }
-
 
 function GraphShow() {
   $("#popup1").hide();
-  getGraph();
-  function getGraph() {
-    $.ajax({
-      type: "POST",
-      url: "data_file.json",
-      success: function (result) {
-        console.log("Success!");
-        console.log(result);
-        // sleep(10000);
-        bigFunction(result);
-      },
-    });
-  }
-  $("#graph1").show();
+  $.ajax({
+    type: "POST",
+    url: "data_file.json",
+    success: function (result) {
+      console.log("Success!");
+      console.log(result);
+      bigFunction(result);
+      $("#graph1").show();
+    },
+  });
+  
 }
 
 /*Задание диапазона*/
@@ -152,10 +172,6 @@ function getFields(name, surName, sex, bdate, country, city) {
 function creatediv(id, name, surname, bdate, href, image, city, idpers) {
   var newdiv = document.createElement("div");
   newdiv.setAttribute("id", id);
-  // newdiv.style.left = "10px";
-  // newdiv.style.marginLeft = "20px";
-  // newdiv.style.bottom = bottom = "10";
-  // newdiv.style.marginTop = "30px";
   newdiv.setAttribute("class", "b-pop__newdiv");
 
   var img = new Image(338, 450);
@@ -207,48 +223,6 @@ function creatediv(id, name, surname, bdate, href, image, city, idpers) {
   document.getElementById(id).appendChild(nm);
   document.getElementById(id).appendChild(bdt);
   document.getElementById(id).appendChild(ct);
-}
-
-//возвращает выбранный под чекбоксом контейнер
-function chooseCheck() {
-  var chooseDate;
-  var checkboxes = document.getElementsByTagName("input");
-  for (var i = 0; i < checkboxes.length; i++) {
-    if (checkboxes[i].type == "radio") {
-      if (checkboxes[i].checked) {
-        chooseDate = document.getElementById(checkboxes[i].id);
-        console.log(chooseDate.value);
-        chooseID = chooseDate.value;
-      }
-    }
-  }
-  $.ajax({
-    type: "POST",
-    url: "choosePreson.py",
-    data: {
-      chooseID: chooseID,
-    },
-    success: function (result) {
-      console.log("Success!!!!");
-      console.log(result);
-      GraphShow();
-    },
-  });
-
-  // $.ajax({
-  //   type: "POST",
-  //   url: "choosePreson.py",
-  //   data: {
-  //     chooseID: chooseID,
-  //   }
-  // }).done(function(result) {
-  //   console.log("Success!!!!");
-  //   console.log(result);  
-  //   GraphShow();
-  // });
-  
-  // return chooseID;
-
 }
 
 function getFieldsAS(

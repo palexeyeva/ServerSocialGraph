@@ -4576,3 +4576,569 @@ winnt:notice] [pid 4276:tid 728] AH00424: Parent: Received restart signal -- Res
 [Wed Apr 28 00:27:13.393788 2021] [cgi:error] [pid 15808:tid 1104] [client ::1:51918] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
 [Wed Apr 28 00:27:13.946268 2021] [cgi:error] [pid 15808:tid 1104] [client ::1:51918] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
 [Wed Apr 28 00:30:58.436786 2021] [cgi:error] [pid 15808:tid 1104] [client ::1:52135] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 15:33:09.848798 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 15:33:09.848798 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 15:33:09.854334 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 7972
+[Thu Apr 29 15:33:10.767046 2021] [mpm_winnt:notice] [pid 7972:tid 576] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 29 15:34:32.607064 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:63944] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:36:32.321509 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:63944] Script timed out before returning headers: choosePreson.py
+[Thu Apr 29 15:45:36.719830 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64372] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:31.993764 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:53.493813 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] Script timed out before returning headers: choosePreson.py
+[Thu Apr 29 15:47:57.351085 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.351085 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.351085 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.351085 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.351085 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.352179 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.353115 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.354114 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.355123 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.355123 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.355123 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.355123 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.355123 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:47:57.355123 2021] [cgi:error] [pid 7972:tid 1112] [client 127.0.0.1:64500] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:03.368395 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:23.957741 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.957741 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.957741 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.957741 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.957741 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.957741 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.957741 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:23.958772 2021] [cgi:error] [pid 7972:tid 1104] [client 127.0.0.1:64502] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:48:36.842576 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.842576 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.842576 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.842576 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.842576 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.842576 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.842576 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.843577 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.846914 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.846914 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.846914 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.846914 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.846914 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.847421 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.848474 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.848474 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.848474 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.848474 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:48:36.848474 2021] [cgi:error] [pid 7972:tid 1120] [client 127.0.0.1:64501] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Apr 29 15:50:17.852010 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 15:50:17.852010 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 15:50:17.852010 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 15:50:17.857378 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 21864
+[Thu Apr 29 15:50:18.812383 2021] [mpm_winnt:notice] [pid 21864:tid 580] AH00354: Child: Starting 64 worker threads.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Apr 29 15:50:23.171585 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 15:50:23.171585 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 15:50:23.171585 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 15:50:23.172954 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 22488
+[Thu Apr 29 15:50:24.860657 2021] [mpm_winnt:notice] [pid 22488:tid 608] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 29 15:50:25.873411 2021] [mpm_winnt:notice] [pid 21864:tid 580] AH00363: Child: Terminating 62 threads that failed to exit.
+[Thu Apr 29 15:50:25.875096 2021] [mpm_winnt:notice] [pid 21864:tid 580] AH00364: Child: All worker threads have exited.
+[Thu Apr 29 15:50:26.141268 2021] [mpm_winnt:notice] [pid 7972:tid 576] AH00364: Child: All worker threads have exited.
+[Thu Apr 29 15:51:51.308459 2021] [cgi:error] [pid 22488:tid 1076] [client 127.0.0.1:64696] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Apr 29 15:54:43.898882 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 15:54:43.898882 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 15:54:43.898882 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 15:54:43.904136 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 9500
+[Thu Apr 29 15:54:45.868053 2021] [mpm_winnt:notice] [pid 9500:tid 556] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 29 15:54:46.871647 2021] [mpm_winnt:notice] [pid 22488:tid 608] AH00363: Child: Terminating 123 threads that failed to exit.
+[Thu Apr 29 15:56:03.391128 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.742219 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743221 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743221 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743221 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743221 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743221 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743221 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.743737 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:15.744759 2021] [cgi:error] [pid 9500:tid 920] [client 127.0.0.1:64889] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 15:56:17.581051 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] Script timed out before returning headers: choosePreson.py
+[Thu Apr 29 15:56:27.782679 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.782679 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.782679 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.782679 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.782679 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.783676 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+[Thu Apr 29 15:56:27.784672 2021] [cgi:error] [pid 9500:tid 924] [client 127.0.0.1:64888] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Apr 29 15:57:32.910629 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 15:57:32.910629 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 15:57:32.910629 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 15:57:32.915719 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 13088
+[Thu Apr 29 15:57:34.392097 2021] [mpm_winnt:notice] [pid 13088:tid 240] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 29 15:57:35.393583 2021] [mpm_winnt:notice] [pid 9500:tid 556] AH00363: Child: Terminating 86 threads that failed to exit.
+[Thu Apr 29 15:57:35.395345 2021] [mpm_winnt:notice] [pid 9500:tid 556] AH00364: Child: All worker threads have exited.
+[Thu Apr 29 15:58:56.747671 2021] [cgi:error] [pid 13088:tid 1136] [client 127.0.0.1:57401] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Apr 29 16:00:43.031526 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 16:00:43.031526 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 16:00:43.031526 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 16:00:43.040921 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 9664
+[Thu Apr 29 16:00:44.696259 2021] [mpm_winnt:notice] [pid 9664:tid 564] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 29 16:00:45.703476 2021] [mpm_winnt:notice] [pid 13088:tid 240] AH00363: Child: Terminating 66 threads that failed to exit.
+[Thu Apr 29 16:00:45.703476 2021] [mpm_winnt:notice] [pid 13088:tid 240] AH00364: Child: All worker threads have exited.
+[Thu Apr 29 16:02:09.186123 2021] [cgi:error] [pid 9664:tid 1448] [client 127.0.0.1:57644] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Apr 29 16:09:16.833442 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 16:09:16.833488 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 16:09:16.833488 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 16:09:16.838600 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 20088
+[Thu Apr 29 16:09:18.273793 2021] [mpm_winnt:notice] [pid 20088:tid 556] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 29 16:09:19.277383 2021] [mpm_winnt:notice] [pid 9664:tid 564] AH00363: Child: Terminating 104 threads that failed to exit.
+[Thu Apr 29 16:09:19.279413 2021] [mpm_winnt:notice] [pid 9664:tid 564] AH00364: Child: All worker threads have exited.
+[Thu Apr 29 16:10:36.164700 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.169625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.169625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.169625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.169625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.170625 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:36.171673 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:37.257473 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:39.584523 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:40.130486 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:42.662042 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:43.305985 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:44.624587 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] Script timed out before returning headers: choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:45.736405 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:46.279946 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:48.774160 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:49.321345 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:51.875654 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:52.438028 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:54.570065 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:55.099227 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:57.575864 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:11:58.110843 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:01.111706 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:04.312032 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:06.940700 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:07.690112 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:10.032685 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:10.659842 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:13.152869 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:15.767013 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:16.340543 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:18.446798 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:18.997234 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:19.563662 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:22.249680 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:25.077743 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:25.630418 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:27.998852 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:28.533065 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:31.229838 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:33.993494 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:34.535588 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:37.355048 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:39.831809 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:40.359826 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:43.307068 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.641286 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.641286 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.641286 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.641286 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.641286 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.642292 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.642292 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.642292 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.642292 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.642292 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:44.643285 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:46.077459 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:46.491700 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:46.625760 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:48.357763 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:48.583680 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:49.047484 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:49.360389 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:49.836541 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:52.339492 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:52.625853 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:54.970418 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:55.493922 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:55.545502 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:58.197298 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:12:58.198303 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:01.056440 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:01.071835 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:01.599467 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:01.618368 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:02.490659 2021] [cgi:error] [pid 20088:tid 1404] [client 127.0.0.1:58664] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Thu Apr 29 16:13:02.490659 2021] [cgi:error] [pid 20088:tid 1404] [client 127.0.0.1:58664] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Thu Apr 29 16:13:03.877219 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:04.112315 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:04.424785 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:06.558042 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:06.637478 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:07.175351 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:07.227788 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:09.402678 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:09.716514 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:09.943621 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:10.254986 2021] [cgi:error] [pid 20088:tid 1400] [client 127.0.0.1:58520] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Restarting the server.
+[Thu Apr 29 16:13:10.442628 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Thu Apr 29 16:13:10.442628 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Thu Apr 29 16:13:10.442628 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Thu Apr 29 16:13:10.446140 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 1620
+[Thu Apr 29 16:13:10.473496 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:12.176876 2021] [mpm_winnt:notice] [pid 1620:tid 460] AH00354: Child: Starting 64 worker threads.
+[Thu Apr 29 16:13:13.149273 2021] [cgi:error] [pid 20088:tid 1408] [client 127.0.0.1:58411] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:13:13.185959 2021] [mpm_winnt:notice] [pid 20088:tid 556] AH00363: Child: Terminating 100 threads that failed to exit.
+[Thu Apr 29 16:13:13.185959 2021] [mpm_winnt:notice] [pid 20088:tid 556] AH00364: Child: All worker threads have exited.
+[Thu Apr 29 16:21:09.744546 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:09.744546 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215:   File "C:\\Server\\data\\htdocs\\choosePreson.py", line 29, in <module>\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:09.744546 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215:     getPersFriends = vk.friends.get(user_id = val_id, order='hints', fields = 'nickname, sex, city')\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:09.745542 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 696, in __call__\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:09.745542 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215:     return self._vk.method(self._method, kwargs)\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:09.745542 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 656, in method\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:09.745542 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215:     raise error\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:09.745542 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59065] AH01215: vk_api.exceptions.ApiError: [30] This profile is private\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.879029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.879029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215:   File "C:\\Server\\data\\htdocs\\choosePreson.py", line 29, in <module>\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.879029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215:     getPersFriends = vk.friends.get(user_id = val_id, order='hints', fields = 'nickname, sex, city')\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.879029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 696, in __call__\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.879029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215:     return self._vk.method(self._method, kwargs)\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.879029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 656, in method\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.879029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215:     raise error\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:21:52.880029 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59144] AH01215: vk_api.exceptions.ApiError: [30] This profile is private\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215:   File "C:\\Server\\data\\htdocs\\choosePreson.py", line 29, in <module>\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215:     getPersFriends = vk.friends.get(user_id = val_id, order='hints', fields = 'nickname, sex, city')\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 696, in __call__\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215:     return self._vk.method(self._method, kwargs)\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 656, in method\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215:     raise error\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:23:12.404595 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59253] AH01215: vk_api.exceptions.ApiError: [30] This profile is private\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.334054 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.334054 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215:   File "C:\\Server\\data\\htdocs\\choosePreson.py", line 29, in <module>\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.335056 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215:     getPersFriends = vk.friends.get(user_id = val_id, order='hints', fields = 'nickname, sex, city')\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.335056 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 696, in __call__\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.335056 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215:     return self._vk.method(self._method, kwargs)\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.335056 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 656, in method\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.336048 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215:     raise error\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:25:19.336048 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59382] AH01215: vk_api.exceptions.ApiError: [30] This profile is private\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:33:31.563223 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59735] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Thu Apr 29 16:33:31.563223 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59735] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 42, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Thu Apr 29 16:33:31.563223 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59735] AH01215:     searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_200_orig, screen_name')\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Thu Apr 29 16:33:31.563223 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:59735] AH01215: TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215:   File "C:\\Server\\data\\htdocs\\choosePreson.py", line 29, in <module>\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215:     getPersFriends = vk.friends.get(user_id = val_id, order='hints', fields = 'nickname, sex, city')\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 696, in __call__\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215:     return self._vk.method(self._method, kwargs)\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 656, in method\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215:     raise error\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:37:55.135904 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:59984] AH01215: vk_api.exceptions.ApiError: [30] This profile is private\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215:   File "C:\\Server\\data\\htdocs\\choosePreson.py", line 31, in <module>\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215:     getPersFriends = vk.friends.get(user_id = val_id, order='hints', fields = 'nickname, sex, city')\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 696, in __call__\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215:     return self._vk.method(self._method, kwargs)\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 656, in method\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215:     raise error\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
+[Thu Apr 29 16:44:21.400875 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60263] AH01215: vk_api.exceptions.ApiError: [30] This profile is private\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
