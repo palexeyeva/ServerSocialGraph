@@ -1,4 +1,4 @@
-#!C:\Users\Diana\AppData\Local\Programs\Python\Python39\python.exe
+#!C:\Users\1371851\AppData\Local\Programs\Python\Python39\python.exe
 # -*- coding: cp1251 -*-
 print ("Content-type: text/html\n\n")
 print
@@ -55,7 +55,6 @@ dataFriends = {
     ],
     "connection": overAllFriends
 }
-
 for i in range(len(getPersFriends['items'])):
     city = ""
     try: 

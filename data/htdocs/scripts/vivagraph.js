@@ -4010,10 +4010,10 @@ function dragndrop(element) {
         /**
          * Occurs when mouse wheel event happens. callback = function(e, scrollDelta, scrollPoint);
          */
-        onScroll : function (callback) {
-            updateScrollEvents(callback);
-            return this;
-        },
+        // onScroll : function (callback) {
+        //     updateScrollEvents(callback);
+        //     return this;
+        // },
 
         release : function () {
             // TODO: could be unsafe. We might wanna release dragObject, etc.
@@ -5054,14 +5054,14 @@ function renderer(graph, settings) {
       });
     }
 
-    if (isInteractive('scroll')) {
-      if (!containerDrag) {
-        containerDrag = dragndrop(container);
-      }
-      containerDrag.onScroll(function(e, scaleOffset, scrollPoint) {
-        scale(scaleOffset < 0, scrollPoint);
-      });
-    }
+    // if (isInteractive('scroll')) {
+    //   if (!containerDrag) {
+    //     containerDrag = dragndrop(container);
+    //   }
+    //   containerDrag.onScroll(function(e, scaleOffset, scrollPoint) {
+    //     scale(scaleOffset < 0, scrollPoint);
+    //   });
+    // }
 
     graph.forEachNode(listenNodeEvents);
 
