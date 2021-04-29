@@ -14,11 +14,19 @@ import vk_api
 
 print("test2")
 
+def captcha_handler(captcha):
+
+    key = input("Enter captcha code {0}: ".format(captcha.get_url())).strip()
+
+    # Пробуем снова отправить запрос с капчей
+    return captcha.try_again(key)
+
 form = cgi.FieldStorage() 
 f = open("C:/login.txt", "r")
-vk_session = vk_api.VkApi(f.readline(), f.readline())
+vk_session = vk_api.VkApi(f.readline(), f.readline(), captcha_handler=captcha_handler)
 vk_session.auth()
 vk = vk_session.get_api()
+
 
 name = form.getvalue("name")
 surName = form.getvalue("surName")

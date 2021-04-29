@@ -14,14 +14,22 @@ form = cgi.FieldStorage()
 val_id = int(form.getvalue("chooseID"))
 print(val_id)
 
+def captcha_handler(captcha):
+
+    key = input("Enter captcha code {0}: ".format(captcha.get_url())).strip()
+
+    # Пробуем снова отправить запрос с капчей
+    return captcha.try_again(key)
+
+
 f = open("C:/login.txt", "r")
-vk_session = vk_api.VkApi(f.readline(), f.readline())
+vk_session = vk_api.VkApi(f.readline(), f.readline(), captcha_handler=captcha_handler)
 print("test1")
 vk_session.auth()
 vk = vk_session.get_api()
 print("test2")
 
-getPersInfo = vk.users.get(user_ids = val_id, fields = 'nickname, sex, city')
+getPersInfo = vk.users.get(user_ids = val_id, fields = 'sex, city')
 print(getPersInfo)
 
 print(getPersInfo[0]['id'])
@@ -70,8 +78,11 @@ for i in range(len(getPersFriends['items'])):
     if ('deactivated' in getPersFriends['items'][i]) == False:
         if (getPersFriends['items'][i]['is_closed'] == False):
             getCommonFriends = [getPersFriends['items'][i]['id']]
-            getCommonFriends.extend(vk.friends.getMutual(source_uid = getPersInfo[0]['id'], target_uid = getPersFriends['items'][i]['id']))
-            dataFriends["connection"].append(getCommonFriends)
+            print(getCommonFriends)
+            try :
+                getCommonFriends.extend(vk.friends.getMutual(source_uid = getPersInfo[0]['id'], target_uid = getPersFriends['items'][i]['id']))
+                dataFriends["connection"].append(getCommonFriends)
+            except: print('private')
 print("test5")
 
 f = open("data_file.json", "w", encoding = "utf-8")
