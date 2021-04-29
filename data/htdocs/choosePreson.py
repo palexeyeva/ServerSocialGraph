@@ -1,4 +1,4 @@
-#!C:\Users\1371851\AppData\Local\Programs\Python\Python39\python.exe
+#!C:\Server\bin\Python\Python39\python.exe
 # -*- coding: cp1251 -*-
 print ("Content-type: text/html\n\n")
 print
