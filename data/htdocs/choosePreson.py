@@ -77,4 +77,5 @@ print("test5")
 f = open("data_file.json", "w", encoding = "utf-8")
 json.dump(dataFriends, f, ensure_ascii=False)
 
+
 print ("</body></html>")
