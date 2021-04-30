@@ -202,23 +202,17 @@ input[type="button"]:hover {
   color: #fff;
 }
 
-.search-form__bd {
-  margin-right: 0px;
-  padding-right: 0px;
+.search-form__age {
+  display: flex;
 }
 
-.search-form__bd input {
-  margin-right: 0px;
-  padding-right: 0px;
+.underTab {
+  width: 25%;
 }
 
-.search-form__city,
-.search-form__job {
-  width: 23%;
-}
-
-.search-form__country-select{
-  width: 44%;
+.search-form__country-select {
+  width: 92%;
+  -webkit-width: 5%;
 }
 
 .b-pop__close {
@@ -295,5 +289,5 @@ input[type="button"]:hover {
 svg:last-child {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 65em;
 }

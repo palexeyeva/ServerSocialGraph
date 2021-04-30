@@ -88,27 +88,6 @@
                     onchange="bdAS.value = this.value"
                   />
                 </div>
-                <!-- <div class="search-form__ageFromTo underTab">
-                  <p>Возраст</p>
-                  <input
-                    type="number"
-                    name="user_ageFrom"
-                    min="12"
-                    placeholder="от"
-                    id="ageFromS"
-                    onchange="handleChange(this); ageFromAS.value = this.value;  checkFrom(this)"
-                    onkeyup="return checkLetter(this);"
-                  />
-                  <input
-                    type="number"
-                    name="user_ageTo"
-                    min="12"
-                    placeholder="до"
-                    id="ageToS"
-                    onchange="handleChange(this); ageToAS.value = this.value; checkTo(this)"
-                    onkeyup="return checkLetter(this);"
-                  />
-                </div> -->
                 <div class="search-form__country underTab">
                   <p>Страна</p>
                   <!-- <input list="countryS"> -->
@@ -415,6 +394,7 @@
                 </div>
                 <div class="search-form__ageFromTo underTab">
                   <p>Возраст</p>
+                  <div class="search-form__age">
                   <input
                     type="number"
                     name="user_ageFrom_AS"
@@ -433,6 +413,7 @@
                     onchange="handleChange(this); checkTo(this)"
                     onkeyup="return checkLetter(this);"
                   />
+                  </div>
                 </div>
                 <div class="search-form__country underTab">
                   <p>Страна</p>
@@ -698,7 +679,7 @@
                   type="button"
                   name="ok_button"
                   value="Найти"
-                  onclick="getFieldsAS(document.getElementById('nameAS'), document.getElementById('surnameAS'), document.getElementById('sexAS'), document.getElementById('bdAS'), document.getElementById('countryAS'), document.getElementById('cityAS'), document.getElementById('ageFromAS'), document.getElementById('ageToAS'), document.getElementById('jobAS')); PopUpShow();" 
+                  onclick="getFieldsAS(document.getElementById('nameAS'), document.getElementById('surnameAS'), document.getElementById('sexAS'), document.getElementById('bdAS'), document.getElementById('countryAS'), document.getElementById('cityAS'), document.getElementById('ageFromAS'), document.getElementById('ageToAS'), document.getElementById('jobAS'));" 
                 />
               </div>
             </div>
@@ -708,12 +689,6 @@
             <section class="social-graph__section">
               <h1>Социальный граф пользователя <norb class="js_name"></norb></h1>
               <div id="social-graph__img">
-                <!-- <input
-                type="button"
-                name="graph_btn"
-                value="Построить граф"
-                onclick="graphViz()"
-              /> -->
               </div>
               <input
                 type="button"
@@ -721,11 +696,6 @@
                 value="Начать заново"
                 onclick="onButtonReset()"
               />
-              <!-- <script>
-                $(document).ready(function () {
-                  GraphHide();
-                });
-              </script> -->
             </section>
           </div>
         </div>

@@ -236,7 +236,7 @@ function getFieldsAS(
   ageTo,
   job
 ) {
-  let data = {
+  let dataAS = {
     name: name.value,
     surName: surName.value,
     sex: sex.value,
@@ -247,20 +247,28 @@ function getFieldsAS(
     ageTo: ageTo.value,
     job: job.value,
   };
-  console.log(data);
+  // console.log(data);
   $.ajax({
     type: "POST",
-    data: data,
+    data: dataAS,
     url: "test.py",
     success: function (result) {
       console.log("Success!");
-      console.log(result);
+      outFields();
     },
     error: function (request, error) {
       console.log("Error");
       console.log(request);
     },
   });
+
+  function outFields() {
+    $.get("res.txt", function (res) {
+      data = res.split("\n");
+      console.log(data);
+      PopUpShow(data);
+    });
+  }
 }
 
   function graphBuild (datas) {

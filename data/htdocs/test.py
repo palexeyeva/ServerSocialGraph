@@ -17,8 +17,6 @@ print("test2")
 def captcha_handler(captcha):
 
     key = input("Enter captcha code {0}: ".format(captcha.get_url())).strip()
-
-    # Пробуем снова отправить запрос с капчей
     return captcha.try_again(key)
 
 form = cgi.FieldStorage() 
@@ -31,6 +29,14 @@ vk = vk_session.get_api()
 name = form.getvalue("name")
 surName = form.getvalue("surName")
 bdate = form.getvalue("bdate")
+try:
+    ageFrom = form.getvalue("ageFrom")
+    ageTo = form.getvalue("ageTo")
+    job = form.getvalue("job")
+except: 
+    ageFrom = ""
+    ageTo = ""
+    job = ""
 if form.getvalue("bdate") != None:
     byear = bdate[0:4]
     bmonth = bdate[5:7]
@@ -47,7 +53,7 @@ if form.getvalue("city") !=None and country != None :
 else:
     city = None
 
-searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, count = 100, fields='bdate, city, photo_200_orig, screen_name, is_closed')
+searchResults=vk.users.search(q = name + ' ' + surName,  birth_day = bday, birth_month = bmonth,  birth_year = byear, sex = sex,  country = country, city = city, age_from = ageFrom, age_To = ageTo, company = job, count = 100, fields='bdate, city, photo_200_orig, screen_name, is_closed')
 
 print("test3")
 returnResults = []
