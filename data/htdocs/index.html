@@ -710,23 +710,36 @@
             <div class="b-popup__content">              
               <div class="popWindow__VKontakte table">
                 <h1>ВКонтакте</h1>
-                <p>Нашлось <norb class="js_len"></norb> пользователей</p>
+                <p>Нашлось <norb class="js_lenVK"></norb> пользователей</p>
                 <div id="popWindow"></div>
+                <input
+                type="button"
+                name="submit_button"
+                value="Построить с ВКонтакте"
+                onclick="chooseCheck();"
+              />
               </div>
               <div class="popWindow__Odnoklassniki table">
                 <h1>Одноклассники</h1>
-                <p>Нашлось n пользователей</p>              
+                <p>Нашлось <norb class="js_lenOK"></norb> пользователей</p>
+                <div id="popWindowOK"></div>    
+                <input
+                type="button"
+                name="submit_button"
+                value="Построить с Одноклассниками"
+                onclick="chooseCheckOK();"
+              />          
               </div>
               <div class="b-pop__section-close">
                 <norb class=b-pop__close onclick="PopUpHide(); onButtonReset()">X</norb>
               </div>
             </div>
-            <input
+            <!-- <input
               type="button"
               name="submit_button"
               value="Построить"
               onclick="chooseCheck();"
-            />
+            /> -->
           </div>
         </section>
         <script>

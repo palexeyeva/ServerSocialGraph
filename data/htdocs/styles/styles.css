@@ -117,7 +117,7 @@ body {
 .popWindow__Odnoklassniki {
   width: 50%;
 }
-#popWindow {
+#popWindow, #popWindowOK {
   width: 100%;
   display: flex;
   flex-wrap: wrap;

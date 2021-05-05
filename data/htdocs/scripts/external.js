@@ -20,7 +20,7 @@ $(document).ready(function () {
 });
 
 // Функция построения окна со списком пользователей
-function PopUpShow(data) {
+function PopUpShow(data, sn) {
   $("#popup1").show();
   //функция получает данные и вызывает строителя
   for (var i = 0; i < data.length - 1; i++) {
@@ -33,11 +33,14 @@ function PopUpShow(data) {
       data[i].split(";")[3],
       data[i].split(";")[4],
       data[i].split(";")[5],
-      data[i].split(";")[6]
+      data[i].split(";")[6], 
+      sn
     );
   }
+  if (sn == "vk") jsClass = ".js_lenVK"
+  else jsClass = ".js_lenOK"
   var norb = "<norb>" + (data.length - 1) + "</norb>";
-  $(".js_len").empty().html(norb);
+  $(jsClass).empty().html(norb);
 }
 
 function PopUpHide() {
@@ -80,11 +83,53 @@ function chooseCheck() {
   }); 
 }
 
+function chooseCheckOK() {
+  var chooseDate;
+  var checkboxes = document.getElementsByTagName("input");
+  for (var i = 0; i < checkboxes.length; i++) {
+    if (checkboxes[i].type == "radio") {
+      if (checkboxes[i].checked) {
+        chooseDate = document.getElementById(checkboxes[i].id);
+        console.log(chooseDate.value);
+        chooseID = chooseDate.value;
+      }
+    }
+  }
+  $.ajax({
+    type: "GET",
+    url: "choosePresonOK.py",
+    data: {
+      chooseID: chooseID,
+    },
+    success: function (result) {
+      console.log("Success!!!!");
+      console.log(result);
+      GraphShowOK();
+    },
+  }); 
+}
+
 function GraphShow() {
   $("#popup1").hide();
   $.ajax({
     type: "POST",
     url: "data_file.json",
+    success: function (result) {
+      console.log("Success!");
+      console.log(result);
+      graphBuild(result);
+      $("#graph1").show();
+    },
+  });
+  
+}
+
+
+function GraphShowOK() {
+  $("#popup1").hide();
+  $.ajax({
+    type: "POST",
+    url: "data_fileOK.json",
     success: function (result) {
       console.log("Success!");
       console.log(result);
@@ -151,7 +196,9 @@ function getFields(name, surName, sex, bdate, country, city) {
     url: "test.py",
     success: function (result) {
       console.log("Success!");
-      outFields();
+      console.log(result);
+      outFields("vk");
+      outFields("ok");
     },
     error: function (request, error) {
       console.log("Error");
@@ -159,17 +206,26 @@ function getFields(name, surName, sex, bdate, country, city) {
     },
   });
 
-  function outFields() {
+  function outFields(sn) {
+    if (sn == "vk") {
     $.get("res.txt", function (res) {
       data = res.split("\n");
       console.log(data);
-      PopUpShow(data);
+      PopUpShow(data, sn);
     });
+   }
+   else {
+    $.get("resOK.txt", function (res) {
+      data = res.split("\n");
+      console.log(data);
+      PopUpShow(data, sn);
+    });
+   }
   }
 }
 
 //функция создания динамических div
-function creatediv(id, name, surname, bdate, href, image, city, idpers) {
+function creatediv(id, name, surname, bdate, href, image, city, idpers, sn) {
   var newdiv = document.createElement("div");
   newdiv.setAttribute("id", id);
   newdiv.setAttribute("class", "b-pop__newdiv");
@@ -186,7 +242,13 @@ function creatediv(id, name, surname, bdate, href, image, city, idpers) {
   checkb.type = "radio";
   checkb.value = idpers;
   nm.target = "_blank";
-  checkb.id = id;
+  if (sn == "vk") {
+    checkb.id = id;
+  }
+  else {
+    checkb.id = id+100;
+  }
+
   checkb.setAttribute("class", "b-pop__input");
   newdiv.value = idpers;
 
@@ -216,8 +278,9 @@ function creatediv(id, name, surname, bdate, href, image, city, idpers) {
   ct.style.margin = "10px";
   bdt.style.margin = "10px";
   nm.style.color = "white";
-
-  document.getElementById("popWindow").appendChild(newdiv);
+  if (sn == "vk") classToPop = "popWindow"
+  else classToPop = "popWindowOK"
+  document.getElementById(classToPop).appendChild(newdiv);
   document.getElementById(id).appendChild(checkb);
   document.getElementById(id).appendChild(img);
   document.getElementById(id).appendChild(nm);
@@ -262,13 +325,13 @@ function getFieldsAS(
     },
   });
 
-  function outFields() {
-    $.get("res.txt", function (res) {
-      data = res.split("\n");
-      console.log(data);
-      PopUpShow(data);
-    });
-  }
+  // function outFields() {
+  //   $.get("res.txt", function (res) {
+  //     data = res.split("\n");
+  //     console.log(data);
+  //     PopUpShow(data);
+  //   });
+  // }
 }
 
   function graphBuild (datas) {
