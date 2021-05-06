@@ -122,6 +122,24 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
+#popWindow {
+    border-right-style: solid;
+    border-right-color: #c8c8c8;
+    border-right-width: 1px;
+    width: 96%;
+}
+.buttonSelectVK {
+  margin-bottom: 20px;
+}
+#buttonSelect {
+  white-space: normal;
+  width: 140px;
+  font-size: 15px;
+}
+
+#cityS, #cityAS {
+  background-color: #C8C8C8;
+}
 
 .b-pop__img {
   padding: 10px;
@@ -134,6 +152,7 @@ body {
 }
 .b-pop__newdiv {
   height: 425px;
+  width: 45%;
 }
 
 .b-popup__content h1 {

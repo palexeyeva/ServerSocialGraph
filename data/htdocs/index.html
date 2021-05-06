@@ -67,7 +67,7 @@
                   />
                 </div>
                 <div class="search-form__sex underTab">
-                  <p>Пол<norb class="Req">*</norb></p>
+                  <p>Пол</p>
                   <select
                     id="sex"
                     name="user_sex"
@@ -91,7 +91,7 @@
                 <div class="search-form__country underTab">
                   <p>Страна</p>
                   <!-- <input list="countryS"> -->
-                  <select name = "user_country_S" id="countryS" class="search-form__country-select">
+                  <select name = "user_country_S" id="countryS" class="search-form__country-select" onChange = "getCountryValueS(this);">
                        <option value=0>Выберите страну</option>
                        <option value=1>Россия</option>
                        <option value=2>Украина</option>
@@ -349,13 +349,14 @@
                     name="user_city"
                     id="cityS"
                     onchange="cityAS.value = this.value"
+                    readonly
                   />
                 </div>
                 <input
                   type="button"
                   name="ok_button"
                   value="Найти"
-                  onclick="getFields(document.getElementById('nameS'), document.getElementById('surnameS'), document.getElementById('sex'), document.getElementById('bdS'), document.getElementById('countryS'), document.getElementById('cityS'));"
+                  onclick="return validateFormS()"
                 />
               </div>
             </div>
@@ -376,7 +377,7 @@
                   />
                 </div>
                 <div class="search-form__sex underTab">
-                  <p>Пол<norb class="Req">*</norb></p>
+                  <p>Пол</p>
                   <select id="sexAS" name="user_sex_AS">
                     <option value="0">Не важно</option>
                     <option value="2">Мужчина</option>
@@ -417,7 +418,8 @@
                 </div>
                 <div class="search-form__country underTab">
                   <p>Страна</p>
-                  <select name = "user_country_AS" id="countryAS" class="search-form__country-select" onChange = "getCountryValue(this);">
+                  <select name = "user_country_AS" id="countryAS" class="search-form__country-select" onChange = "getCountryValueAS(this);">
+                    <option value=0>Не выбрано</option>
                     <option value=1>Россия</option>
                     <option value=2>Украина</option>
                     <option value=3>Беларусь</option>
@@ -669,7 +671,7 @@
                 </div>
                 <div class="search-form__city underTab">
                   <p>Город</p>
-                  <input type="text" name="user_city_AS" id="cityAS" />
+                  <input type="text" name="user_city_AS" id="cityAS" readonly/>
                 </div>
                 <div class="search-form__job underTab">
                   <p>Место работы</p>
@@ -679,7 +681,7 @@
                   type="button"
                   name="ok_button"
                   value="Найти"
-                  onclick="getFieldsAS(document.getElementById('nameAS'), document.getElementById('surnameAS'), document.getElementById('sexAS'), document.getElementById('bdAS'), document.getElementById('countryAS'), document.getElementById('cityAS'), document.getElementById('ageFromAS'), document.getElementById('ageToAS'), document.getElementById('jobAS'));" 
+                  onclick="return validateFormAS()"
                 />
               </div>
             </div>
@@ -712,23 +714,29 @@
                 <h1>ВКонтакте</h1>
                 <p>Нашлось <norb class="js_lenVK"></norb> пользователей</p>
                 <div id="popWindow"></div>
+                <div class="buttonSelectVK">
                 <input
                 type="button"
                 name="submit_button"
-                value="Построить с ВКонтакте"
+                id = "buttonSelect"
+                value="Граф ВКонтакте"
                 onclick="chooseCheck();"
               />
+                </div>
               </div>
               <div class="popWindow__Odnoklassniki table">
                 <h1>Одноклассники</h1>
                 <p>Нашлось <norb class="js_lenOK"></norb> пользователей</p>
-                <div id="popWindowOK"></div>    
+                <div id="popWindowOK"></div>
+                <div class="buttonOK">    
                 <input
                 type="button"
                 name="submit_button"
-                value="Построить с Одноклассниками"
+                id = "buttonSelect"
+                value="Граф Одноклассники"
                 onclick="chooseCheckOK();"
               />          
+                </div>
               </div>
               <div class="b-pop__section-close">
                 <norb class=b-pop__close onclick="PopUpHide(); onButtonReset()">X</norb>
