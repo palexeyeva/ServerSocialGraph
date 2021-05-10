@@ -5237,3 +5237,35 @@ winnt:notice] [pid 4284:tid 652] AH00424: Parent: Received restart signal -- Res
 [Thu Apr 29 16:54:53.810261 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:60676] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
 [Thu Apr 29 16:54:53.810261 2021] [cgi:error] [pid 1620:tid 1484] [client 127.0.0.1:60676] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/choosePreson.py, referer: http://localhost/
 [Thu Apr 29 16:54:54.180276 2021] [cgi:error] [pid 1620:tid 1488] [client 127.0.0.1:60724] AH01215: Too many requests! Sleeping 0.5 sec...\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Mon May 10 16:05:04.590719 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Mon May 10 16:05:04.590719 2021] [core:notice] [pid 4284:tid 652] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Mon May 10 16:05:04.601385 2021] [mpm_winnt:notice] [pid 4284:tid 652] AH00418: Parent: Created child process 4572
+[Mon May 10 16:05:06.158811 2021] [mpm_winnt:notice] [pid 4572:tid 248] AH00354: Child: Starting 64 worker threads.
+[Mon May 10 16:05:36.833916 2021] [cgi:error] [pid 4572:tid 1632] [client 127.0.0.1:65365] End of script output before headers: test.py, referer: http://localhost/
+[Mon May 10 16:05:36.833916 2021] [cgi:error] [pid 4572:tid 1632] [client 127.0.0.1:65365] AH01215: SyntaxError: encoding problem: cp1251\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:09:09.671636 2021] [cgi:error] [pid 4572:tid 1632] [client 127.0.0.1:49206] End of script output before headers: test.py, referer: http://localhost/
+[Mon May 10 16:09:09.671636 2021] [cgi:error] [pid 4572:tid 1632] [client 127.0.0.1:49206] AH01215: SyntaxError: encoding problem: cp1251\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:10:23.066489 2021] [cgi:error] [pid 4572:tid 1632] [client 127.0.0.1:49219] End of script output before headers: test.py, referer: http://localhost/
+[Mon May 10 16:10:23.066489 2021] [cgi:error] [pid 4572:tid 1632] [client 127.0.0.1:49219] AH01215: SyntaxError: encoding problem: cp1251\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:10:32.651370 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49247] End of script output before headers: test.py, referer: http://localhost/
+[Mon May 10 16:10:32.651370 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49247] AH01215: SyntaxError: encoding problem: cp1251\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:11:43.226453 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49278] End of script output before headers: test.py, referer: http://localhost/
+[Mon May 10 16:11:43.226453 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49278] AH01215: SyntaxError: encoding problem: cp1251\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:12:30.003261 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49290] End of script output before headers: test.py
+[Mon May 10 16:12:30.003261 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49290] AH01215: SyntaxError: encoding problem: cp1251\r: C:/Server/data/htdocs/test.py
+[Mon May 10 16:13:47.350034 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49332] End of script output before headers: test.py, referer: http://localhost/
+[Mon May 10 16:16:02.664560 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49420] End of script output before headers: test.py, referer: http://localhost/
+[Mon May 10 16:16:02.664560 2021] [cgi:error] [pid 4572:tid 1612] [client 127.0.0.1:49420] AH01215: SyntaxError: encoding problem: cp1251\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.975897 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 496, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:     vk_session.auth()\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 175, in auth\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:     self._auth_cookies(reauth=reauth)\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 195, in _auth_cookies\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:     self._vk_login()\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 304, in _vk_login\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.977900 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:     raise AuthError(\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Mon May 10 16:17:07.977900 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215: vk_api.exceptions.AuthError: Unknown error. Please send bugreport to vk_api@python273.pw\r: C:/Server/data/htdocs/test.py, referer: http://localhost/

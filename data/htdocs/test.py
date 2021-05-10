@@ -1,5 +1,11 @@
 #!C:\Server\bin\Python\Python39\python.exe
-# -*- coding: cp1251 -*-
+
+print ("Content-type: text/html\n\n")
+print
+print ("<html><head>")
+print ("")
+print ("</head><body>")
+print ("Hello.")
 
 import cgi  
 import json
@@ -483,6 +489,7 @@ def getCountryOK(vk):
     return ""
   elif vk == 229: #Япония
     return ""
+  else: return ""
 
 f = open("C:/login.txt", "r")
 vk_session = vk_api.VkApi(f.readline(), f.readline(), captcha_handler=captcha_handler)
@@ -663,3 +670,4 @@ else:
   f.write(" ")
   f.close
 
+print ("</body></html>")
