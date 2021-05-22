@@ -619,55 +619,62 @@ elif ageTo!=None or ageFrom!=None:
 if country!=None:
   json["parameters"]["filters"]["st.country"] = str(getCountryOK(country))
 if city!=None:
-  json["parameters"]["filters"]["st.location"] = city
+  json["parameters"]["filters"]["st.location"] = form.getvalue("city")
 
-r = requests.post('https://ok.ru/web-api/v2/search/portal', json=json, headers=headers)
-r=r.json()
 
-try:
-  l = len(r['result']['users']['values']['results'])
-except: l = 0
+f = open('resOK.txt', 'w', encoding = "utf-8")
+f.write("")
+f.close
+firstIndex = 0
+while firstIndex <= 80:
+  json["parameters"]["chunk"]["firstIndex"] = firstIndex
+  r = requests.post('https://ok.ru/web-api/v2/search/portal', json=json, headers=headers)
+  r=r.json()
+  firstIndex = firstIndex + 20
 
-returnResults = []
-if l != 0: 
-  for i in range(l):
-    g = []
-    id = ''
-    name = ''
-    surname = ''
-    age = ''
-    href = ''
-    photo = ''
-    location = ''
-    href = 'https://ok.ru' + r['result']['users']['values']['results'][i]['user']['info']['shortLink']
-    name = r['result']['users']['values']['results'][i]['user']['info']['firstName']
-    surname = r['result']['users']['values']['results'][i]['user']['info']['lastName']
-    id = r['result']['users']['values']['results'][i]['user']['info']['uid']
-    sigToMd = appKey + 'fields=BIRTHDAY,pic_fullformat=jsonmethod=users.getInfouids=' + id + appSec
-    hash_object = hashlib.md5(sigToMd.encode())
-    urlOKgetInfo = 'https://api.ok.ru/fb.do?' + appKey + '&fields=BIRTHDAY%2Cpic_full&format=json&method=users.getInfo&uids=' + id + '&sig=' + hash_object.hexdigest() + '&' + accToken  
-    searchUserOK = requests.post(urlOKgetInfo)
-    sk = searchUserOK.json()
-    bdate = sk[0]['birthday']
-    try:
-      city = r['result']['users']['values']['results'][i]['user']['location']  
-    except:
-      city = ''
-    try:
-      photo = sk[0]['pic_full']
-    except:
+  try:
+    l = len(r['result']['users']['values']['results'])
+  except: l = 0
+  returnResults = []
+  if l != 0: 
+    for i in range(l):
+      g = []
+      id = ''
+      name = ''
+      surname = ''
+      age = ''
+      href = ''
       photo = ''
-    
-    g = [name, surname, bdate, href, photo, city, id]
-    returnResults.append(g)
+      location = ''
+      href = 'https://ok.ru' + r['result']['users']['values']['results'][i]['user']['info']['shortLink']
+      name = r['result']['users']['values']['results'][i]['user']['info']['firstName']
+      surname = r['result']['users']['values']['results'][i]['user']['info']['lastName']
+      id = r['result']['users']['values']['results'][i]['user']['info']['uid']
+      sigToMd = appKey + 'fields=BIRTHDAY,pic_fullformat=jsonmethod=users.getInfouids=' + id + appSec
+      hash_object = hashlib.md5(sigToMd.encode())
+      urlOKgetInfo = 'https://api.ok.ru/fb.do?' + appKey + '&fields=BIRTHDAY%2Cpic_full&format=json&method=users.getInfo&uids=' + id + '&sig=' + hash_object.hexdigest() + '&' + accToken  
+      searchUserOK = requests.post(urlOKgetInfo)
+      sk = searchUserOK.json()
+      bdate = sk[0]['birthday']
+      try:
+        city = r['result']['users']['values']['results'][i]['user']['location']  
+      except:
+        city = ''
+      try:
+        photo = sk[0]['pic_full']
+      except:
+        photo = ''
+        
+      g = [name, surname, bdate, href, photo, city, id]
+      returnResults.append(g)
 
-  f = open('resOK.txt', 'w', encoding = "utf-8")
-  for item in returnResults:
+    f = open('resOK.txt', 'a', encoding = "utf-8")
+    for item in returnResults:
       f.write("%s;%s;%s;%s;%s;%s;%s\n" % (item[0], item[1], item[2], item[3], item[4], item[5], item[6]))
-  f.close
-else:
-  f = open('resOK.txt', 'w', encoding = "utf-8")
-  f.write(" ")
-  f.close
+    f.close
+  else:
+    f = open('resOK.txt', 'a', encoding = "utf-8")
+    f.write("")
+    f.close
 
 print ("</body></html>")

@@ -5269,3 +5269,152 @@ winnt:notice] [pid 4284:tid 652] AH00455: Apache/2.4.46 (Win32) configured -- re
 [Mon May 10 16:17:07.976866 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 304, in _vk_login\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Mon May 10 16:17:07.977900 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215:     raise AuthError(\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
 [Mon May 10 16:17:07.977900 2021] [cgi:error] [pid 4572:tid 1620] [client 127.0.0.1:49452] AH01215: vk_api.exceptions.AuthError: Unknown error. Please send bugreport to vk_api@python273.pw\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+Starting the 'Apache2.4' service
+The 'Apache2.4' service is running.
+ore:warn] [pid 8992:tid 616] AH00098: pid file C:/Server/bin/Apache24/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun May 23 00:13:41.450176 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:13:41.450176 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:13:41.450176 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:13:41.457000 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 6308
+[Sun May 23 00:13:42.661946 2021] [mpm_winnt:notice] [pid 6308:tid 672] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:14:06.148069 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215: Traceback (most recent call last):\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.148913 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:   File "C:\\Server\\data\\htdocs\\test.py", line 496, in <module>\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.148913 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:     vk_session.auth()\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.148913 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 175, in auth\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.148913 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:     self._auth_cookies(reauth=reauth)\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.149907 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 195, in _auth_cookies\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.149907 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:     self._vk_login()\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.149907 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:   File "C:\\Server\\bin\\Python\\Python39\\lib\\vk_api\\vk_api.py", line 304, in _vk_login\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.150903 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215:     raise AuthError(\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+[Sun May 23 00:14:06.150903 2021] [cgi:error] [pid 6308:tid 1076] [client ::1:56318] AH01215: vk_api.exceptions.AuthError: Unknown error. Please send bugreport to vk_api@python273.pw\r: C:/Server/data/htdocs/test.py, referer: http://localhost/
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 00:17:20.809992 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:17:20.809992 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:17:20.809992 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:17:20.819923 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 3964
+[Sun May 23 00:17:21.749638 2021] [mpm_winnt:notice] [pid 3964:tid 596] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:17:22.757412 2021] [mpm_winnt:notice] [pid 6308:tid 672] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' 3:38.919005 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 00:23:38.974945 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:23:38.974945 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:23:38.974945 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:23:38.981439 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 14564
+[Sun May 23 00:23:40.226971 2021] [mpm_winnt:notice] [pid 14564:tid 576] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:23:40.927298 2021] [mpm_winnt:notice] [pid 3964:tid 596] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' s:19.273331 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 00:29:19.323625 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:29:19.323625 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:29:19.323625 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:29:19.329618 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 13080
+[Sun May 23 00:29:20.461829 2021] [mpm_winnt:notice] [pid 13080:tid 240] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:29:21.294727 2021] [mpm_winnt:notice] [pid 14564:tid 576] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 00:36:43.741872 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:36:43.741872 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:36:43.741872 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:36:43.748494 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 12876
+[Sun May 23 00:36:44.699960 2021] [mpm_winnt:notice] [pid 12876:tid 580] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:36:45.711366 2021] [mpm_winnt:notice] [pid 13080:tid 240] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 00:38:59.273791 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:38:59.273791 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:38:59.273791 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:38:59.280793 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 10696
+[Sun May 23 00:39:00.234995 2021] [mpm_winnt:notice] [pid 10696:tid 236] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:39:01.253539 2021] [mpm_winnt:notice] [pid 12876:tid 580] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' se37.151952 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 00:43:37.201919 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:43:37.201919 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:43:37.201919 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:43:37.209864 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 17260
+[Sun May 23 00:43:38.192070 2021] [mpm_winnt:notice] [pid 17260:tid 596] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:43:39.163448 2021] [mpm_winnt:notice] [pid 10696:tid 236] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache200:48:14.369617 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 00:48:14.416419 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 00:48:14.417370 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 00:48:14.417370 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 00:48:14.426008 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 16452
+[Sun May 23 00:48:15.436110 2021] [mpm_winnt:notice] [pid 16452:tid 628] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 00:48:16.397434 2021] [mpm_winnt:notice] [pid 17260:tid 596] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:14:00.038961 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:14:00.038961 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:14:00.038961 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:14:00.043907 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 8264
+[Sun May 23 01:14:01.017920 2021] [mpm_winnt:notice] [pid 8264:tid 212] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:14:02.032263 2021] [mpm_winnt:notice] [pid 16452:tid 628] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:14:52.858270 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:14:52.858270 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:14:52.858270 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:14:52.865040 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 14872
+[Sun May 23 01:14:53.827014 2021] [mpm_winnt:notice] [pid 14872:tid 572] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:14:54.840786 2021] [mpm_winnt:notice] [pid 8264:tid 212] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:16:21.160547 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:16:21.160547 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:16:21.160547 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:16:21.166602 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 16980
+[Sun May 23 01:16:22.135023 2021] [mpm_winnt:notice] [pid 16980:tid 588] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:16:23.143254 2021] [mpm_winnt:notice] [pid 14872:tid 572] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:16:29.010907 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:16:29.010907 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:16:29.010907 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:16:29.017926 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 9408
+[Sun May 23 01:16:29.973017 2021] [mpm_winnt:notice] [pid 9408:tid 576] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:16:30.985935 2021] [mpm_winnt:notice] [pid 16980:tid 588] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:20:19.203210 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:20:19.203210 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:20:19.203210 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:20:19.208156 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 11300
+[Sun May 23 01:20:20.178754 2021] [mpm_winnt:notice] [pid 11300:tid 572] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:20:21.189389 2021] [mpm_winnt:notice] [pid 9408:tid 576] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:21:36.647195 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:21:36.647195 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:21:36.648208 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:21:36.653029 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 17672
+[Sun May 23 01:21:37.604453 2021] [mpm_winnt:notice] [pid 17672:tid 568] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:21:38.616383 2021] [mpm_winnt:notice] [pid 11300:tid 572] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:23:38.924105 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:23:38.924105 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:23:38.924105 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:23:38.931122 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 18216
+[Sun May 23 01:23:39.886071 2021] [mpm_winnt:notice] [pid 18216:tid 4] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:23:40.898611 2021] [mpm_winnt:notice] [pid 17672:tid 568] AH00364: Child: All worker threads have exited.
+The 'Apache2.4' service is restarting.
+The 'Apache2.4' service has restarted.
+winnt:notice] [pid 8992:tid 616] AH00424: Parent: Received restart signal -- Restarting the server.
+[Sun May 23 01:23:45.564036 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00455: Apache/2.4.46 (Win32) configured -- resuming normal operations
+[Sun May 23 01:23:45.564036 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00456: Apache Lounge VS16 Server built: Feb 17 2021 12:06:14
+[Sun May 23 01:23:45.564036 2021] [core:notice] [pid 8992:tid 616] AH00094: Command line: 'c:\\Server\\bin\\Apache24\\bin\\httpd.exe -d C:/Server/bin/Apache24'
+[Sun May 23 01:23:45.571031 2021] [mpm_winnt:notice] [pid 8992:tid 616] AH00418: Parent: Created child process 9112
+[Sun May 23 01:23:46.537429 2021] [mpm_winnt:notice] [pid 9112:tid 4] AH00354: Child: Starting 64 worker threads.
+[Sun May 23 01:23:47.549190 2021] [mpm_winnt:notice] [pid 18216:tid 4] AH00364: Child: All worker threads have exited.
