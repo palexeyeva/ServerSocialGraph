@@ -17,10 +17,11 @@ function openTab(evt, tabName) {
 /*Скрыть/показать окно с результатом поиска*/
 $(document).ready(function () {
   PopUpHide();
-});
+}); 
 
 // Обязательные поля
 function validateFormS() {
+  document.getElementById("ok_buttonS").setAttribute('disabled', "true");
   var nameX = document.getElementById("nameS").value;
   var surNameX = document.getElementById("surnameS").value;
   if (nameX == null || nameX == "" || surNameX == null || surNameX == "") {
@@ -98,12 +99,15 @@ function GraphHide() {
 
 //возвращает выбранный под чекбоксом контейнер
 function chooseCheck() {
+  console.log("hhhhh");
   var chooseDate;
   var checkboxes = document.getElementsByTagName("input");
   for (var i = 0; i < checkboxes.length; i++) {
     if (checkboxes[i].type == "radio") {
       if (checkboxes[i].checked) {
+        console.log(i);
         chooseDate = document.getElementById(checkboxes[i].id);
+        // console.log(document.getElementById(checkboxes[i].id));
         console.log(chooseDate.value);
         chooseID = chooseDate.value;
         chooseI = chooseDate.id;
@@ -124,7 +128,8 @@ function chooseCheck() {
     },
   });
 }
-else {
+ else {
+  console.log("hhhh");
   alert("Выберете пользователя социальной сети ВКонтакте");
 } 
 }
@@ -335,12 +340,14 @@ function getFieldsAS(
   function outFields(sn) {
     if (sn == "vk") {
       $.get("res.txt", function (res) {
+        var data = new Array();
         data = res.split("\n");
         console.log(data);
         PopUpShow(data, sn);
       });
     } else {
       $.get("resOK.txt", function (res) {
+        var data = new Array();
         data = res.split("\n");
         console.log(data);
         PopUpShow(data, sn);
@@ -352,6 +359,10 @@ function getFieldsAS(
 //функция создания динамических div
 function creatediv(id, name, surname, bdate, href, image, city, idpers, sn) {
   var newdiv = document.createElement("div");
+  if (sn == "ok") {
+    id = id + 100;
+  }
+
   newdiv.setAttribute("id", id);
   newdiv.setAttribute("class", "b-pop__newdiv");
 
@@ -367,11 +378,12 @@ function creatediv(id, name, surname, bdate, href, image, city, idpers, sn) {
   checkb.type = "radio";
   checkb.value = idpers;
   nm.target = "_blank";
-  if (sn == "vk") {
-    checkb.id = id;
-  } else {
-    checkb.id = id + 100;
-  }
+  checkb.id = id;
+  // if (sn == "vk") {
+  //   checkb.id = id;
+  // } else {
+  //   checkb.id = id + 100;
+  // }
 
   checkb.setAttribute("class", "b-pop__input");
   newdiv.value = idpers;
